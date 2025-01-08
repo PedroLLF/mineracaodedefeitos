@@ -1,0 +1,5 @@
+langchain
+chromadb #vectorstorage
+boto3
+langchain-aws
+aws-cli

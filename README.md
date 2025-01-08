@@ -1,0 +1,1 @@
+Projeto de mineração de defeitos para identificação de áreas críticas de um sistema.

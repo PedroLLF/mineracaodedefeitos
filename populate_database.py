@@ -91,9 +91,9 @@ def add_to_chroma(chunks):
         print(f"➕ Adicionando {len(new_chunks)} novos documentos...")
         new_chunk_ids = [chunk.metadata["id"] for chunk in new_chunks]
         db.add_documents(new_chunks, ids=new_chunk_ids)
-        db._persist()
     else:
         print("✅ Nenhum documento novo para adicionar.")
+
 
 
 def calculate_chunk_ids(chunks):
@@ -122,3 +122,4 @@ def clear_database():
 
 if __name__ == "__main__":
     main()
+    

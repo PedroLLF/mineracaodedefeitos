@@ -1,10 +1,13 @@
-from langchain_ollama import OllamaEmbeddings
+# Novo (correto)
+from langchain_huggingface import HuggingFaceEmbeddings
 
 def get_embedding_function():
     """
-    Retorna a função de embeddings configurada para o projeto.
+    Retorna a função de embeddings configurada para rodar localmente.
     """
-    print("🔧 Configurando a função de embeddings com Ollama...")
-    # Usa o modelo `nomic-embed-text` via Ollama
-    embedding_function = OllamaEmbeddings(model="nomic-embed-text")
-    return embedding_function
+    print("🔧 Configurando a função de embeddings localmente...")
+
+    model_name = "BAAI/bge-large-en-v1.5"  # Certifique-se de que este modelo está disponível localmente
+    embedding_function = HuggingFaceEmbeddings(model_name=model_name)
+
+    return embedding_function  # Retorna um objeto compatível com LangChain

@@ -1,3 +1,0 @@
-Instalação do LangChain -> Para manipulação dos dados textuais e integração com LLAMA
-Instalação do ChromaDb -> Para armazenamento dos dados vetorizados
-Para o código funcionar, o servidor Ollama precisa estar rodando localmente.

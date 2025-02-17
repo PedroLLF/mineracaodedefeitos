@@ -1,0 +1,98 @@
+[
+    {
+        "query": "Existem bugs no banco de defeitos jirabugs.csv que mencionam CTO? Quais áreas do sistema podem estar impactadas?",
+        "documentos": [
+            "[Summary] [v1.4.0-rc11] Sistema apresenta datas no front atrasadas 1 hora com relação ao banco de dados.. [Linked Issues] nan. [Epic Link] BR-25.",
+            "[Summary] [v1.6.0-sp34.0] Erro desconhecido ao importar .csv corrompido. [Linked Issues] BR-1435;BR-1435. [Epic Link] BR-2842.",
+            "[Summary] Instanciar CTO - O Sistema permite instanciar CTO em uma posição inválida (NOT A BUG). [Linked Issues] nan. [Epic Link] nan.",
+            "[Summary] [Bloqueado][v1.5.1-rc4] Sistema mostra mensagem \"Erro desconhecido\" ao clicar em <Excluir> CTO após conectar alguns cabos. [Linked Issues] BR-2937. [Epic Link] BR-27.",
+            "[Summary] [v1.4.0-sp25.4] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.. [Linked Issues] BR-2183. [Epic Link] BR-27.",
+            "[Summary] (dois incidentes) Sistema importa com sucesso todos os elementos de um arquivo mesmo existindo componente que não pode ser importado (INVALIDO). [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] [BUG Conscius Manager] BR-549 - Ativar ONU em Planejamento - Sistema exibe erro ao ativar ONU (bug de integração). [Linked Issues] BR-779;BR-549. [Epic Link] BR-28.",
+            "[Summary] [v1.5.0-rc3] Sistema só atualiza status operacional/administrativo de CTOs e CEOs após recarregar página. [Linked Issues] nan. [Epic Link] BR-1178.",
+            "[Summary] [v1.5.0-sp29.0] Sistema exibe mensagem de erro atrás do pop-up de importação de projetos. [Linked Issues] BR-2372. [Epic Link] BR-1036.",
+            "[Summary] [v1.4.0-rc0] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.. [Linked Issues] BR-2179. [Epic Link] BR-27.",
+            "[Summary] [Bloqueado][v1.6.0-sp34.2] Sistema mostra mensagem \"Erro desconhecido\" ao clicar em <Excluir> CTO após conectar alguns cabos. [Linked Issues] BR-2939. [Epic Link] BR-27.",
+            "[Summary] [v1.5.0-sp30.3] Pop-up do Log do Histórico de importações não abre centralizado e oculta botão <Cancelar>. [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] [v1.5.0-sp30.3] Sistema exibe MSG060 ao invés da MSG125 ao tentar importar arquivo corrompido.. [Linked Issues] BR-1138. [Epic Link] BR-1036.",
+            "[Summary] [v1.5.0-sp27.2] Sistema apresenta \"items\" no lugar de \"itens\" em pt. [Linked Issues] nan. [Epic Link] BR-897.",
+            "[Summary] [v1.6.0-sp34.0] Erro desconhecido ao importar conexões .csv com coluna extra vazia.. [Linked Issues] BR-1435. [Epic Link] BR-2842.",
+            "[Summary] [v1.5.0-sp29.1] Popup de conexões da CTO muda de tamanho ao tentar arrastá-lo pela tela.. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] [Duplicada][1.6.0-sp34.3] Para alguns cenários, não é realizada conexão de CEO/CTO no meio da rota. [Linked Issues] BR-2954;BR-1283;BR-1302. [Epic Link] BR-33.",
+            "[Summary] [v1.5.0-sp30.0]Mensagem de Atributo ou valor já existe é exibida na importação de arquivos. [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] Instanciar CTO - Botão Adicionar gera erro no console. [Linked Issues] nan. [Epic Link] nan.",
+            "[Summary] [BUG Conscius Manager] Exploratório - Não é possível Ativar ONU (Erro: Invalid ONU Model). [Linked Issues] BR-549. [Epic Link] BR-28."
+        ],
+        "resposta": "Sim, há alguns bugs que mencionam CTO (Chief Technology Officer) no arquivo jirabugs.csv:\n\n1. Bug BR-2179 e BR-2180, relacionados à versão v1.4.0-rc0 do sistema, afetam a abertura de menus de opções quando várias CTOs ou CEOs são clicadas com o botão direito.\n\n2. Bug BR-2937 e BR-2939, relacionados à versões v1.6.0-sp34.2 e v1.6.0-sp34.3 do sistema, causam erros de exibição quando tenta-se excluir uma CTO após conectar alguns cabos.\n\n3. Bug BR-2954, relacionado à versão 1.6.0-sp34.3 do sistema, pode não permitir a realização de conexões de CEO/CTO no meio da rota.\n\nAs áreas impactadas pelos bugs são: CTOs e CEOs (Chief Executive Officers) e importações ou manipulações de dados relacionadas a eles.",
+        "metricas": {
+            "precision_at_k": 0.5,
+            "recall_at_k": 1.0,
+            "f1_score": 0.6666666666666666,
+            "average_precision": 0.45
+        }
+    },
+    {
+        "query": "Existem bugs no banco de defeitos jirabugs.csv que mencionam CTO? Quais áreas do sistema podem estar impactadas?",
+        "documentos": [
+            "[Summary] [v1.4.0-rc11] Sistema apresenta datas no front atrasadas 1 hora com relação ao banco de dados.. [Linked Issues] nan. [Epic Link] BR-25.",
+            "[Summary] [v1.6.0-sp34.0] Erro desconhecido ao importar .csv corrompido. [Linked Issues] BR-1435;BR-1435. [Epic Link] BR-2842.",
+            "[Summary] Instanciar CTO - O Sistema permite instanciar CTO em uma posição inválida (NOT A BUG). [Linked Issues] nan. [Epic Link] nan.",
+            "[Summary] [Bloqueado][v1.5.1-rc4] Sistema mostra mensagem \"Erro desconhecido\" ao clicar em <Excluir> CTO após conectar alguns cabos. [Linked Issues] BR-2937. [Epic Link] BR-27.",
+            "[Summary] [v1.4.0-sp25.4] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.. [Linked Issues] BR-2183. [Epic Link] BR-27.",
+            "[Summary] (dois incidentes) Sistema importa com sucesso todos os elementos de um arquivo mesmo existindo componente que não pode ser importado (INVALIDO). [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] [BUG Conscius Manager] BR-549 - Ativar ONU em Planejamento - Sistema exibe erro ao ativar ONU (bug de integração). [Linked Issues] BR-779;BR-549. [Epic Link] BR-28.",
+            "[Summary] [v1.5.0-rc3] Sistema só atualiza status operacional/administrativo de CTOs e CEOs após recarregar página. [Linked Issues] nan. [Epic Link] BR-1178.",
+            "[Summary] [v1.5.0-sp29.0] Sistema exibe mensagem de erro atrás do pop-up de importação de projetos. [Linked Issues] BR-2372. [Epic Link] BR-1036.",
+            "[Summary] [v1.4.0-rc0] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.. [Linked Issues] BR-2179. [Epic Link] BR-27.",
+            "[Summary] [Bloqueado][v1.6.0-sp34.2] Sistema mostra mensagem \"Erro desconhecido\" ao clicar em <Excluir> CTO após conectar alguns cabos. [Linked Issues] BR-2939. [Epic Link] BR-27.",
+            "[Summary] [v1.5.0-sp30.3] Pop-up do Log do Histórico de importações não abre centralizado e oculta botão <Cancelar>. [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] [v1.5.0-sp30.3] Sistema exibe MSG060 ao invés da MSG125 ao tentar importar arquivo corrompido.. [Linked Issues] BR-1138. [Epic Link] BR-1036.",
+            "[Summary] [v1.5.0-sp27.2] Sistema apresenta \"items\" no lugar de \"itens\" em pt. [Linked Issues] nan. [Epic Link] BR-897.",
+            "[Summary] [v1.6.0-sp34.0] Erro desconhecido ao importar conexões .csv com coluna extra vazia.. [Linked Issues] BR-1435. [Epic Link] BR-2842.",
+            "[Summary] [v1.5.0-sp29.1] Popup de conexões da CTO muda de tamanho ao tentar arrastá-lo pela tela.. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] [Duplicada][1.6.0-sp34.3] Para alguns cenários, não é realizada conexão de CEO/CTO no meio da rota. [Linked Issues] BR-2954;BR-1283;BR-1302. [Epic Link] BR-33.",
+            "[Summary] [v1.5.0-sp30.0]Mensagem de Atributo ou valor já existe é exibida na importação de arquivos. [Linked Issues] nan. [Epic Link] BR-1036.",
+            "[Summary] Instanciar CTO - Botão Adicionar gera erro no console. [Linked Issues] nan. [Epic Link] nan.",
+            "[Summary] [BUG Conscius Manager] Exploratório - Não é possível Ativar ONU (Erro: Invalid ONU Model). [Linked Issues] BR-549. [Epic Link] BR-28."
+        ],
+        "resposta": "Sim, existem alguns bugs mencionando CTO no arquivo jirabugs.csv. Aqui estão os bugs que podem ter impacto em áreas relacionadas a CTO:\n\n1. [BUG Conscius Manager] BR-549 - Ativar ONU em Planejamento - Sistema exibe erro ao ativar ONU (bug de integração)\n2. Instanciar CTO - Botão Adicionar gera erro no console\n3. [Duplicada][1.6.0-sp34.3] Para alguns cenários, não é realizada conexão de CEO/CTO no meio da rota\n4. Popup do Log do Histórico de importações não abre centralizado e oculta botão <Cancelar> (versão 1.5.0-sp30.3)\n5. Mensagem de Atributo ou valor já existe é exibida na importação de arquivos (versão 1.5.0-sp30.0)\n6. Popup de conexões da CTO muda de tamanho ao tentar arrastá-lo pela tela (versão 1.5.0-sp29.1)\n7. Sistema exibe MSG060 ao invés da MSG125 ao tentar importar arquivo corrompido (versão 1.5.0-sp30.3)\n8. Erro desconhecido ao importar conexões .csv com coluna extra vazia (versão 1.6.0-sp34.0)\n\nAs áreas do sistema que podem estar impactadas são: Importação de arquivos, Criação e gerenciamento de CTOs, Ativação de ONU em Planejamento, Rota de CEO/CTO e Histórico de Importações.",
+        "metricas": {
+            "precision_at_k": 0.5,
+            "recall_at_k": 1.0,
+            "f1_score": 0.6666666666666666,
+            "average_precision": 0.45
+        }
+    },
+    {
+        "query": "O termo 'Uplink' aparece em relatórios de falhas no banco jirabugs.csv? Há um padrão entre esses registros?",
+        "documentos": [
+            "[Summary] [v1.5.0-sp29.1][Roles] Botão de limpar uplink apresenta funcionalidade para usuário de somente leitura. [Linked Issues] BR-2335. [Epic Link] BR-562.",
+            "[Summary] (Uplink) Botão <Cancelar> da tela de Uplink após utilizar o botão <Limpar> descarta alterações recém alteradas. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] (Uplink)Ao conectar Uplink na CTO, prosseguir, exibir uplink, limpar campos e clicar em prosseguir novamente. Uplink é salvo.. [Linked Issues] BR-1605. [Epic Link] BR-27.",
+            "[Summary] Uplink continua sendo exibido após deleta-lo na CTO.. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] Sistema bloqueia fibra na tabela de conexões após conectar o uplink. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] [v1.5.0-sp29.1] [Roles] Botão <Cancelar> habilitado no Uplink da CTO mesmo com usuário com permisões de apenas leitura. [Linked Issues] BR-2335. [Epic Link] BR-562.",
+            "[Summary] (Uplink) Alterações na tabela de uplink de um splitter refletem em todos os outros splitters. [Linked Issues] BR-1315. [Epic Link] nan.",
+            "[Summary] (Uplink) Remover splitter com uplink conectado à fibra de cabo não libera fibra para novas conexões (a não ser que dê refresh na aplicação). [Linked Issues] BR-1524. [Epic Link] nan.",
+            "[Summary] Sistema trava com Botão <Cancelar> no Uplink ao abrir tabela de uplink(CTO) após abrir tabela de conexões (CEO). [Linked Issues] BR-1901. [Epic Link] BR-27.",
+            "[Summary] Uplink de Splitter - Sistema exibe duas telas de uplink em CTOs com dois splitters. [Linked Issues] BR-1315. [Epic Link] nan.",
+            "[Summary] (Splitter) Adicionar splitter na cto após salvar um uplink deixa uplink em branco. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] Sistema não permite excluir CTO ou CEO após desconectar uplink. [Linked Issues] BR-397. [Epic Link] BR-27.",
+            "[Summary] [v1.5.0-sp28.0] Sistema permite excluir CTO no meio da rota de um cabo que possue conexões de fibra via uplink. [Linked Issues] BR-2362. [Epic Link] BR-27.",
+            "[Summary] Sistema não exibe opção destacar componente conectado no uplink de CTO. [Linked Issues] BR-1706. [Epic Link] BR-31.",
+            "[Summary] (DIO) Ao excluir DIO que tenha fibras conectadas, as fibras não ficam disponíveis para conexão em uplink de splitter de CTO conectada diretamente a CO. [Linked Issues] BR-1784;BR-1486. [Epic Link] nan.",
+            "[Summary] (Uplink) Ao criar novo splitter em CTO, conectar seu uplink e clicar em Prosseguir, dialog não fecha. [Linked Issues] nan. [Epic Link] nan.",
+            "[Summary] Sistema permite prosseguir com campo Cabo do Uplink vazio, na CTO. [Linked Issues] BR-1315. [Epic Link] BR-27.",
+            "[Summary] [v1.5.0-sp30.3] Popup de conexões de uplink da CTO travado, impossibilitando mover verticalmente. [Linked Issues] nan. [Epic Link] BR-27.",
+            "[Summary] [MR-1242] Excluir splitter não libera fibras no uplink da CTO até que a página seja atualizada.. [Linked Issues] nan. [Epic Link] BR-27.",
+            "[Summary] (DIO) Ao conectar uma fibra no DIO, ela fica indisponível para conexão no uplink em splitter de CTO conectada diretamente ao DIO. [Linked Issues] BR-1789;BR-1486. [Epic Link] nan."
+        ],
+        "resposta": "Sim, o termo 'Uplink' aparece em vários registros nos relatórios de falhas do arquivo jirabugs.csv. Ao analisar os dados, podemos perceber que esses registros se referem a falhas e problemas relacionados ao módulo de Uplink da plataforma. Alguns exemplos dos tipos de problemas que aparecem são:\n\n* Falha na tela de Uplink da CTO\n* Permissões do usuário inválidas no Uplink da CTO\n* Exclusão de splitter ou CTO não é permitida após desconectar o uplink\n* Alterações na tabela de uplink de um splitter refletem em todos os outros splitters\n* Sistema trava com botão cancelar no Uplink ao abrir a tabela de uplink(CTO) após abrir a tabela de conexões (CEO).\n\nEmbora os registros sejam diferentes, é possível perceber um padrão na forma como eles estão relacionados ao módulo de Uplink da plataforma. É necessário analisar cada registro individualmente para avaliar sua prioridade e tomar as medidas necessárias para resolver os problemas encontrados.",
+        "metricas": {
+            "precision_at_k": 1.0,
+            "recall_at_k": 1.0,
+            "f1_score": 1.0,
+            "average_precision": 1.0
+        }
+    }
+]

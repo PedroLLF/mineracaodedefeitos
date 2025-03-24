@@ -2,6 +2,9 @@ import pandas as pd
 import json
 from collections import defaultdict, Counter
 from datetime import datetime
+import matplotlib.pyplot as plt
+import re 
+import numpy as np
 
 def carregar_csv(caminho_csv):
     """
@@ -31,13 +34,12 @@ def contar_bugs_por_release(df):
     if "Summary" in df.columns:
         for summary in df['Summary']:
             if isinstance(summary, str):
-                # Extraindo release entre colchetes []. Ex.: [v1.6.0-sp35.3]
                 if "[" in summary and "]" in summary:
                     release = summary.split(']')[0].split('[')[-1].strip()
                 else:
                     release = "release não identificada"
                 releases[release] += 1
-
+    
     return dict(releases)
 
 def contar_palavras_com_3_ou_mais_caracteres(df, coluna="Summary"):
@@ -74,13 +76,58 @@ def calcular_tendencia_por_data(df, coluna_data="Created"):
         df[coluna_data] = pd.to_datetime(df[coluna_data], errors='coerce')
         df = df.dropna(subset=[coluna_data])
         
-        # Convertendo as chaves do dicionário para strings
         tendencia_dia = {str(data): contagem for data, contagem in df[coluna_data].dt.date.value_counts().sort_index().items()}
         tendencia_mes = {str(mes): contagem for mes, contagem in df[coluna_data].dt.to_period('M').value_counts().sort_index().items()}
         
         return {"por_dia": tendencia_dia, "por_mes": tendencia_mes}
     
     return {}
+
+def identificar_modulo(summary):
+    """
+    Identifica o módulo com base em palavras-chave no Summary.
+    """
+    if not isinstance(summary, str):
+        return "Outros"
+
+    modulos = {
+        "CTO": r"\bcto[s]?\b",
+        "Splitter": r"\bsplitter[s]?\b",
+        "DIO": r"\bdio[s]?\b",
+        "Cabos": r"\bcabo[s]?\b",
+        "OLT": r"\bolt[s]?\b",
+        "MAC": r"\bmac\b",
+        "Uplink": r"\buplink[s]?\b",
+        "Mapa": r"\bmapa[s]?\b",
+        "KMZ": r"\bkmz\b",
+        "Endereços": r"\bendereço[s]?\b",
+        "ONU": r"\bonu[s]?\b",
+    }
+
+    summary_lower = summary.lower()
+    for modulo, padrao in modulos.items():
+        if re.search(padrao, summary_lower):
+            return modulo
+    return "Outros"
+
+def adicionar_modulo(df, coluna="Summary"):
+    if coluna in df.columns:
+        df['Modulo'] = df[coluna].apply(identificar_modulo)
+    return df
+
+
+def estatisticas_por_release(df):
+    """
+    Calcula estatísticas por release.
+    """
+    if "Release" in df.columns:
+        estatisticas = df.groupby('Release').agg({
+            'Tempo_Resolucao': ['mean', 'median', 'max'],
+            'Key': 'count'
+        }).reset_index()
+        estatisticas.columns = ['Release', 'Tempo_Resolucao_Medio', 'Tempo_Resolucao_Mediano', 'Tempo_Resolucao_Maximo', 'Total_Bugs']
+        return estatisticas.to_dict('records')
+    return []
 
 def preprocessar_dados(caminho_csv, exportar_json=False):
     """
@@ -108,7 +155,12 @@ def preprocessar_dados(caminho_csv, exportar_json=False):
     # Tendência de bugs por data.
     tendencia_data = calcular_tendencia_por_data(df)
 
-    # Criação do contexto analítico.
+    # Adicionar módulo.
+    df = adicionar_modulo(df)
+
+    # Estatísticas por release.
+    estatisticas_release = estatisticas_por_release(df)
+    
     contexto_analitico = {
         "contagem_total_bugs": len(df),
         "contagem_epic_link": epic_link_counts,
@@ -116,18 +168,29 @@ def preprocessar_dados(caminho_csv, exportar_json=False):
         "contagem_palavras": contagem_palavras,
         "categorias_status": categorias_status,
         "categorias_reporter": categorias_reporter,
-        "tendencia_data": tendencia_data
+        "tendencia_data": tendencia_data,
+        "bugs_por_modulo": df['Modulo'].value_counts().to_dict(),
+        "estatisticas_por_release": estatisticas_release,
     }
 
     if exportar_json:
-        with open('contexto_analitico.json', 'w') as f:
-            json.dump(contexto_analitico, f, indent=4)
+        with open('contexto_analitico.json', 'w', encoding='utf-8') as f:
+            json.dump(contexto_analitico, f, indent=4, ensure_ascii=False, default=converter_numeros)
         print("Contexto exportado para 'contexto_analitico.json'.")
-
+    
     return contexto_analitico
 
+def converter_numeros(obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return obj
 
 if __name__ == "__main__":
     caminho_csv = "C:/Users/pedro/OneDrive/Documentos/basesdedefeitos/jirabugs.csv"
     contexto = preprocessar_dados(caminho_csv, exportar_json=True)
-    print(json.dumps(contexto, indent=4))
+    print(json.dumps(contexto, indent=4, default=converter_numeros))
+

@@ -1,0 +1,1047 @@
+Issue Type,Key,Summary,Status,Created,Linked Issues,Development,Epic Link,Reporter,Epic Name,Sprint
+Dev Bug,BR-3054,[DEV] Análise do Impacto da adição de SSL no módulo Mapas,To Do,8/30/2021 13:01:20,,{},,Érica Miranda de Sousa,,
+Dev Bug,BR-3046,[v1.6.0-sp35.3] Comportamento da pesquisa pelo botao de lupa diferente da feita selecionando o componente,To Do,8/25/2021 3:22:21,,{},BR-897,Bruno Sabóia,,BR Sprint 37
+Dev Bug,BR-3042,"[v1.6.0-sp35.3] Sistema exibe mensagem ""Erro desconhecido"" ao tentar criar novo grupo de usuários e cria novo grupo",To Do,8/24/2021 21:33:20,BR-2335,{},BR-562,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3041,"[v1.6.0-sp35.3] Ao rodar script de atualização, algumas conexões (fibra/splitters) somem ou mudam de posição na Tabela de Conexões em CEOs",In Progress,8/24/2021 20:14:00,BR-2946,{},,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3027,[v1.6.0-sp35.1] Sistema permite que um usuário com permissões apenas de leitura conecte fibras na TC,To Do,8/16/2021 10:00:32,BR-2335,{},BR-2908,Bruno Sabóia,,BR Sprint 36
+Dev Bug,BR-3018,[v1.6.0-sp35.0]Sistema alterar a rota de um cabo ao mover uma CEO/CTO e cancelar a alteração clicando em uma outra CEO/CTO e salvando a alteração.,To Do,8/12/2021 15:13:19,BR-2776,{},BR-2861,Nityananda Barbosa Vieira Teixeira,,BR Sprint 36
+Dev Bug,BR-3017,"(Ajustar)[v1.6.0-sp35.0] Ao trocar de usuário, ponta do cabo que antes estava associada a uma CEO é desconectada",In Progress,8/12/2021 3:06:09,,{},BR-3032,Bruno Sabóia,,BR Sprint 36
+Dev Bug,BR-3013,"[v1.6.0-sp35.0] Modelos de CTO : inline, 16P, 8P não aceitam a associação/conexão com cabo SLIM.",To Do,8/9/2021 16:55:14,BR-1829,{},BR-3028,Nityananda Barbosa Vieira Teixeira,,BR Sprint 36
+Dev Bug,BR-3010,"[Ajustar][v1.6.0-sp35.0] Sistema exibe valor ""Null"" no dropdown de endereços MAC, no pop-up de ativação de ONUs",To Do,8/9/2021 10:12:23,,{},BR-562,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3009,"[v1.6.0-sp35.0] Tooltip de informações do cabo na Tabela de Conexões exibe ""Null"" quando a ponta de início/fim desse cabo não está associada a nenhum componente",To Do,8/7/2021 20:08:09,,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3008,"[v1.6.0-sp35.0] Ao desvincular uma das pontas de um cabo, não é possível excluir as outras caixas vinculadas ao cabo.",To Do,8/7/2021 19:13:57,,{},BR-33,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3007,Problema de licenciamento ao realizar deploy de atualização,To Do,8/6/2021 16:26:58,,{},,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3002,[v1.6.0-sp35.0] Botões <Salvar> e <Cancelar> permanecem desabilitados ao editar posição de ONU durante instanciação (Planejamento/Ativação/Geolocalização),Code review,8/5/2021 12:13:06,,{},BR-28,Érica Miranda de Sousa,,BR Sprint 36
+Dev Bug,BR-3001,[v1.5.1-integrated] Listagem de ONUs disponíveis não aparece na barra superior de componente,To Do,8/4/2021 21:46:28,,{},BR-3021,Bruno Sabóia,,BR Sprint 36
+Dev Bug,BR-3000,[v1.6.0-sp34.4] Sistema permite exclusão de CEO com fibras conectadas,To Do,8/4/2021 10:44:39,,{},BR-32,Bruno Sabóia,,BR Sprint 36
+Dev Bug,BR-2987,[v1.6.0-sp34.4] Sistema não permite excluir CO associada,Done,7/30/2021 14:32:32,BR-2952,{},BR-30,Bruno Sabóia,,BR Sprint 42
+Dev Bug,BR-2970,"[v1.6.0-sp34.4] Sistema apresenta ""Elementos Importados"" em vez de ""Conexões realizadas"" no pop-up ""Status"" na importação de conexões na Tabela de Conexões da CEO",To Do,7/28/2021 10:05:44,BR-2580,{},BR-2909,Érica Miranda de Sousa,,BR Sprint 37;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2968,[Duplicado][v1.6.0-sp34.4] Botões <Salvar> e <Cancelar> permanecem desabilitados ao tentar alterar localização de componente associado/conectado a cabo oculto,Code review,7/28/2021 1:35:24,BR-115;BR-155;BR-364;BR-385;BR-1419,{},BR-25,Érica Miranda de Sousa,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 36;BR Sprint 35
+Dev Bug,BR-2967,[MOVER PARA 1.7][v1.6.0-sp34.4]Tooltip de Descrição Incompleta não some após diminuir zoom do Mapas,To Do,7/27/2021 20:08:44,,{},BR-1036,Ariadna Morais,,BR Sprint 37;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2963,"[v1.6.0-sp34.4] Ao instanciar ONU em planejamento, não é atribuído o endereço no campo Endereço",Done,7/27/2021 13:35:51,BR-1154;BR-2891;BR-2947,{},BR-28,Érica Miranda de Sousa,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2960,[Duplicado][v1.6.0-sp34.3] Campo Total de Elementos no Histórico de importação de Projetos (KMZ) é alterado ao editar ou excluir componentes importados,Done,7/26/2021 12:20:00,BR-1140,{},BR-1036,hugobarroso,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2955,"[Duplicada][1.6.0-sp34.3] Para alguns cenários, não é realizada conexão de CEO/CTO no meio da rota",Done,7/20/2021 13:41:49,BR-2954;BR-1283;BR-1302,{},BR-33,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2954,"[1.5.1-rc4] Para alguns cenários, não é realizada conexão de CEO/CTO no meio da rota",Done,7/20/2021 13:31:50,BR-2955;BR-1283;BR-1302,{},BR-33,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2950,"[v1.6.0-sp34.3] Ao inserir dois splitters na TC e conectar outro splitter no nivel 2 da TC, parte dos ícones dos splitters anteriores some e estes ficam sobrepostos.",Done,7/16/2021 15:59:22,BR-2471,{},BR-2311,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2947,"[v1.6.0-sp34.3] Ao ativar uma ONU, não é atribuído o endereço no campo Endereço",Done,7/15/2021 14:02:22,BR-2963;BR-2891,{},BR-28,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2945,"[v1.6.0-sp34.3] Sistema apresenta TC vazia, sem fibras, em CEOs associadas a cabos que não possuam associações em seu início e/ou fim",Done,7/14/2021 12:23:21,BR-2471;BR-2290,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2944,[MOVER PARA 1.7][Duplicada][1.6.0-sp34.3] Rota muda e passa por cima de casas ao sobrepor alguns cabos,Bloqueado,7/14/2021 3:38:59,,{},BR-3030,Bruno Sabóia,,BR Sprint 37;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2943,[v1.6.0-sp34.3] Sistema exibe cabo drop por cima de casas e prédios ao cancelar edição da latitude e/ou longitude de CTO,Done,7/13/2021 20:31:54,BR-2903,{},BR-33,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2942,[v1.6.0-sp34.3] Na CEO o sistema está permitindo inserir mais de 1 splitter na mesma fibra.,Done,7/13/2021 20:05:45,,{},BR-2311,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2939,"[Bloqueado][v1.5.1-rc4] Sistema mostra mensagem ""Erro desconhecido"" ao clicar em <Excluir> CTO após conectar alguns cabos",Bloqueado,7/12/2021 15:15:26,BR-2937,{},BR-27,Bruno Sabóia,,BR Sprint 45
+Dev Bug,BR-2938,[MOVER PARA 1.7] [v1.6.0-sp34.2] Não é possível instanciar ONU em planejamento a CTOs importadas,Done,7/12/2021 15:07:08,BR-2918,{},BR-28,Bruno Sabóia,,BR Sprint 42;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2937,"[Bloqueado][v1.6.0-sp34.2] Sistema mostra mensagem ""Erro desconhecido"" ao clicar em <Excluir> CTO após conectar alguns cabos",Bloqueado,7/12/2021 11:42:00,BR-2939,{},BR-27,Bruno Sabóia,,BR Sprint 45
+Dev Bug,BR-2932,[v1.5.1-rc3] É possível ligar início do cabo a saída da CTOP L9 e LB9,Done,7/9/2021 1:33:30,BR-2901,{},BR-27,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2925,[v1.6.0-sp34.1] Sistema permite remover fusão de splitter ou mudar para conector,Done,7/7/2021 12:01:11,BR-2471,{},BR-2311,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2924,[v1.6.0-sp34.0] Só é possível editar descrição do cabo após movê-lo pelo mapa,Done,7/6/2021 15:03:06,,{},BR-33,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2923,[v1.6.0-sp34.0] Erro desconhecido ao importar .csv corrompido,Done,7/6/2021 14:49:33,BR-1435;BR-1435,{},BR-2842,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2922,"[v1.6.0-sp34.0]Sistema apresenta a mensagem ""Erro desconhecido"" ao tentar realizar importação de conexões na TC para diferentes CEOs importadas ",Done,7/6/2021 13:51:11,BR-1435,{},BR-2842,Érica Miranda de Sousa,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2921,[v1.6.0-sp34.0] Erro desconhecido ao importar conexões .csv com coluna extra vazia.,Done,7/6/2021 13:36:06,BR-1435,{},BR-2842,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2920,"[v1.6.0-sp34.0] Ao clicar no botão <Voltar>, no pop-up de importação de conexões na TC, campo aparece em branco e destacado em vermelho.",Done,7/6/2021 13:05:19,BR-2580;BR-1435,{},BR-2842,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2906,[Duplicado][v1.6.0-sp33.2] Modelo de ONU provisionada não aparece para Geolocalização no mapa,Done,7/1/2021 0:41:10,BR-2891;BR-2515,{},BR-28,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2905,"[v1.6.0-sp33.2] Acento incorreto no ""a"" na mensagem de erro do cabo SLIM",Done,6/30/2021 23:32:22,,{},BR-27,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2904,[v1.6.0-sp33.2] Campo Splitter no popup de CTO desalinhado,Done,6/30/2021 22:33:42,,{},BR-27,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2903,[v1.6.0-sp33.2] Sistema exibe cabo drop por cima de casas e prédios ao cancelar edição de posição de CTO,Done,6/30/2021 20:35:40,BR-2943;BR-2818;BR-2662;BR-385,{},BR-33,Ariadna Morais,,BR Sprint 33;BR Sprint 31;BR Sprint 32;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2902,[v1.6.0-sp33.2] Filtro de CTO não mostra todos os modelos no popup de importação,Done,6/30/2021 19:19:53,,{},BR-1036,Bruno Sabóia,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2901,[v1.6.0-sp33.2] É possível ligar início do cabo a saída da CTOP L9 e LB9,Done,6/30/2021 16:00:56,BR-2932,{},BR-27,Bruno Sabóia,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2900,[v1.5.1-rc1] Não é possível ativar ONUs pela opção adicionar ONU,Done,6/29/2021 14:55:59,BR-2893;BR-1154,{},BR-28,Ariadna Morais,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2893,[v1.6.0-sp33.1] Não é possível ativar ONUs pela opção adicionar ONU,Done,6/28/2021 12:07:02,BR-2900;BR-2515;BR-1154,{},BR-28,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2891,"[v1.6.0-sp33.0] Ao instanciar/geolocalizar uma ONU, não é atribuído o endereço no campo de Endereço.",Done,6/25/2021 16:35:53,BR-2947;BR-2963;BR-2906,{},BR-28,Ariadna Morais,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2884,[v1.6.0-sp33.0] Não é possível instanciar ONU em planejamento,Done,6/18/2021 22:40:52,,{},BR-28,Bruno Sabóia,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2879,[v1.5.0-tc-poc3] Não é possível excluir conexões no nível 2 da TC,Done,6/18/2021 14:52:09,BR-2471,{},BR-2311,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2877,[v1.5.0-tc-poc3] Tooltip de informações do cabo na TC segue o mouse para outros lugares,Done,6/18/2021 12:44:37,BR-2471,{},BR-2311,Bruno Sabóia,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2868,[v1.5.1-rc0] Sistema apresenta rota de cabos passando sobre quarteirões ao editar posição de componente associado ao cabo pelo painel de propriedades,Done,6/15/2021 21:31:17,BR-385;BR-855;BR-1419;BR-1926,{},BR-33,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2867,[v1.5.0-tc-poc] Contador está contando incorretamente as Fusões e Conectores no nível 2 da TC,Done,6/15/2021 19:16:27,BR-2471,{},BR-2311,Ariadna Morais,,BR Sprint 33
+Dev Bug,BR-2866,[v1.5.1-rc0] Botões <Salvar> e <Cancelar> desabilitados ao tentar salvar edição de rota de cabo associado à três componentes ou mais,Done,6/15/2021 14:46:46,BR-385;BR-855;BR-1419,{},BR-33,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2858,[v1.5.0-tc-poc]É possível abrir TC de CEO não associada a outros elementos,Done,6/14/2021 13:14:16,,{},,Ariadna Morais,,BR Sprint 33
+Dev Bug,BR-2857,[v1.5.0-tc-poc] Ajustar posicionamento da saída de splitter no nível 2 da TC da CEO,Done,6/14/2021 12:37:57,BR-2471,{},BR-2311,hugobarroso,,BR Sprint 33
+Dev Bug,BR-2855,[v1.5.0-rc4] CTO desabilitada para visualização reaparece após excluir ONU conectada,To Do,6/11/2021 14:49:56,,{},BR-25,Bruno Sabóia,,BR Sprint 33;BR Sprint 37;BR Sprint 35
+Dev Bug,BR-2853,[TC-POC][v1.5.0-tc-poc][Layout] Segundo nível da TC com excesso de espaço no final,Done,6/11/2021 14:14:45,BR-2734,{},BR-2311,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2852,[TC-POC][v1.5.0-tc-poc] Fibra não é selecionada ao clicá-la pela primeira vez após abrir a TC,Done,6/11/2021 3:32:38,,{},BR-2311,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2851,[TC-POC][v1.5.0-tc-poc] Não é possível excluir Splitter na TC após salvar,Done,6/11/2021 3:23:06,,{},BR-2311,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2850,"[TC-POC][v1.5.0-tc-poc] Ao realizar duas conexões de splitter na TC, ao tentar reabrir, layout dos níveis 1 e 2 quebram e mostram apenas uma parte",Done,6/10/2021 14:51:26,BR-2471,{},BR-2311,Bruno Sabóia,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2836,"[v1.5.0-rc4] Ao tentar excluir CTO de modelo CTOP-LB10, L10, LB9 ou L9 ligada a uma ONU, a ONU é excluída e a CTO permanece",Done,6/1/2021 14:59:12,,{},,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2835,[v.1.5.0-rc4] Listagem de MACs de ONU vai para trás nos popups de Associar e Ativar ONU em planejamento,Done,5/31/2021 22:58:44,BR-549;BR-2744,{},BR-28,Bruno Sabóia,,BR Sprint 33
+Dev Bug,BR-2819,"(Ajustar)[v1.5.0-rc4]Na tela de importação ao clicar várias vezes em <Prosseguir>, o sistema importa o arquivo várias vezes",Done,5/31/2021 10:12:16,BR-2821,{},BR-1036,Ariadna Morais,,BR Sprint 35
+Dev Bug,BR-2818,"[v1.5.0-rc4]Após mover uma CTO conectada a uma ONU e utilizar a função CTRL+C, o cabo DROP passa sobre casas e prédios",Done,5/31/2021 9:46:30,BR-2662;BR-2903;BR-385,{},,Ariadna Morais,,BR Sprint 33
+Dev Bug,BR-2813,[v1.5.0-rc3] Todas as associações e conexões somem do mapas ao recarregar página após salvar alterações na Tabela de conexões da CEO. Associações e conexões retornam somente após recarregar página novamente,Done,5/26/2021 10:42:47,BR-2812;BR-1053;BR-2074,{},,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 32
+Dev Bug,BR-2812,[v1.5.0-rc3] Ao recarregar página todas as caixas instanciadas somem do mapas após salvar alterações na TC e adicionar splitter CEO,Done,5/26/2021 10:27:19,BR-2813;BR-2074,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 32;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2811,[v1.5.0-rc3] Dropdown de modelos de cabos na tela de importação está mostrando nome do cabo ao invés de apelido,Done,5/26/2021 3:53:17,BR-2461,{},,Ariadna Morais,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2810,[v1.5.0-rc3] Barra de componentes habilitada mesmo com painel de propriedades aberto,Done,5/26/2021 3:21:38,,{},BR-937,Ariadna Morais,,BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2800,[v1.5.0-rc3] Não é possível instanciar nova ONU após editar ponto do cabo drop durante instanciação de ONUs,Done,5/24/2021 10:58:34,BR-548,{},BR-28,Érica Miranda de Sousa,,BR Sprint 32;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2798,[v1.5.0-rc3] Sistema não mostra MAC de ONU no popup de ativação após excluir o mesmo modelo e a OS já criados,Done,5/21/2021 19:56:28,,{},BR-28,Bruno Sabóia,,BR Sprint 32
+Bug,BR-2792,[1.4.0-rc2] [Green Fiber] Classificação de elemento genérico em CTO do tipo FK-CTOP-L10 e FK-CTOP-LB10,Done,5/21/2021 16:35:19,,{},BR-2820,Mariana Salamoni Francisco,,BR Sprint 33
+Dev Bug,BR-2791,[Bloqueado][v1.5.0-rc3] ONUs de Modelos Desconhecidos e Não Suportados não aparecem na listagem de modelos para geolocalização,Bloqueado,5/21/2021 6:57:10,BR-1806,{},BR-3023,Bruno Sabóia,,BR Sprint 33;BR Sprint 32;BR Sprint 36;BR Sprint 35
+Dev Bug,BR-2790,[v1.5.0-rc3]Ícone de exclamação para descrição incompleta está localizado incorretamente no mapa,Done,5/20/2021 19:06:03,,{},BR-2799,Ariadna Morais,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07
+Bug,BR-2784,"[v1.5.0-rc3] [TC] Cabos importados e/ou instanciados manualmente no sistema, apresentam número diferentes de fibras após operações na Tabela de Conexões da CEO",Done,5/19/2021 20:13:34,BR-2779;BR-2781;BR-2782;BR-2946,{},BR-32,Mariana Salamoni Francisco,,BR Sprint 32
+Bug,BR-2783,[ v1.5.0-rc3] Exibição do nome de um novo splitter quando é salvo,Done,5/19/2021 19:51:41,,{},,Mariana Salamoni Francisco,,BR Sprint 34 - 30/06 à 28/07
+Bug,BR-2782,[v1.5.0-rc3] O sistema desloga ao recarregar a página e/ou clicar em <Salvar> ao adicionar Splitters em CEO,Done,5/19/2021 19:46:47,BR-2784;BR-820,{},BR-31,Mariana Salamoni Francisco,,BR Sprint 32
+Bug,BR-2781,[v1.5.0-rc3] A caixa de emenda some do mapa ao criar e salvar ou excluir splitter,Done,5/19/2021 19:44:11,BR-2784,{},,Mariana Salamoni Francisco,,BR Sprint 32
+Bug,BR-2780,[v1.5.0-rc3] [TC] Não é possível realizar conexões em CEO,Done,5/19/2021 19:40:09,BR-965;BR-1053,{},BR-32,Mariana Salamoni Francisco,,BR Sprint 32
+Bug,BR-2779,[v1.5.0-rc3] Modificação de rota - criação e exclusão de pontos,Done,5/19/2021 19:30:17,BR-2784;BR-958;BR-1078,{},BR-33,Mariana Salamoni Francisco,,BR Sprint 32
+Bug,BR-2778,[ v1.5.0-rc3] Importação de componentes CTOs,Done,5/19/2021 19:17:26,,{},,Mariana Salamoni Francisco,,BR Sprint 32
+Dev Bug,BR-2777,[v1.5.0-rc3] Sistema só atualiza status operacional/administrativo de CTOs e CEOs após recarregar página,Done,5/19/2021 10:33:12,,{},BR-1178,Érica Miranda de Sousa,,BR Sprint 32
+Dev Bug,BR-2776,[v1.5.0-rc3] Cabo drop e cabo de distribuição apresentam rápida oscilação na rota ao salvar edição,Done,5/19/2021 10:05:12,BR-3018;BR-385,{},BR-33,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 35
+Dev Bug,BR-2775,[v1.5.0-rc3] Não é possível excluir CTO conectada a cabo SLIM vindo de outra CTO,Done,5/18/2021 22:06:06,BR-2286;BR-2733,{},BR-27,Bruno Sabóia,,BR Sprint 32
+Dev Bug,BR-2770,[v1.5.0-rc3] Sistema só permite salvar sensor SAL em CEO após cadastrar tubos e fibras,Done,5/18/2021 17:07:59,BR-2158,{},BR-1178,Érica Miranda de Sousa,,BR Sprint 32
+Dev Bug,BR-2761,[v1.5.0-rc2] Splitter some por alguns instantes da Tabela de Conexões da CEO e por definitivo do Uplink da CTO ao editar rota do cabo que liga CEO a CTO,Done,5/17/2021 16:53:10,BR-1053,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2760,[v1.5.0-rc2] Cabos não encontrados ou com classificações trocadas no dropdown de listagem de cabos no painel superior,Done,5/17/2021 10:54:02,BR-2275,{},BR-33,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 32
+Dev Bug,BR-2759,[v1.5.0-rc2] Sistema não altera status operacional da ONU ao reiniciar pelo terminal da OLT ou pelo Conscius,Done,5/14/2021 12:58:33,,{},BR-28,Bruno Sabóia,,BR Sprint 32
+Dev Bug,BR-2757,"[v1.5.0-rc2] Em Geolocalizar ONU Provisionada, sistema lista quantidade de modelos disponíveis de ONUs diferente da listagem de MACs",Done,5/14/2021 10:20:07,,{},BR-28,Bruno Sabóia,,BR Sprint 33;BR Sprint 32
+Dev Bug,BR-2756,[v1.5.0-rc2] Imagem de modelo de ONU não carrega,Done,5/13/2021 19:54:45,,{},BR-28,Ariadna Morais,,BR Sprint 33
+Dev Bug,BR-2754,[v1.5.0-rc2] Sistema não permite associar ONU em planejamento,Done,5/13/2021 18:29:40,,{},BR-28,Ariadna Morais,,BR Sprint 32
+Dev Bug,BR-2751,[v1.5.0-rc2] Sistema mostra status Operacional da ONU como 'Inválida' em vez de 'Ocupada',Done,5/12/2021 19:19:09,,{},BR-28,Bruno Sabóia,,BR Sprint 32
+Dev Bug,BR-2750,[Bloqueado][v1.5.0-rc2] Listagem de ONUs Desconhecidas mostra quantidade de ONUs diferente da real,Bloqueado,5/12/2021 18:37:05,,{},BR-3021,Bruno Sabóia,,BR Sprint 33;BR Sprint 32;BR Sprint 36;BR Sprint 35
+Dev Bug,BR-2749,[v1.5.0-rc2] Sistema permite iniciar fluxo de instanciação de ONU clicando em componente de apenas visualização na listagem de ONUs,Done,5/10/2021 19:31:45,BR-1154,{},BR-28,Ariadna Morais,,BR Sprint 33
+Dev Bug,BR-2745,[v1.5.0-rc2] Erro invalid ao tentar ativar ONU após excluir o mesmo modelo já instanciado,Done,5/10/2021 12:22:17,,{},BR-28,Bruno Sabóia,,BR Sprint 32
+Dev Bug,BR-2744,[v1.5.0-rc2] Listagem de MACs de ONUs vai para trás do Popup de Ativação de ONU,Done,5/10/2021 11:08:41,BR-2835,{},BR-28,Bruno Sabóia,,BR Sprint 32
+Dev Bug,BR-2743,[v1.5.0-rc2] Segundo ponto é criado ao mover componente pelo mapa,Done,5/10/2021 10:45:29,,{},BR-33,Bruno Sabóia,,BR Sprint 33;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2737,"[v1.5.0-rc2] Não é possível excluir CTO antes conectada por Uplink, após remover o Splitter conectado",Done,5/5/2021 17:24:54,,{},BR-27,Bruno Sabóia,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2736,[v1.5.0-rc2] Conexão de nível 2 na TC desaparece após excluí-la e cancelar operação.,Done,5/5/2021 14:58:24,,{},BR-2311,Bruno Sabóia,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2735,"[v1.5.0-rc2] Sistema não reabre pop-up de conexões da CTO após salvar edições de cabo, tubo e fibra no uplink da mesma e não salvar edições da CTO",Done,5/5/2021 14:17:51,,{},BR-27,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2734,[TC-POC][v1.5.0-rc2][Layout] Segundo nível da TC com excesso de espaço entre o primeiro e o segundo cabo de entrada.,Done,5/5/2021 11:14:53,BR-2853,{},,Érica Miranda de Sousa,,
+Dev Bug,BR-2733,"[v1.5.0-rc2] Sistema não realiza exclusão de CTOs modelo FK-CTOP- L B9, FK-CTOP-L9 e FK-CTOP-L B10.",Done,5/5/2021 10:54:16,BR-2775;BR-113,{},BR-27,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 32
+Bug,BR-2732,[TELEFONICA] Sensor SPM não está sendo localizado ao receber notificação do Kafka,Done,5/4/2021 21:37:44,,{},,Mariana Salamoni Francisco,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2707,"[v1.5.0-rc1] Modelo de ONU, que encontra-se ativa, aparece disponível para instanciação em outro projeto.",Done,4/29/2021 18:16:37,,{},BR-28,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 31;BR Sprint 32;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2702,[v1.5.0-rc1] Sistema permite salvar sensores com IDs duplicados ao editar ID de um sensor SPM existente.,Done,4/29/2021 10:54:57,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2701,[v1.5.0-rc1] Informações de outra CTO na aba Conexões da CTOP-L10 e CTOP-LB10,Done,4/28/2021 20:32:21,,{},BR-27,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2700,[POC] [v1.5.0-rc1] Sistema não exibe segundo nível da Tabela de Conexões por completo quando sua entrada recebe a partir de 4 cabos SLIM e um 1 cabos de distribuição de 24 fibras.,Done,4/28/2021 19:08:15,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2699,[v1.5.0-rc1]  Sistema exibe MSG001 e não permite salvar Sensor SAL em CTO,Done,4/28/2021 16:48:27,,{},BR-1178,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 32
+Bug,BR-2692,[v1.5.0-rc0][PHOENIX] Recalcula a rota e modifica os pontos,Done,4/20/2021 16:18:04,BR-2634;BR-2632;BR-2544,{},BR-1036,Mariana Salamoni Francisco,,BR Sprint 31
+Dev Bug,BR-2690,[v1.5.0-rc0] Sistema não atualiza status operacional de CTO/CEO,Done,4/20/2021 15:41:21,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2689,(Atualização)[v1.5.0-rc0] Conexão de fibra em uma TC desaparece após atualização,Done,4/20/2021 13:35:11,,{},BR-32,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2688,[v1.5.0-rc0] Sistema cria novos pontos em cabo importado após tentar adicionar CTO ao meio da rota,Done,4/20/2021 11:04:39,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2687,[v1.5.0-rc0] Sistema exibe mensagens em inglês quando há erro no campo <MAC> instanciar ONU ativada,Done,4/19/2021 17:32:29,,{},,hugobarroso,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2686,[v1.5.0-rc0] Não é possível conectar ponto de usuário de um cabo a um elemento instanciado no mapa.,Done,4/19/2021 13:07:26,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2685,[v1.5.0-sp30.3] Cabo não traça rota otimizada quando conectado a componentes próximos a cruzamentos,Done,4/16/2021 21:52:27,BR-868,{},BR-33,hugobarroso,,
+Dev Bug,BR-2683,[v1.5.0-sp30.3] Sistema permite desconectar cabo com fibras sensorizadas,Done,4/16/2021 20:59:53,BR-2170;BR-2325,{},BR-1178,hugobarroso,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2682,[v1.5.0-sp30.3] Sistema exibe cabo de distribuição por cima de casas e prédios ao cancelar edição de posição de componente conectado,Done,4/15/2021 19:12:41,BR-385;BR-855;BR-1419,{},BR-33,hugobarroso,,BR Sprint 33;BR Sprint 31;BR Sprint 32
+Bug,BR-2680,[v1.5.0-sp30.3] Sistema cria novo ponto de cabo próximo aos componentes conectados à ele ao adicionar novo ponto de cabo,Done,4/15/2021 15:55:36,BR-2679;BR-958,{},BR-33,hugobarroso,,BR Sprint 31
+Bug,BR-2679,[v1.5.0-sp30.3] Sistema refaz trajetória de cabos não passando pelo menor caminho ao mudar posição de pontos do cabo,Done,4/15/2021 15:53:46,BR-2680;BR-958,{},BR-33,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2678,[v1.5.0-sp30.3] Sistema instancia varias DIOs de mesmo nome ao clicar varias vezes em <Salvar>,Done,4/15/2021 12:22:43,BR-1413,{},BR-30,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2677,[1.5.0-sp30.3] Sistema permite salvar sensor SPM com campo Cabo em branco,Done,4/15/2021 12:00:56,,{},BR-1178,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2675,[v1.5.0-sp30.3] Não é possível excluir cabo após excluir CTO conectada,Done,4/15/2021 11:50:42,,{},BR-33,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2674,"[1.5.0-30.3] Campo ""Portas Disponíveis para OLTs"" mostra número excessivo de portas inserido em no campo ""Quantidade""",Done,4/15/2021 11:43:14,,{},BR-30,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2670,"[v1.5.0-sp30.3] Sistema não permite excluir CTOs importadas pertecentes a topologia EZ!GROW (L10, B10)",Done,4/15/2021 0:33:21,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2669,[v1.5.0-sp30.3] Pop-up do Log do Histórico de importações não abre centralizado e oculta botão <Cancelar>,Done,4/14/2021 23:58:50,,{},BR-1036,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2667,[v1.5.0-sp30.3] Sistema permite importar arquivo kmz com espaço em branco na identificação Regex e com dados de modelo,Done,4/14/2021 22:29:55,BR-1496,{},BR-1036,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2666,"[v1.5.0-sp30.3]Modelo de CTO FK-CTOP-L B10 escrita da forma ""FK-CTOP-LB10""",Done,4/14/2021 20:06:03,,{},BR-27,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2664,[v1.5.0-sp30.3] Sistema exibe que cabo foi cadastrado ao clicar em apenas um componente durante sua instancia e em seguida clicar no Mapa,Done,4/14/2021 19:18:34,BR-868,{},BR-33,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2663,[v1.5.0-sp30.3] Sistema permite exclusão ONU em planejamento e Cabo Drop de forma múltipla,Done,4/14/2021 19:11:54,BR-1921,{},BR-25,Érica Miranda de Sousa,,
+Dev Bug,BR-2662,[v1.5.0-sp30.3] Sistema exibe cabo drop por cima de casas e prédios ao cancelar edição de posição de CTO,Done,4/14/2021 18:57:59,BR-2903;BR-2818;BR-385,{},BR-33,hugobarroso,,BR Sprint 33;BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2661,[v1.5.0-sp30.3] Sistema não cancela operação de seleção ao recuar painel de seleção,Done,4/14/2021 18:54:14,BR-1921,{},BR-25,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2660,"[v1.5.0-sp30.3] Ao tentar selecionar Cabo Drop com tecla SHIFT, o mesmo só é destacado em azul após segundo clique.",Done,4/14/2021 18:31:09,BR-1921,{},,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2659,"[v1.5.0-sp30.3] Modelos de cabo ASU80-S MINI-RA 02F, ASU120-S RA 12F, ASU120-S RA 24F e ASU80-S MINI-RA 12F duplicados no painel superior de componentes",Done,4/14/2021 17:05:41,,{},BR-33,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2658,[v1.5.0-sp30.3] Sistema exibe cabo drop conectado à ONU por cima de casas e prédios ao mover CTO com o mouse ou pelo Painel de Propriedades,Done,4/14/2021 14:11:33,BR-385,{},BR-27,hugobarroso,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2657,[v1.5.0-sp30.3] Sistema exibe MSG060 ao invés da MSG125 ao tentar importar arquivo corrompido.,Done,4/13/2021 21:06:28,BR-1138,{},BR-1036,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 31
+Dev Bug,BR-2656,[v1.5.0-sp30.3] Sistema exibe MSG001 ao tentar salvar ONU com coordenadas inválidas.,Done,4/13/2021 19:54:52,BR-1926,{},BR-28,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2655,[v1.5.0-sp30.3] Sistema traça cabos de ONU por cima de casas e predios ao editar rota pelo painel de propriedades,Done,4/13/2021 19:35:38,BR-1926,{},BR-28,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2654,"[v1.5.0-sp30.3] Sistema não exibe contador de resultados ""Resultados: 0/0"" na pesquisa por componente quando não há resultados retornados",Done,4/13/2021 17:42:48,BR-2259,{},BR-2433,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2653,[v1.5.0-sp30.3] Sistema exibe listagem de pesquisa de componentes com 5 componentes e sem scroll,Done,4/13/2021 17:16:52,BR-2259,{},BR-2433,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2652,[v1.5.0-sp30.3] Não é possível alternar entre projetos através do menu superior do mapa,Done,4/13/2021 16:41:14,BR-148,{},BR-25,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2650,[v1.5.0-sp30.3] [Roles] [Conscius]Usuário sem permissões para alguns conteúdos do conscius não consegue realizar login,Done,4/13/2021 10:50:51,BR-2335,{},BR-562,Érica Miranda de Sousa,,
+Dev Bug,BR-2634,[v1.5.0-sp30.3] Sistema exclui pontos de cabo importado e refaz rota quando é movimentado um componente instanciado à ele,Done,4/8/2021 19:46:58,BR-2692;BR-2544,{},BR-1036,hugobarroso,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2633,[1.5.0-sp30.3] Sistema bloqueia botão <Salvar>ao adicionar splitter na CTO [inválido],Done,4/8/2021 19:08:02,,{},BR-27,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2632,[v1.5.0-sp30.3] Sistema cria pontos em cabo importado quando é conectado em componente,Done,4/8/2021 19:07:25,BR-2692;BR-2544,{},BR-1036,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2631,[v1.5.0-sp30.3] Sistema exibe mensagem de erro atrás do popup de importação de projetos quando há uma mensagem aberta,Done,4/8/2021 19:00:02,BR-1496,{},BR-1036,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2629,[v1.5.0-sp30.3] Pontos de usuário em cabo importado somem após adicionar CTO ao meio da rota,Done,4/8/2021 18:44:33,,{},BR-1036,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2628,"[v1.5.0-sp30.3]Sistema exibe labels Projetos > Projetos > ""Editar"" ao acessar um projeto e navegação confusa.",Done,4/8/2021 18:32:40,,{},BR-25,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2627,[v1.5.0-sp30.3] Sistema não permite editar posição de ONU durante sua instancia clicando no componente e arrastando,Done,4/8/2021 18:23:45,BR-683,{},BR-28,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2626,[1.5.0-sp30.3] Campos Número de Atendimento e MAC se sobrepondo no painel de propriedades de ONU ativa,Done,4/8/2021 18:22:05,,{},BR-28,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2625,[v1.5.0-sp30.3] Sistema não permite mudar a rota do cabo para CTOs com conexões de Uplink,Done,4/8/2021 18:19:10,,{},,Bruno Sabóia,,BR Sprint 31
+Dev Bug,BR-2623,[v1.5.0-sp30.3] CTOP-16P e CTOP-8P instanciadas com CEO aceitam apenas conexão com cabo SLIM,Done,4/8/2021 18:07:36,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2622,[v1.5.0-sp30.3] Sistema traça rota do cabo de forma estranha ao mover elementos de suas extremidades,Done,4/8/2021 16:14:07,,{},,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2621,[v1.5.0-sp30.3] Sistema considera elementos excluidos durante edição da rota de um cabo,Done,4/8/2021 15:25:52,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2618,"[v1.5.0-sp30.3] Popup de conexões de uplink da CTO travado, impossibilitando mover verticalmente",Done,4/7/2021 22:29:06,,{},BR-27,André Luis Marques Rodrigues,,BR Sprint 31
+Dev Bug,BR-2617,[v1.5.0-sp30.3] Sistema exibe informações anteriores no painel de propriedades do splitter da CTO ao clicar em salvar edições,Done,4/6/2021 22:01:59,,{},BR-2561,André Luis Marques Rodrigues,,BR Sprint 33;BR Sprint 31;BR Sprint 32;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2616,[v1.5.0-sp30.3] Sistema exibe MSG117 e bloqueia botão Conexões ao mudar Razão de Divisão do splitter,Done,4/6/2021 20:46:15,,{},BR-27,André Luis Marques Rodrigues,,BR Sprint 31
+Dev Bug,BR-2615,[v1.5.0-sp30.3] Não é possível salvar edições de um Projeto,Done,4/6/2021 20:45:37,BR-51,{},BR-25,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 32
+Dev Bug,BR-2613,[v1.5.0-sp30.3] Pop-up de Conexões de Splitter de CTO sem o <x> para fechar.,Done,4/6/2021 19:07:47,,{},,Érica Miranda de Sousa,,BR Sprint 31
+Dev Bug,BR-2612,[v1.5.0-sp30.2] Splitter troca de fibra após conectar fibras na TC de nível 2.,Done,4/5/2021 22:04:41,,{},BR-32,André Luis Marques Rodrigues,,BR Sprint 31
+Dev Bug,BR-2608,[v1.5.0-sp30.1] Ao instanciar componente é exibido destacado em roxo e piscando durante instanciação em alguns cenários,Done,3/31/2021 20:39:59,,{},BR-25,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2607,[v1.5.0-sp30.1] Sistema preenche caixa de pesquisa com [object MouseEvent] ao pesquisar por componente não instanciado no mapa,Done,3/31/2021 18:18:45,,{},BR-25,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2606,"[v1.5.0-sp30.1] Ao pesquisar por componente não existente no mapa, sistema destaca último componente pesquisado.",Done,3/31/2021 17:51:30,BR-1588,{},BR-25,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2605,"[v1.5.0-sp30.1] Buscar por endereço vazio leva a local denominado ""Null & Son Funeral Home"".",Done,3/30/2021 14:38:54,BR-200,{},BR-25,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2604,[v1.5.0-sp30.1] Botão <Excluir> da TC nível 1 da CEO não funciona até que seja utilizado duas vezes,Done,3/30/2021 14:14:02,,{},BR-32,hugobarroso,,BR Sprint 30
+Bug,BR-2601,"[v1.5.0-sp30.0] Componentes não são reconhecidos com a utilização de regex do tipo ""*CTO*""",Done,3/26/2021 15:43:35,,{},BR-1036,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2597,[v1.5.0-sp30.0][Layout] Botão de pesquisa de componentes tem dimensões diferentes da pesquisa de endereço,Done,3/23/2021 15:57:10,,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2596,[v1.5.0-sp30] Sistema permite inserir CTOs não pré-conectorizadas no meio da rota de um cabo SLIM,Done,3/23/2021 13:39:32,BR-1829,{},BR-33,Érica Miranda de Sousa,,BR Sprint 30
+Bug,BR-2595,Log e resumo não corresponde a importação de splitter quando são importados splitters apenas em um tipo de caixa (CEO ou CTO) [Inválido],Done,3/23/2021 9:51:12,,{},,Mariana Salamoni Francisco,,BR Sprint 30
+Bug,BR-2591,[ v1.5.0-sp30.0] [PHOENIX] Conectar cabos importados (meio do cabo),Done,3/22/2021 17:05:42,,{},,Mariana Salamoni Francisco,,BR Sprint 30
+Bug,BR-2588,[v1.5.0-sp30.0]Mensagem de Atributo ou valor já existe é exibida na importação de arquivos,Done,3/22/2021 12:07:16,,{},BR-1036,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2572,[v1.5.0-sp29.1] Popup de conexões da CTO muda de tamanho ao tentar arrastá-lo pela tela.,Done,3/17/2021 12:25:08,BR-1315,{},BR-27,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2559,[Bloqueado][v1.5.0-sp29.1][Roles] Sistema realiza agrupamento para Usuário sem permissões.,Bloqueado,3/15/2021 22:10:55,BR-2335,{},,Érica Miranda de Sousa,,BR Sprint 45
+Dev Bug,BR-2558,[v1.5.0-sp29.1][Roles] Sistema permite que Usuário com Permissões de Apenas Leitura edite tubo e fibra de Uplink de CTO,Done,3/15/2021 20:43:02,BR-2335,{},BR-562,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2557,[v1.5.0-sp29.1] [Roles] Edição de permissões de grupo só surte efeito quando usuário atualiza a página,Done,3/15/2021 20:40:24,BR-2335,{},BR-562,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2556,[v1.5.0-sp29.1] [Roles] Botão <Cancelar> habilitado no Uplink da CTO mesmo com usuário com permisões de apenas leitura,Done,3/15/2021 20:10:00,BR-2335,{},BR-562,hugobarroso,,BR Sprint 31
+Dev Bug,BR-2555,[v1.5.0-sp29.1] [Roles] Sistema permite adicionar fibras na TC da CEO nv 1 e 2 (não permite salvar edição) mesmo com permisões de apenas leitura,Done,3/15/2021 19:50:57,BR-2335,{},BR-562,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2554,[v1.5.0-sp29.1][Roles] Sistema exibe tooltip de CO e Cabo Desconhecido para Usuário Sem Permissões.,Done,3/15/2021 19:41:13,BR-2335,{},BR-562,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2553,[v1.5.0-sp29.1][Roles] Sistema inicia fluxo de instanciação de CO e ONU para Usuário com Permissão Somente Leitura.,Done,3/15/2021 19:22:29,BR-2335,{},BR-562,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2552,"[v1.5.0-sp29.1] [Roles] Ao selecionar para todos a permissão <Nenhum> nas configurações de permissões de grupos e salvar, o usuário não consegue visualizar os projetos do Mapas ",Done,3/15/2021 19:19:58,BR-2335,{},BR-562,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2549,[v1.5.0-sp29.1][Roles] Sistema inicia fluxo de instanciação de CO e Assinante em Potêncial para Usuário Sem Permissões.,Done,3/15/2021 17:54:47,BR-2335,{},BR-562,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2546,[v1.5.0-sp29.1][Roles] Botão de limpar uplink apresenta funcionalidade para usuário de somente leitura,Done,3/12/2021 17:07:49,BR-2335,{},BR-562,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2545,[v1.5.0-sp29.1][Roles] Sistema desloga após clicar em salvar projeto com usuário de somente leitura,Done,3/12/2021 16:43:31,BR-2335,{},BR-562,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2541,[v1.5.0-sp29.1] Sistema mantém status operacional alarmado da CTO quando seu sensor é excluido,Done,3/11/2021 18:29:09,BR-2360,{},BR-1178,hugobarroso,,BR Sprint 30
+Bug,BR-2540,[v1.5.0-rc1] Associação de pontos de cabos importados com extremidades no mesmo ponto de caixas,To Do,3/11/2021 16:54:40,,{},BR-2909,Mariana Salamoni Francisco,,BR Sprint 37;BR Sprint 31;BR Sprint 30;BR Sprint 34 - 30/06 à 28/07
+Dev Bug,BR-2538,[v1.5.0-sp29.1] Sistema permite escolher fibra antes de escolher tubo no Uplink da CTO quando muda de cabo,Done,3/10/2021 21:59:06,BR-1315,{},BR-27,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2537,[v1.5.0-sp29.1] Sistema instancia cabo de forma errada quando um componente é desmarcado e em seguida marcado,Done,3/10/2021 18:57:22,BR-868;BR-2257,{},BR-33,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2536,[v1.5.0-sp29.1] Sistema permite salvar projeto com coordenadas inválidas,Done,3/10/2021 17:55:27,BR-2044,{},BR-25,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2535,[v1.5.0-sp29.1] Botão de Pesquisa <ícone de lupa> não funciona para pesquisa de componentes,Done,3/10/2021 16:47:47,BR-1588,{},,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2534,[v1.5.0-sp29.1] Recentralizar não funciona corretamente no nível de projetos.,Done,3/10/2021 16:14:43,BR-199,{},BR-25,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2531,[v1.5.0-sp29.1] É possível conectar com cabo SLIM em CEOs não pré-conectorizadas (modelos 4M/4T/3T),Done,3/10/2021 13:36:57,BR-2525,{},,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2529,[v1.5.0-sp29.0] Sistema não permite exclusão de CTOs do modelo FK-CTOP-L10 e FK-CTOP-LB10,Done,3/9/2021 18:49:27,BR-113,{},BR-27,hugobarroso,,BR Sprint 31;BR Sprint 30
+Dev Bug,BR-2528,[v1.5.0-sp28.1-tc-poc-2] Cor cinza do splitter na TC da CEO,Done,3/9/2021 18:16:01,BR-2292,{},BR-2311,hugobarroso,,BR Sprint 33;BR Sprint 31
+Dev Bug,BR-2525,[v1.5.0-sp29.0] É possível conectar com cabos SLIM CTOs/CEOs não pré-conectorizadas,Done,3/8/2021 22:11:27,BR-2531;BR-2400,{},BR-1036,André Luis Marques Rodrigues,,BR Sprint 29;BR Sprint 30
+Dev Bug,BR-2524,[v1.5.0-sp29.0] Botões Salvar e Cancelar são cortados da tela no popup de importação de componentes,Done,3/8/2021 21:51:08,,{},BR-1036,André Luis Marques Rodrigues,,BR Sprint 30
+Dev Bug,BR-2523,[v1.5.0-sp29.0] TC possibilita realizar duas conexões (Nível 1 e Nível 2 da TC) na mesma fibra,Done,3/8/2021 21:31:07,,{},BR-33,André Luis Marques Rodrigues,,BR Sprint 30
+Dev Bug,BR-2522,[v1.5.0-sp29.0] Sistema exibe mensagem de erro atrás do pop-up de importação de projetos,Done,3/8/2021 20:29:05,BR-2372,{},BR-1036,hugobarroso,,BR Sprint 30
+Dev Bug,BR-2521,[v1.5.0-sp28.1-tc-poc-2] Sistema não cadastra fibras na Tabela de Conexões,Done,3/8/2021 18:35:25,BR-2502,{},BR-32,Érica Miranda de Sousa,,BR Sprint 33;BR Sprint 31
+Dev Bug,BR-2520,[v1.5.0-sp29.0] Ícone da CO muito pequeno ao ser destacado na pesquisa de componentes,Done,3/8/2021 15:36:20,BR-2397,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2519,[v1.5.0-sp29.0] Componentes são destacados na instanciação após utilização de destaque da pesquisa de componentes.,Done,3/8/2021 15:23:47,BR-2397,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 31;BR Sprint 30
+Dev Bug,BR-2513,[v1.5.0-sp29.0][CONSCIUS] Não é possível salvar Configuração de Serviço para internet do tipo Router,Done,3/8/2021 13:41:07,BR-2289,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2512,[v1.5.0-sp29.0] Scroll não segue setas de navegação na busca de componentes,Done,3/8/2021 13:24:35,BR-2397,{},,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2511,[ v1.5.0-sp28.1]  Nível 2 da TC não exibido por completo caso tenha apenas uma conexão de cabo AS80 01F SLIM/SLIM na entrada e saida,Done,3/5/2021 12:09:45,,{},,Gustavo Mendes de Oliveira,,BR Sprint 31;BR Sprint 30
+Bug,BR-2507,[v1.5.0-sp28.1] Barra de rolagem no pop-up de importação,Done,2/26/2021 20:16:14,,{},,Mariana Salamoni Francisco,,BR Sprint 30
+Bug,BR-2506,[v1.5.0-sp28.1] Cabos AS80 01F SLIM/SLIM são traçados com a cor azul no mapa,Done,2/26/2021 20:12:02,,{},,Mariana Salamoni Francisco,,BR Sprint 30
+Bug,BR-2504,[v1.5.0-sp28.1]Rota automática do cabo é alterada ao salvar splitter,Done,2/25/2021 16:42:20,,{},,Mariana Salamoni Francisco,,BR Sprint 30
+Bug,BR-2503,[v1.5.0-sp28.1] Marcação de pesquisa de endereço na aba de projetos continua sendo exibida ao abrir um projeto.,Done,2/25/2021 15:10:10,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2502,[v1.5.0-sp24.1-tc-poc] Fibras traçadas da direita para esquerda estão com conectores/fusões posicionadas a direita,Done,2/24/2021 16:23:57,BR-2521;BR-2290,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 33;BR Sprint 31;BR Sprint 29
+Dev Bug,BR-2491,[v1.5.0-sp28.1] Nomes incorretos de modelos LW510-40BP e LW510-40RP de ONUs,Done,2/23/2021 12:33:12,BR-2273,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 29
+Dev Bug,BR-2487,[v1.5.0-sp28.1] Projeto some da listagem após fechar tela de edição via <X>,Done,2/18/2021 12:40:49,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 29
+Dev Bug,BR-2478,[v1.4.0-sp24.1-tc-poc] Fibra traçada da direita para esquerda não é salva na Tabela de Conexões,Done,2/12/2021 12:59:29,BR-2290,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 33;BR Sprint 31;BR Sprint 29
+Dev Bug,BR-2476,[v1.4.0-sp24.1-tc-poc] Sistema não permite marcar conexão da Tabela de Conexões como Fusão/Conector,Done,2/11/2021 18:18:43,BR-2290,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 29
+Dev Bug,BR-2473,[1.5.0-sp28.1] Sistema não mostra imagem do modelo da ONU ativa (LD510-20B / LW510-40RP / LW510-40BP),Done,2/11/2021 17:48:29,BR-2273;BR-2481,{},BR-28,André Luis Marques Rodrigues,,BR Sprint 29
+Dev Bug,BR-2472,[v1.4.0-sp24.1-tc-poc] Sistema não permite exclusão de conexão da Tabela de Conexões,Done,2/11/2021 17:44:14,BR-2290,{},BR-2311,Érica Miranda de Sousa,,BR Sprint 29
+Dev Bug,BR-2470,[1.5.0-sp28.1] Sistema não atualiza propriedades da ONU ao clicar em ONU ativa/planejamento,Done,2/11/2021 16:53:03,,{},BR-28,André Luis Marques Rodrigues,,BR Sprint 31;BR Sprint 30
+Dev Bug,BR-2469,[v1.5.0-sp28.1] Elemento desmarcado durante instanciação do cabo é inserido na rota ao selecionar outro elemento.,Done,2/11/2021 16:03:41,BR-2257,{},,Érica Miranda de Sousa,,BR Sprint 29
+Dev Bug,BR-2462,[v1.5.0-sp28.1] Barra de pesquisa não retrai dinamicamente após aberta sem realizar pesquisa.,Done,2/10/2021 17:59:40,BR-2215,{},BR-897,Érica Miranda de Sousa,,BR Sprint 31;BR Sprint 30
+Dev Bug,BR-2459,"[v1.5.0-sp28.1] Sistema não destaca campo ""ID do Sensor"" ao tentar cadastrar sensor com nome já existente.",Done,2/10/2021 16:02:17,,{},,Érica Miranda de Sousa,,BR Sprint 29
+Dev Bug,BR-2458,[v1.5.0-sp28.1] Rota do cabo estranha após mover elemento conectado no meio da rota do cabo,Done,2/10/2021 15:36:07,,{},BR-33,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2455,[v1.5.0-sp27.2] Sistema não mantém cabo selecionado após segundo click.,Done,2/10/2021 12:55:25,BR-2424,{},BR-33,Érica Miranda de Sousa,,BR Sprint 30
+Dev Bug,BR-2451,[1.5.0-sp28.0] Botão de salvar não aparece para telas pequenas na tela de Slots de OLT,Done,2/9/2021 20:09:12,,{},BR-30,André Luis Marques Rodrigues,,BR Sprint 30
+Dev Bug,BR-2450,[v1.5.0-sp28.0] Sistema permite alocar mais de um Slot de OLT para a mesma DIO,Done,2/9/2021 19:44:09,,{},BR-30,André Luis Marques Rodrigues,,BR Sprint 31;BR Sprint 30
+Dev Bug,BR-2449,[v1.5.0-sp28.0] Sistema mostra apelido em vez do nome do Cabo na TC da CEO,Done,2/9/2021 19:10:42,BR-2307,{},BR-2433,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2448,[v1.5.0-sp28.0] Rota automática da ONU não é exibida durante instanciação.,Done,2/9/2021 17:39:44,BR-548,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2447,[v1.5.0-sp28.0] [Layout] Parte inferior do mapa está com espaço em branco muito evidente.,Done,2/9/2021 17:21:38,,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 29
+Dev Bug,BR-2446,[v1.5.0-sp28.0] Erro de tradução ao tentar excluir CTO com sensor no meio de uma rota,Done,2/9/2021 17:18:01,BR-2362,{},BR-27,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2445,[v1.5.0-sp28.0] [Layout] Breadcumbs de projetos desalinhado.,Done,2/9/2021 17:13:05,,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 29
+Dev Bug,BR-2444,[v1.5.0-sp28.0] Sistema permite excluir CTO no meio da rota de um cabo que possue conexões de fibra via uplink,Done,2/9/2021 17:02:38,BR-2362,{},BR-27,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2443,"[v1.5.0-sp28.0] Sistema não exibe campos de latitude, longitude e ponto de referência no cadastro de projetos",Done,2/9/2021 16:31:14,BR-2044,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2439,"[v1.4.0-rc12] (Atualização) Sistema exibe ""Tipos de Instalações"" para CTOs divergentes após atualização do sistema",Done,2/8/2021 19:08:45,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28;BR Sprint 29
+Dev Bug,BR-2432,[v1.4.0-rc11] Sistema apresenta datas no front atrasadas 1 hora com relação ao banco de dados.,Done,2/8/2021 12:23:10,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28;BR Sprint 29
+Dev Bug,BR-2426,[v1.5.0-sp27.2] Sistema permite alocar mais de uma OLT na mesma porta DIO,Done,2/2/2021 20:51:48,BR-2414,{},BR-30,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2425,[v1.5.0-sp27.2] Janelas de Adição/Edição de OLT/Slot não reabre centralizada após cadastrar Slot.,Done,2/2/2021 20:24:21,BR-2410,{},BR-897,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2424,"[v1.5.0-sp27.2] Ao clicar em um elemento da ponta do cabo e depois no cabo, as pontas do cabo não são exibidos",Done,2/2/2021 19:51:15,BR-2415;BR-2455,{},BR-33,Érica Miranda de Sousa,,BR Sprint 28;BR Sprint 29;BR Sprint 30
+Dev Bug,BR-2423,"[v1.5.0-sp27.2] Após muitas alterações no número de portas, números de Portas da DIO divergem do apresentado.",Done,2/2/2021 19:30:31,BR-2413,{},BR-30,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2422,[1.5.0-sp27.2] TC da CEO não mostra conexões ao conectá-la a cabo importado,Done,2/2/2021 19:20:56,,{},BR-1036,André Luis Marques Rodrigues,,BR Sprint 30
+Dev Bug,BR-2421,[1.4.0-rc10] (Atualização) Componentes instanciados no mapa desaparecem após atualização da 1.3.2-rc0 para 1.4.0-rc10,Done,2/2/2021 12:58:22,,{},BR-35,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2420,"[1.4.0-rc10] Estando com o mapa centralizado em um componente pesquisado, clicar duas vezes no botão <Lupa> na barra de pesquisa de componente, faz com que a pesquisa não funcione até que o usuário limpe a barra clicando no botão <x>",Done,2/1/2021 12:58:10,,{},BR-897,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2419,(Inválida) [1.4.0-rc10] Não é permitido excluir Componente (CTO ou CEO) no meio da rota de um cabo instanciado sequencialmente,Done,1/29/2021 23:31:41,,{},BR-27,André Luis Marques Rodrigues,,
+Dev Bug,BR-2418,[v1.4.0-rc10] Não é possível excluir CTO modelo LB10 conectada entre CTO inline e CTO LB10.,Done,1/29/2021 22:56:32,,{},,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2417,"[v1.4.0-rc10] Sistema trava o botão <Salvar> ao preencher o nome do sensor com "" "", nas propriedades de CTO",Done,1/29/2021 22:40:55,,{},BR-27,André Luis Marques Rodrigues,,BR Sprint 28;BR Sprint 29;BR Sprint 30
+Dev Bug,BR-2416,"[v1.4.0-rc10] Ao deletar cabo Slim e mudar de componente, Sistema apresenta conexões de forma errada",Done,1/29/2021 22:32:02,,{},,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2415,"[v1.4.0-rc10] Ao clicar em um elemento da ponta do cabo e depois no cabo, as pontas do cabo não são exibidos",Done,1/29/2021 22:15:06,BR-2424,{},BR-33,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2414,[v1.4.0-rc10] Sistema permite alocar mais de uma OLT na mesma porta DIO,Done,1/29/2021 22:05:14,BR-2426,{},BR-30,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2413,"[v1.4.0-rc9] Após muitas alterações no número de portas, números de Portas da DIO divergem do apresentado.",Done,1/29/2021 20:30:56,BR-2423,{},,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2411,"[v1.4.0-rc9] Sistema exibe MSG006 logo após mostrar MSG092 ao tentar atualizar numeros de em portas da DIO, de forma a ter que excluir uma conexão.",Done,1/29/2021 19:59:30,BR-1529,{},,Érica Miranda de Sousa,,
+Dev Bug,BR-2410,[v1.4.0-rc9] Janelas de Adição/Edição de OLT/Slot não reabre centralizada após cadastrar Slot.,Done,1/29/2021 19:34:26,BR-2425,{},BR-897,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2408,"[ v1.4.0-rc9] Coluna de ""Motivo"" no log de importação de splitter na CEO exibe erro de tradução quando coluna status da importação é de sucesso.",Done,1/28/2021 18:29:04,BR-1593,{},BR-3015,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2405,"[v1.4.0-rc9] Tendo 4 componentes conectados por um cabo, o mesmo é duplicado ao movê-lo criando um ponto",Done,1/28/2021 15:18:53,,{},BR-33,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2404,"[v1.5.0-sp27.2] Status operacional na ONU apresenta status ""Inválida"" no lugar de ""ocupada""",Done,1/28/2021 15:03:57,BR-2403;BR-1431,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 30
+Dev Bug,BR-2403,"[ v1.4.0-rc9] Status operacional na ONU apresenta status ""Inválida"" no lugar de ""ocupada""",Done,1/28/2021 14:29:22,BR-2404;BR-1431,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2401,[v1.4.0-rc9] Sistema não carrega labels na língua inglesa.,Done,1/27/2021 16:56:48,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2396,"[v1.4.0-rc9]  Campo ""nome"" não é destacado em vermelho ao tentar instanciar OLT com nome repetido.",Done,1/26/2021 12:57:41,BR-2375,{},BR-29,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2393,[v1.5.0-sp27.2] Sistema não permite excluir CEO inline conectada a uma CTO lacrada através de um cabo SLIM.,Done,1/21/2021 21:00:23,BR-2101,{},BR-27,André Luis Marques Rodrigues,,BR Sprint 28;BR Sprint 31
+Dev Bug,BR-2392,[v1.4.0-rc8] Sistema não permite excluir CEO inline conectada a uma CTO lacrada através de um cabo SLIM.,Done,1/21/2021 17:31:54,BR-2101,{},,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2391,[v1.5.0-sp27.2] [Layout] Pop-pup com mensagem longa atrapalhando escolha de componentes,Done,1/21/2021 14:16:23,BR-2386,{},BR-897,Érica Miranda de Sousa,,
+Dev Bug,BR-2388,"[v1.4.0-rc8] Idioma da descrição entre parênteses no <tooltip de descrição de Endereço> não é modificado, mudando o idioma do sistema",Done,1/19/2021 15:01:04,,{},BR-897,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2386,[v1.4.0-rc8] [Layout] Pop-pup com mensagem longa atrapalhando escolha de componentes,Done,1/19/2021 12:48:22,BR-2391,{},BR-897,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2385,[v1.4.0-rc8] ONUs conectadas a CTOs (FK-CTOP-L10/FK-CTOP-LB10) apresentam porta reservada divergente no tooltip,Done,1/18/2021 13:41:54,BR-2352,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2384,"[v1.4.0-rc8][Cabos] Sistema apresenta ""items"" no lugar de ""itens"" em PT",Done,1/18/2021 13:30:57,,{},BR-897,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2377," [v1.5.0-sp27.2] Tentar excluir OLT conectada a DIO exibe mensagem ""Exclusão realizada com sucesso""",Done,1/15/2021 17:46:50,BR-2376;BR-1502,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2376,"[v1.4.0-rc8] Tentar excluir OLT conectada a DIO exibe mensagem ""Exclusão realizada com sucesso""",Done,1/15/2021 17:38:03,BR-1999;BR-2377;BR-1502,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2375,[v1.4.0-rc8] Instanciar OLT com nome repetido faz com que a aba de slots seja destacada,Done,1/15/2021 17:10:24,BR-2396,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2361,[v1.5.0-sp27.2] Não é possível deletar projeto caso exista um sensor SPM,Done,1/14/2021 16:32:14,BR-52,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2358," [v1.5.0-sp27.2] [CEO]Cor de equipamento não é modificado dinamicamente no mapa de acordo com o status do sensor, sendo necessário dar f5",Done,1/13/2021 20:58:34,BR-2357,{},BR-1178,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2357,"[v1.5.0-sp27.2] [CTO]Cor de equipamento não é modificado dinamicamente no mapa de acordo com o status do sensor, sendo necessário dar f5",Done,1/13/2021 20:14:45,BR-2358;BR-2173,{},BR-1178,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2353,"[v1.5.0-sp27.2] Valor padrão do campo Splitter no popup <Adicionar Sensores> aparece em português, quando selecionado o idioma inglês",Done,1/13/2021 15:59:27,,{},BR-1178,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2352,[v1.5.0-sp27.2] ONUs conectadas a CTOs (FK-CTOP-L10/FK-CTOP-LB10) apresentam porta reservada divergente no tooltip,Done,1/13/2021 14:50:30,BR-2385,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2351,[v1.5.0-sp27.2] [Layout] DropDown cobrindo espaço de listagem de itens,Done,1/13/2021 14:14:05,,{},,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2350,"[v1.5.0-sp27.2] Sistema apresenta ""items"" no lugar de ""itens"" em pt",Done,1/13/2021 13:59:08,,{},BR-897,Érica Miranda de Sousa,,BR Sprint 28
+Dev Bug,BR-2346,[v1.5.0-sp27.1] Não é possível instanciar CTOs FK-CTOP-LB10 e FK-CTOP-L10 no mapa.,Done,1/12/2021 17:31:24,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2345,"[v1.5.0-sp27.1] Após edição de nome de Splitter, nome não é atualizado dinamicamente no sensor SPM na CTO antes de salvar propriedades do componente",Done,1/12/2021 16:31:28,BR-2155,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2344,[Layout] [v1.5.0-sp27.0] ícone <x> encobre texto na barra de busca.,Done,1/12/2021 16:15:25,,{},BR-897,Érica Miranda de Sousa,,BR Sprint 27
+Dev Bug,BR-2342,[1.5.0-sp27.0] A tag <div> permanece entre as labels para o popup de importação de splitters,Done,1/8/2021 18:56:22,BR-2208,{},BR-897,André Luis Marques Rodrigues,,BR Sprint 28
+Dev Bug,BR-2341,[1.5.0-sp27] A categoria <Usados Recentemente> na listagem de CEOs aparece mesmo com o checkbox <Todos> desmarcado,Done,1/8/2021 18:22:36,BR-2109,{},BR-32,André Luis Marques Rodrigues,,BR Sprint 27
+Dev Bug,BR-2340,[v1.5.0-sp27.0] [CTO] Edição de cabo conectado a sensor SPM não é salvo na CTO,Done,1/8/2021 15:31:12,BR-2337,{},BR-1178,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2339,"[v1.5.0-sp27.0] Campo de busca vazio após edição, só retrai após novo clique no campo de busca",Done,1/8/2021 14:34:05,BR-2215,{},BR-897,Érica Miranda de Sousa,,BR Sprint 27
+Dev Bug,BR-2338,[v1.5.0-sp27.0]Não é possível selecionar Tubo para sensor SPM em CTO pré-conectorizada com AS80 01F SLIM/SLIM advindo de uma (FK-CTOP-8P/FK-CTOP inline/FK-CTOP-16P),Done,1/8/2021 14:12:03,BR-2153,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 28
+Dev Bug,BR-2337,[v1.5.0-sp27.0] [CEO] Edição de cabo conectado a sensor SPM não é salvo na CEO,Done,1/7/2021 17:48:32,BR-2340;BR-2159,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2336,[v1.5.0-sp27.0] Não é possível deletar CTO pré-conectorizada caso esteja conectada a um cabo AS80 01F SLIM/SLIM advindo de uma (FK-CTOP-8P/FK-CTOP inline/FK-CTOP-16P),Done,1/7/2021 12:59:07,BR-2323;BR-2220,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2327,[MR-1453][MR-536][develop] - Splitter não é exibido em sensor SPM na CEO,Done,12/23/2020 11:48:17,BR-2158;BR-2159,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2324,[MR-1449][1.4] Reticências exibida a partir de 10 caracteres no nome no tooltip do componente,Done,12/21/2020 16:23:27,BR-2296;BR-2283;BR-2282,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2323,[MR-1464][1.4] Não é possível deletar CTO pré-conectorizada caso esteja conectada a um cabo AS80 01F SLIM/SLIM advindo de uma (FK-CTOP-8P/FK-CTOP inline/FK-CTOP-16P),Done,12/21/2020 13:48:19,BR-2336;BR-2220,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2314,[1.4.0] ONU continua sendo exibida no mapa após deletar CTO conectada.,Done,12/17/2020 20:51:28,BR-2295,{},BR-28,André Luis Marques Rodrigues,,BR Sprint 27
+Dev Bug,BR-2309,"[MR-1453]  MSG135 é exibida em espanhol quando o idioma do sistema está em inglês, e vice-versa",Done,12/16/2020 15:41:17,BR-2156,{},BR-1178,André Luis Marques Rodrigues,,BR Sprint 27
+Dev Bug,BR-2308,"[MR-1453] Em propriedades da CEO, ao desmarcar botão <Sensorizada> e salvar, a mesma permanece sensorizada",Done,12/16/2020 15:05:05,BR-2156,{},BR-1178,André Luis Marques Rodrigues,,BR Sprint 27
+Bug,BR-2303,[1.3.1][SIGMA] Backup/Restore da base de dados,Done,12/14/2020 17:56:41,,{},,Mariana Salamoni Francisco,,BR Sprint 27
+Dev Bug,BR-2301,[MR-1442][1.3] Reticências exibida a partir de 10 caracteres no nome no tooltip do componente,Done,12/14/2020 16:16:13,BR-2296;BR-2256,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2298,[MR-1455][MR-1460][MR-1442][1.3] Mapa não está sendo exibido em alguns pontos após zoom,Done,12/14/2020 15:35:53,BR-2251;BR-2254;BR-2256,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2297,[MR-533][1.3] Cor das fibras na TC diferente do especificado.,Done,12/14/2020 14:28:24,BR-2248,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2296,[MR-1448][develop] Reticências exibida a partir de 10 caracteres no nome no tooltip do componente,Done,12/14/2020 13:47:47,BR-2301;BR-2324;BR-2282,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 27
+Bug,BR-2295,[1.3.1][SIGMA] Problema para exclusão de ONU,Done,12/14/2020 11:51:44,BR-2314,{},,Mariana Salamoni Francisco,,BR Sprint 27
+Dev Bug,BR-2294,[ MR-1440 ] [develop]Sistema permite desconectar cabo com fibras sensorizadas em CTOs,Done,12/9/2020 17:52:18,BR-2170,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2266,"[v1.5.0-sp26.6] Ao cadastrar sensor com fibra não conectando porta de splitter, o sistema não preenche campo Splitter com valor ""Nenhum""",Done,12/2/2020 19:05:11,BR-2153,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2265,"[v1.5.0-sp26.6] Mensagem MSG001 não é exibida ao tentar cadastrar sensor SPM em uma CTO, com campo fibras vazio. Além disso, campo não é destacado.",Done,12/2/2020 16:32:27,BR-2153,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2264,[v1.5.0-sp26.6] Mensagem de operação não permitida é exibida após adicionar sensor e salvar propriedades da CTO,Done,12/2/2020 14:41:25,BR-2153,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2246,[v1.5.0-sp26.5] Não é possível deletar cabo de distribuição,Done,12/1/2020 15:39:41,,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2245,[v1.5.0-sp26.5] Tabela de sensores não é exibida após salvar propriedades da CTO.,Done,12/1/2020 15:21:07,BR-2129,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2244,[v1.5.0-sp26.5] Sistema permite dois sensores do mesmo tipo a partir da edição de sensores.,Done,12/1/2020 15:09:53,BR-2155,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2243,[v1.5.0-sp26.5] Não é possível salvar edição de sensor SPM,Done,12/1/2020 15:02:13,BR-2155,{},BR-1178,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2242,[ v1.5.0-sp26.4] [Layout] Engrenagem no canto esquerdo está por cima de uma barra vertical,Done,11/30/2020 14:59:39,,{},BR-897,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2241,[v1.3.0-rc8] Mapa não está sendo exibido em alguns pontos após zoom,Done,11/27/2020 12:40:11,BR-2228,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2232,[v1.5.0-sp26.3]Não é possível deletar somente o  cabo AS80 01F SLIM/SLIM conectado de uma CEO FK-CTOP-8P/FK-CTOP inline/FK-CTOP-16P para uma CTO pré-conectorizada,Done,11/26/2020 17:39:02,BR-2231;BR-2222,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2231,[v1.4.0-rc3]Não é possível deletar somente o  cabo AS80 01F SLIM/SLIM conectado de uma CEO FK-CTOP-8P/FK-CTOP inline/FK-CTOP-16P para uma CTO pré-conectorizada,Done,11/26/2020 17:30:05,BR-2232;BR-2222,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2230,"[ v1.4.0-rc2] Sistema apresenta sugestão de nomes ""CEO"" na importação de splitters em EN e ES",Done,11/26/2020 14:09:33,,{},BR-3015,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2229,[v1.4.0-rc2] Mapa não está sendo exibido em alguns pontos após zoom,Done,11/26/2020 13:44:11,BR-2228,{},BR-25,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2228,[v1.5.0-sp26.2] Mapa não está sendo exibido em alguns pontos após zoom,Done,11/25/2020 19:01:52,BR-2229;BR-2241,{},BR-25,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2225,"[v1.5.0-sp26.2] Ao tentar adicionar novo projeto, sistema exibe mensagem de ""Erro desconhecido""",Done,11/19/2020 14:35:19,BR-50,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2219,[v1.5.0-sp26.1]CTOs pré-conectorizadas aceitam conexão com cabo de distribuição caso conexão seja realizada pela movimentação de pontas de cabo,Done,11/18/2020 16:23:10,BR-2218,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2218,[v1.4.0-rc1]CTOs pré-conectorizadas aceitam conexão com cabo de distribuição caso conexão seja realizada pela movimentação de pontas de cabo,Done,11/18/2020 16:20:51,BR-2219,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2217,[v1.4.0-rc1] Splitter não é salvo após ser excluído e em seguida adicionado novamente,Done,11/18/2020 14:36:43,BR-2207,{},BR-32,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2213,[v1.5.0-sp26.1] Modelos FK-CTOP-LB10 e FK-CTOP-L10 estão apresentando 9 portas disponíveis no tooltip.,Done,11/17/2020 16:31:53,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27
+Dev Bug,BR-2211,"[v1.4.0-rc0][TC] [Incidente] (CEO) Ao salvar Tabela de Conexões, CEO fica selecionada por alguns instantes interferindo no uso do sistema",Done,11/17/2020 14:24:27,BR-2054;BR-2141;BR-1961;BR-2074,{},BR-32,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2209,[v1.4.0-rc1][TC] Tabela de conexões não exibe fibras por completo a partir de 9 cabos conectados a CEO,Done,11/17/2020 14:19:20,BR-2054;BR-2141;BR-2076;BR-331,{},BR-32,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2207,(v1.5.0-sp26.1) Splitter não é salvo após ser excluído e em seguida adicionado novamente,Done,11/16/2020 18:18:53,BR-2217,{},BR-32,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2206,"[Bloqueado][Sobreposição][v1.4.0-rc1][Incidente] Sobreposição não ocorre para cabos próximo a cruzamentos, caso conectem os mesmos dois componentes indo e voltando ",Bloqueado,11/16/2020 17:42:59,BR-2081,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2205,[Bloqueado][Sobreposição][v1.4.0-rc1]Diferentes pontos de um cabo sobreposto retorna cabos que não pertencem ao seguimento selecionado.,Bloqueado,11/16/2020 17:31:23,BR-2107;BR-640,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2204,"[Bloqueado][Sobreposição][v1.4.0-rc1]Cabos que passam por áreas de sobreposição com mais de 2 cabos, não são destacados ao serem selecionados. ",Bloqueado,11/16/2020 17:25:30,BR-2095,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2203,[v1.4.0-rc0][OLT] Campo <Nome> vazio não é destacado,Done,11/16/2020 17:19:19,BR-1988,{},BR-30,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2202,[v1.4.0-rc1][Pesquisa por Endereço] Sistema realiza a busca e destaca o endereço no mapa ao clicar em <Cancelar>,Done,11/16/2020 16:12:23,BR-2193;BR-200,{},BR-25,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2201,[ v1.4.0-rc1] Sistema não destaca campo ao atualizar cabo recem importado com nome já cadastrado,Done,11/16/2020 11:00:59,BR-2021;BR-1297,{},BR-25,Lucas Simão da Costa,,BR Sprint 26
+Dev Bug,BR-2200,[v1.5.0-sp26.1] CTOs pré-conectorizadas aceitam conexão com cabo de distribuição caso instanciação do cabo seja realizada clicando em mais de uma CTO.,Done,11/13/2020 14:33:29,BR-2199;BR-1829,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2199,[v1.4.0-rc0] CTOs pré-conectorizadas aceitam conexão com cabo de distribuição caso instanciação do cabo seja realizada clicando em mais de uma CTO.,Done,11/12/2020 20:07:47,BR-2200;BR-1829,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2198,[v1.4.0-rc0] (Conexão CTO-ONU) Conectar ONU faz com que não seja possível abrir painel de propriedades da CTO posteriormente em alguns momentos,Done,11/12/2020 18:42:45,BR-1984,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2197,[v1.5.0-sp26.0] [INCIDENTE] É possível arrastar componente em instanciação para a <Área de Projetos>,Done,11/12/2020 17:45:43,,{},BR-25,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2196,"[v1.4.0-rc0] Movimentar e em seguida deletar CTO conectada a uma ONU, faz com que não seja possível instanciar novas CTOs no mapa.",Done,11/12/2020 17:05:24,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2195,"[v1.5.0-sp26.0] Movimentar e em seguida deletar CTO conectada a uma ONU, faz com que não seja possível instanciar novas CTOs no mapa.",Done,11/12/2020 16:43:29,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 27;BR Sprint 26
+Dev Bug,BR-2194,"[v1.5.0-sp26.0][Seleção de Componentes] Após selecionar 2 ou mais componentes e em seguida selecioná-los de modo a restar somente um, o painel lateral é fechado",Done,11/11/2020 18:22:49,BR-1921,{},BR-25,Pedro Felippe,,BR Sprint 27
+Dev Bug,BR-2193,[v1.5.0-sp26.1][Pesquisa por Endereço] Sistema realiza a busca e destaca o endereço no mapa ao clicar em <Cancelar>,Done,11/11/2020 17:42:28,BR-2202;BR-200,{},BR-25,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2192,[V1.5.0-sp26.0][OLT] Tentar salvar um slot da OLT com somente espaços no seu nome não destaca campo <Nome>,Done,11/11/2020 17:31:45,,{},BR-25,Pedro Felippe,,BR Sprint 26
+Bug,BR-2190,"[ v1.4.0-rc0] Ao clicar na label ""Nenhum"" na guia de CTO  nos modos de exibição, não há alteração de status",Done,11/11/2020 15:59:43,BR-2189,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2189,"[v1.5.0-sp26.0] Ao clicar na label ""Nenhum"" na guia de CTO  dos modos de exibição, não há alteração de status",Done,11/11/2020 15:44:41,BR-2190,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2187,[v1.4.0-rc0] Bandeira de destaque de componentes relacionados está sendo contabilizada no agrupamento de componentes,Done,11/11/2020 11:16:07,BR-2186,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2186,[v1.5.0-sp26.0] Bandeira de destaque de componentes relacionados está sendo contabilizada no agrupamento de componentes,Done,11/11/2020 11:13:22,BR-2187,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2184,[v1.4.0-rc0] Marcador da pesquisa de endereços é contabilizado no agrupamento de componentes,Done,11/11/2020 10:40:53,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2183,"[v1.4.0-rc0] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.",Done,11/11/2020 10:27:26,BR-2179,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2182,"[v1.4.0-rc0] Dificuldade para conectar componente no meio de cabo, caso o usuário mova e solte mais de uma vez",Done,11/11/2020 10:11:45,BR-2178,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2181,[v1.4.0-rc0] Cabos de distribuição e drop continuam sendo exibidos após serem desativados no menu de camadas de visualização,Done,11/11/2020 10:03:16,BR-2177,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2179,"[v1.4.0-sp25.4] Clicar em várias CTOs e CEO com botão direito, faz com que vários menus de opções fiquem abertos.",Done,11/10/2020 18:38:57,BR-2183,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2178,"[v1.4.0-sp25.4] Dificuldade para conectar componente no meio de cabo, caso o usuário mova e solte mais de uma vez",Done,11/10/2020 17:41:51,BR-2182,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2177,[v1.4.0-sp25.4] Cabos de distribuição e drop continuam sendo exibidos após serem desativados no menu de camadas de visualização,Done,11/10/2020 15:38:02,BR-2181,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2176,[v1.4.0-sp25.4] Ícone de ações em splitter de acesso não está sendo exibido,Done,11/10/2020 14:13:50,BR-2140,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2171,[v1.4.0-sp25.4][Incidente] Local de projeto de backup não corresponde a um ponto central de componentes,Done,11/6/2020 16:23:47,BR-1768,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2154,[v1.5.0-sp28.1] Não é possível realizar  edição de projetos,Done,11/6/2020 13:23:14,BR-51,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 28;BR Sprint 27;BR Sprint 29
+Dev Bug,BR-2148,Total de linhas após importação de um arquivo de Splitters via CSV está exibindo apenas linhas com falhas.,Done,11/5/2020 15:32:56,BR-1685,{},BR-3015,Gustavo Mendes de Oliveira,,BR Sprint 26
+Bug,BR-2147,[v1.4.0-sp25.4]Localização de projetos está sendo alterada ao atualizar a página.,Done,11/5/2020 13:40:25,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2146,"[v1.4.0-sp25.4]Mensagem de ""Erro desconhecido"" é exibida ao tentar salvar cabos com nomes repetidos",Done,11/5/2020 13:27:25,BR-868,{},BR-33,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2140,"Ícone de ações não está disponível para conexões em splitter de distribuição, caso não exista componentes conectados ao seu cabo, tubo e fibra.",Done,11/4/2020 19:39:21,BR-2176;BR-1766;BR-2120,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2139,[Incidente] Não existe campo de filtragem na tabela no Submenu Histórico de Importação,Done,11/4/2020 19:17:28,BR-1140,{},BR-1036,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2138,"[v1.4.0-sp25.3][Alternar Projeto] Após alternar entre projetos, o ícone do <Componente> não é mostrado na tela se este for o único componente do projeto",Done,11/4/2020 14:31:27,,{},BR-25,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-2136,Não é possível excluir projetos com componentes importados,Done,11/4/2020 13:31:24,BR-52,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Bug,BR-2128,[1.3.0] Sistema exibe erro no console ao tentar adicionar nova CEO em um cenário com vários componentes.,Done,10/30/2020 18:49:15,,{},BR-32,Lucas Simão da Costa,,BR Sprint 26
+Dev Bug,BR-2123,"[v1.4.0-sp25.2]Log de importação de splitters para CTOs apresenta coluna ""Estado"" no lugar de ""Status""",Done,10/29/2020 12:17:32,BR-1686,{},BR-3015,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2120,[Incidente] Limpar conexão na tabela de portas de um splitter de distribuição e clicar em destacar faz com que CTO seja destacada.,Done,10/28/2020 12:17:55,BR-2140;BR-1706,{},BR-31,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2117,"[EZ!Grow] Ao salvar cabo EZ!Grow que conecta duas CTOs, o cabo passa a ter uma nova fibra e respectivas portas",Done,10/27/2020 19:20:14,BR-2084,{},,Alex Lacerda Ramos,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2116,"[EZ!Grow] Ao salvar o cabo EZ!grow que conecta duas CTOs, as duas CTOs são salvas duas vezes",Done,10/27/2020 19:18:59,BR-2083,{},,Alex Lacerda Ramos,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2114,[EZ!Grow] Conexão entre splitter e cabo ezgrow deveria ser bidirecional,Done,10/27/2020 19:11:05,BR-2082,{},,Alex Lacerda Ramos,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2108,"[Bloqueado][Sobreposição][v1.4.0-sp25.1][Incidente] Sistema recalcula rota para cabos sobrepostos após sistema já ter traçado nova rota dinamicamente, interferindo no desempenho.",Bloqueado,10/27/2020 14:15:13,,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2107,[Bloqueado][v1.4.0-sp25.1][Sobreposição] Diferentes pontos de um cabo sobreposto retorna cabos que não pertencem ao seguimento selecionado.,Bloqueado,10/27/2020 13:41:33,BR-2205;BR-640,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2096,"Sistema realiza importação de componentes sem nome mesmo apresentando feedback ""falha de importação"" ",Done,10/22/2020 16:53:56,BR-1475,{},BR-1036,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2095,"[Bloqueado][Sobreposição][v1.4.0-sp25.0]Cabos que passam por áreas de sobreposição com mais de 2 cabos, não são destacados ao serem selecionados. ",Bloqueado,10/21/2020 16:00:45,BR-2204,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2094,[v1.4.0-rc0] MSG036 não é exibida ao Salvar movimentação de CTO conectada a ONUs,Done,10/21/2020 13:34:49,BR-2048;BR-385,{},BR-27,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2093,[v1.4.0-rc0] Sistema não atualiza cabos ao mover componentes conectados.,Done,10/21/2020 13:06:40,BR-2040;BR-385;BR-855;BR-1419;BR-1926,{},BR-27,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2092,[v1.4.0-rc0] Não é possível mover CTO conectada a uma ONU via Drag-and-Drop ou modificando Latitude/ Longitude,Done,10/21/2020 12:58:48,BR-2027;BR-385,{},BR-27,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2091,[v1.4.0-rc0] Sistema esconde componente ao arrastá-lo para longe dos demais,Done,10/21/2020 12:54:38,BR-2007;BR-1903,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2090,[v1.4.0-rc0] Não é possível realizar pesquisa de componentes via botão ENTER,Done,10/21/2020 12:50:14,BR-1998;BR-1588,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2089,[v1.4.0-rc0] [INCIDENTE](ONU)Tooltip da ONU exibe Porta Reservada divergente da presente em suas propriedades quando conectada ao Splitter 2 de uma CTO,Done,10/21/2020 12:46:06,BR-1982,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2088,Não é possível excluir projeto que possui mais de uma ONU cadastrada,Done,10/20/2020 18:15:16,BR-52,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2087,Sistema está compartilhando Assinantes em Potencial entre projetos.,Done,10/20/2020 17:23:47,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2084,"[v1.4.0-rc0][EZ!Grow] Ao salvar cabo EZ!Grow que conecta duas CTOs, o cabo passa a ter uma nova fibra e respectivas portas",Done,10/19/2020 20:42:39,BR-2117,{},,Alex Lacerda Ramos,,BR Sprint 26
+Dev Bug,BR-2083,"[v1.4.0-rc0][EZ!Grow] Ao salvar o cabo EZ!grow que conecta duas CTOs, as duas CTOs são salvas duas vezes",Done,10/19/2020 20:40:52,BR-2116,{},BR-27,Alex Lacerda Ramos,,BR Sprint 26
+Dev Bug,BR-2082,[v1.4.0-rc0][EZ!Grow] Conexão entre splitter e cabo ezgrow deveria ser bidirecional,Done,10/19/2020 20:35:37,BR-2114,{},BR-27,Alex Lacerda Ramos,,BR Sprint 26
+Dev Bug,BR-2081,"[Bloqueado][Sobreposição][v1.4.0-sp25.0][Incidente] Sobreposição não ocorre para cabos próximo a cruzamentos, caso conectem os mesmos dois componentes indo e voltando ",Bloqueado,10/19/2020 14:31:24,BR-2206,{},BR-3030,Gustavo Mendes de Oliveira,,BR Sprint 45
+Dev Bug,BR-2076,[v1.4.0-sp25.0][TC] Tabela de conexões não exibe fibras por completo a partir de 9 cabos conectados a CEO,Done,10/16/2020 15:33:31,BR-2054;BR-2141;BR-2209;BR-331,{},BR-32,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-2075,Sistema não exibe opção destacar componente conectado no uplink de CTO,Done,10/15/2020 19:55:11,BR-1706,{},BR-31,Lucas Simão da Costa,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2074,[v1.4.0-sp25.0][TC] [Incidente] CEO some do mapa por alguns instantes ao salvar alterações na TC,Bloqueado,10/15/2020 14:16:48,BR-2054;BR-2141;BR-2812;BR-2813;BR-1961;BR-2211,{},BR-2908,Gustavo Mendes de Oliveira,,BR Sprint 33;BR Sprint 37;BR Sprint 29;BR Sprint 34 - 30/06 à 28/07;BR Sprint 35
+Dev Bug,BR-2072,Cabos importados via KMZ somem após atualizar a página,Done,10/14/2020 18:48:29,BR-1026,{},BR-33,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2070,Sistema continua a mostrar cabos após desativar a sua visualização na <Camada de Visualizações>,Done,10/14/2020 17:22:26,,{},BR-33,Pedro Felippe,,
+Dev Bug,BR-2069,"[v1.4.0-sp25.0](Conexão CTO-ONU) Deletar splitter conectado a uma ONU, caso a CTO possua dois splitters e clicar em salvar. Mensagem de Operação não permitida é exibida.",Done,10/14/2020 15:42:16,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-2068,"[INCIDENTE] Sistema agrupa ""pinça/alfinete"" de resultado da pesquisa com outros componentes do projeto",Done,10/9/2020 20:13:05,BR-1824,{},BR-25,Lucas Simão da Costa,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2062,"[INCIDENTE] Ao importar um componentes, o sistema instancia um componente desconhecido de mesmo nome",Done,10/8/2020 20:35:14,,{},BR-25,Yuri Barros,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2053,[Editar Projeto] Clicar em <Cancelar> não exibe mensagem de alerta MSG065,Done,10/7/2020 19:33:40,BR-51,{},BR-25,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2052,Sistema não permite abrir Tabela de Conexões da CEO,Done,10/7/2020 19:17:38,,{},BR-30,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2049,"(Atualizar Rotas) Nova rota de conexão passa por fora de ruas, caso componente tenha mais de um cabo conectado",Done,10/7/2020 15:32:13,BR-385;BR-855;BR-1419,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2048,MSG036 não é exibida ao Salvar movimentação de CTO conectada a ONUs,Done,10/7/2020 15:20:39,BR-2094;BR-385,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2043,"Após alternar projeto, Sistema não muda o nome no menu de breadcumb",Done,10/6/2020 19:40:42,,{},BR-897,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-2040,[INCIDENTE] Sistema não atualiza cabos ao mover componentes conectados.,Done,10/6/2020 15:07:47,BR-2093;BR-385;BR-855;BR-1419;BR-1926,{},BR-27,Lucas Simão da Costa,,BR Sprint 24
+Dev Bug,BR-2036,[Importação de Componentes] Excluir uma expressão Regex exclui as demais expressões com mesmo modelo,Done,10/5/2020 21:48:33,BR-1425,{},BR-1036,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2035,"Após abrir projeto, sistema exibe outros projetos no mapa",Done,10/5/2020 20:32:44,BR-148,{},BR-25,Lucas Simão da Costa,,BR Sprint 24
+Dev Bug,BR-2028,[Usabilidade] Dificuldade de visualizar divisão entre listagem de projetos e tela do mapas após selecionar um projeto,Done,10/5/2020 15:02:00,BR-1971,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-2027,Não é possível mover CTO conectada a uma ONU via Drag-and-Drop ou modificando Latitude/ Longitude,Done,10/2/2020 17:00:07,BR-2092;BR-385,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-2026,"[INCIDENTE] Mover Componente para o mar alterando Latitude/Longitude gera mensagem de erro MSG050: ""Posição inválida ou inexistente"", porém Componente é movido",Done,10/2/2020 16:49:18,,{},BR-25,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2022,"[MR-1242] Excluir Splitter 1 em uma CTO, faz com que splitter 2 troque de Nível caso ambos tenham conexões na tabela de portas",Done,10/1/2020 14:51:22,BR-1766,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-2021,Sistema não destaca campo ao atualizar cabo recem importado com nome já cadastrado,Done,10/1/2020 14:42:07,BR-2201;BR-1297,{},BR-25,Lucas Simão da Costa,,BR Sprint 26
+Dev Bug,BR-2019,[MR-1242] Excluir splitter não libera fibras no uplink da CTO até que a página seja atualizada.,Done,10/1/2020 14:13:01,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2017,"[INCIDENTE] Ao cancelar a exclusão de um componente usando a tecla <ESC>, pop-up de confirmação não é fechado",Done,10/1/2020 13:52:39,,{},BR-25,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-2016," [MR-1242] Alterar tipo em um splitter de distribuição e abrir Conexões, faz com que o pop-up possua layout inesperado",Done,10/1/2020 13:44:50,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-2015,"[MR-1242] Adicionar novo splliter e alterar nível, faz com não seja possível navegar entre abas das propriedades da CTO",Done,10/1/2020 13:32:03,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-2008,[TRADUÇÃO][ES] Sistema exibe erro de tradução no pop-up de associação de ONU,Done,9/29/2020 11:31:45,BR-1852,{},BR-937,Lucas Simão da Costa,,
+Dev Bug,BR-2007,Sistema esconde componente ao arrastá-lo para longe dos demais,Done,9/24/2020 11:25:06,BR-2091;BR-1903,{},BR-25,Lucas Simão da Costa,,BR Sprint 24
+Dev Bug,BR-2000,[OLT] Tentar adicionar OLT com nome duplicado destaca o campo <Slot>,Done,9/22/2020 18:22:24,,{},BR-30,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-1999,"[OLT] OLT ligada a DIO não é excluída e MSG016: ""Exclusão realizada com sucesso"" é lançada ",Done,9/22/2020 18:21:54,BR-2376,{},BR-30,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1998,Não é possível realizar pesquisa de componentes  via botão ENTER,Done,9/22/2020 14:58:19,BR-2090;BR-1588,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1997,Cabo de Distribuição não apresenta Data de Criação ao ser instanciado e após atualizar a página apresenta horário UTC,Done,9/22/2020 14:28:41,BR-1985,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Bug,BR-1996,[v1.3.0] ONU LightDrive582B não é listada no mapas (quando disponível no Conscius),Done,9/21/2020 22:30:01,,{},,Alex Lacerda Ramos,,BR Sprint 24
+Dev Bug,BR-1992,Ponteiro de local não é mostrado na busca por endereço por causa do agrupamento,Done,9/21/2020 12:53:19,,{},,Alex Lacerda Ramos,,BR Sprint 24
+Dev Bug,BR-1991,Não é possível mover pontas de cabo de distribuição,Done,9/21/2020 12:50:54,,{},BR-33,Alex Lacerda Ramos,,BR Sprint 24;BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1988,[v1.4.0-sp24.0][OLT] Campo <Nome> vazio não é destacado,Done,9/18/2020 16:41:30,BR-2203,{},BR-30,Pedro Felippe,,BR Sprint 26
+Dev Bug,BR-1986,"Esconder todos os componentes nas camadas de visualizações, faz com que os cabos não voltem a ser exibidos, a não ser que o zoom seja alterado",Done,9/18/2020 12:54:23,,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1985,Assinante em Potencial tem Data Criação 3 horas a mais do horário de sua instanciação.,Done,9/18/2020 12:17:15,BR-1997,{},BR-100,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1984,[v1.4.0-sp24.0](Conexão CTO-ONU) Conectar ONU faz com que não seja possível abrir painel de propriedades da CTO posteriormente em alguns momentos,Done,9/17/2020 12:45:39,BR-2198,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 26
+Dev Bug,BR-1982,[INCIDENTE](ONU)Tooltip da ONU exibe Porta Reservada divergente da presente em suas propriedades quando conectada ao Splitter 2 de uma CTO,Done,9/16/2020 16:04:34,BR-2089,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1981,"[MR](Conexão CTO-ONU) Ao excluir qualquer Splitter de uma CTO e salvar, ONUs conectadas a outros splitters são excluídas",Done,9/16/2020 14:54:56,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1980,"(Conexão CTO-ONU) Ao deletar Splitter conectado a ONU e em seguida clicar em cancelar, ONU deixa de ser exibida no mapa até atualizar a página",Done,9/16/2020 13:44:18,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1979,[MR][Incidente](Cabos) Cabos de distribuição curtos não estão sendo exibidos no mapa com zoom máximo,Done,9/16/2020 13:15:11,BR-1918,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1975,Parte dos componentes instanciados no mapa não estão sendo renderizados.,Done,9/15/2020 14:57:21,BR-1957;BR-1891,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1974,(Cabos) Dropdown de filtro de cabos possui comportamento inesperado,Done,9/14/2020 15:03:35,,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1973,"[MR](Tabela de Conexões) Ao instanciar fibra da direita para esquerda, marcações de fusão e conector não são salvas",Done,9/11/2020 15:52:14,BR-924,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1972,Sistema não esconde o <Ícone de Componente Desconhecido> após desativar a visibilidade dos Componentes na Camada de Visualizações,Done,9/11/2020 13:33:19,,{},BR-25,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1962,(OLT) Sistema permite prosseguir com campo obrigatório vazio na Porta do Slot da OLT,Done,9/10/2020 14:18:17,BR-1532,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1961,"[v1.3.0-sp23.3][TC] [Incidente] (CEO) Ao salvar Tabela de Conexões, CEO fica selecionada por alguns instantes interferindo no uso do sistema",Done,9/10/2020 14:02:19,BR-2054;BR-2141;BR-2211;BR-2074,{},,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1958,(OLT) Sistema apresenta mensagem MSG014 após dois cliques em <Salvar> com campo Nome do Slot vazio.,Done,9/9/2020 16:58:45,,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1957,Primeiro componente no mapa não é exibido até que o segundo componente seja instanciado.,Done,9/9/2020 16:15:39,BR-1975,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1954,(ONU) Aba Endereço apresenta comportamento inesperado,Done,9/9/2020 15:32:21,,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1953,"[Incidente] Sistema exibe componentes ""invisiveis"" após agrupar os componentes e em seguida desagrupar",Done,9/9/2020 15:21:05,,{},BR-25,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1952,(CTO) Relação entre cor e desbalanceamento fora do previsto para modelos FK-CTOP-L10 e FK-CTOP-L-B10,Done,9/9/2020 13:54:29,BR-1767;BR-1829,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1950,[Incidente] Sistema não permite arrastar um Componente pelo Mapa,Done,9/8/2020 20:27:54,,{},BR-25,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1947,Ajuste de Ícones - Ícone de configurações no canto superior esquerdo e Ícone do modo de exibição,Done,9/8/2020 15:15:05,BR-1909,{},BR-937,Pedro Felippe,,BR Sprint 23
+Dev Bug,BR-1946,"(OLT) Ao clicar em <Limpar> conexão em porta PON durante pesquisa, sistema acaba limpando porta diferente.",Done,9/8/2020 12:58:34,BR-1618,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1945,(OLT) Instanciar conexão no Slot durante pesquisa faz com que a conexão seja salva em outra porta.,Done,9/8/2020 12:39:31,BR-1618,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1944,"(OLT) Ao Filtrar Porta PON, porta de conexão com a DIO não é exibida",Done,9/8/2020 12:23:17,BR-1618,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1942,(Tabela de Conexões) Botão <Prosseguir> no Pop-up <Selecionar Splitter> não exerce função prevista,Done,9/3/2020 14:38:23,,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1937,"(Splitter CTO) Ao excluir Splitter 2 conectado a uma ONU e salvar alterações, é exibida a mensagem ""Operação não Permitida""",Done,8/28/2020 15:28:42,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1936,Sistema exibe icones corrompidos de componente no mapa,Done,8/28/2020 11:45:48,,{},BR-25,Lucas Simão da Costa,,BR Sprint 23
+Dev Bug,BR-1930,(Tabela de Conexões) Cores de fibras na TC diferentes da especificação,Done,8/25/2020 15:39:28,BR-331,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1927,"(Agrupamento) Se um componente for excluído após ter sido agrupado, ícone de agrupamento é inalterado até atualizar a página",Done,8/21/2020 13:42:18,BR-1824,{},BR-25,Pedro Felippe,,BR Sprint 23
+Dev Bug,BR-1920,(Agrupamento) Componente não é agrupado no mapa se estiver sozinho ou com conexão distante.,Done,8/14/2020 19:01:14,BR-1824,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1910,(OLT) Sistema não muda de aba quando existem campos não preenchidos nos Slots da OLT,Done,8/13/2020 13:30:41,BR-1532,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1907,(OLT) Sistema não permite conectar DIO a Slot da OLT,Done,8/12/2020 15:27:52,BR-1532,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1905,Sistema não permite ativar ONU,Done,8/11/2020 18:41:55,,{},BR-28,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1900,"(Inválido) - Sistema não reconhece Splitter no uplink, quando já existe uma CTO configurada a CEO",Done,8/10/2020 14:02:00,BR-1596,{},BR-27,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-1897,(ONU) Imagem do modelo  ONT100 não é exibida na aba modelo,Done,8/7/2020 16:02:08,,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 24;BR Sprint 23
+Dev Bug,BR-1896,(DIO) Cor dos Tubos de conexões mudam após salvar DIO,Done,8/7/2020 15:42:20,,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1895,(DIO) Excluir DIO não libera fibras conectadas.,Done,8/7/2020 15:02:05,BR-1416;BR-1559,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1894,"(DIO) Após dois cliques em salvar em uma DIO com nome repetido, sistema exibe ""Campos obrigatórios não preenchidos""",Done,8/7/2020 14:12:18,BR-1424,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1889,"(OLT) Mensagem de ""Operação não permitida"" é exibida ao tentar salvar OLT na CO.",Done,8/5/2020 18:46:09,BR-1501,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1887,"(DIO) Após salvar propriedades da CO listagem de DIOs não é mais exibida, sendo necessário atualizar a página. ",Done,8/5/2020 16:13:54,BR-1409,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1880,(Tabela de conexões) Apagar fibra conectada a um splitter e em seguida reconecta-lá faz com que fibra não seja exibida após salvar TC,Done,8/4/2020 13:06:17,BR-926,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1879,(DIO) DIO recém instanciada some da listagem na CO após clicar em <Cancelar> no pop-up.,Done,8/3/2020 16:13:20,BR-1424,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1878,(Tabela de conexões) Fibras conectadas da direita para esquerda na TC continuam sendo exibidas após serem excluídas.,Done,8/3/2020 14:54:19,BR-922,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1876,"Após ativar o modo de exibição de onu uma vez e acessar conscius, sistema exibe as cores dos componentes,  mas com o botão de exibição desativado",Done,7/31/2020 19:04:44,BR-521,{},BR-25,Lucas Simão da Costa,,BR Sprint 23
+Dev Bug,BR-1873,(Ajustar) - Sistema não lista MACs de ONUs no popup de Ativar ONU,Done,7/29/2020 20:45:47,,{},,Yuri Barros,,
+Dev Bug,BR-1869,Sistema não esconde ícone de exclamação de Cabos Importados não preenchidos após clicar em <Esconder Cabos> na Camada de Visualizações,Done,7/27/2020 13:59:23,,{},BR-25,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1868,"(ConexãoONU) Remover splitter conectado à ONU (caso a CTO tenha mais de um splitter), ao tentar salvar CTO o sistema mostra mensagem ""Operação não permitida""",Done,7/25/2020 17:25:52,,{},,Alex Lacerda Ramos,,BR Sprint 24
+Dev Bug,BR-1867,[MR](ConexãoONU) Remover splitter conectado à ONU (caso a CTO só tenha esse splitter) não remove a ONU do mapa (a menos que dê refresh na aplicação),Done,7/25/2020 17:25:32,,{},,Alex Lacerda Ramos,,BR Sprint 24;BR Sprint 23
+Dev Bug,BR-1866,(Uplink) Remover splitter com uplink conectado à fibra de cabo não libera fibra para novas conexões (a não ser que dê refresh na aplicação),Done,7/25/2020 17:23:33,BR-1524,{},,Alex Lacerda Ramos,,BR Sprint 23
+Dev Bug,BR-1862,"(DIO) Ao limpar todas as portas pelo botão <Limpar>, O Sistema permanece mostrando a DIO com as portas conectadas",Done,7/23/2020 14:31:58,,{},BR-30,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1861,(Uplink) Botão <Cancelar> da tela de Uplink após utilizar o botão <Limpar> descarta alterações recém alteradas,Done,7/23/2020 13:31:30,BR-1315,{},BR-27,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1844,"(Uplink)Ao conectar Uplink na CTO, prosseguir, exibir uplink, limpar campos e clicar em prosseguir novamente. Uplink é salvo.",Done,7/22/2020 15:18:23,BR-1605,{},BR-27,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-1843,Cores de Fibra diferente da especificação,Done,7/22/2020 13:59:08,,{},,Pedro Felippe,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1839,"Na Camada de Visualizações, o Sistema altera o botão toggle para ""desativado"" ao desmarcar e em seguida marcar a checkbox de algum dos componentes",Done,7/21/2020 15:14:35,,{},BR-25,Pedro Felippe,,
+Dev Bug,BR-1837,[Rediscutir]Tela de Uplink da CTO fora do padrão de tamanho.,Done,7/21/2020 14:40:46,,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1836,"(OLT) Ao alterar o campo <Nome do Slot> para em branco, Sistema não destaca em vermelho o campo <Nome>",Done,7/20/2020 19:39:42,BR-1586,{},BR-30,Pedro Felippe,,
+Dev Bug,BR-1834,"(DIO) Alterar  número de portas, editar ou adicionar DIO e prosseguir faz com que botão <Exibir DIO> pare de funcionar antes de salvar CO",Done,7/20/2020 16:16:58,BR-1424,{},BR-30,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-1825,"[sp21] (OLT) Ao tentar salvar slots de OLT com mesmo nome, Sistema não destaca campos inválidos e não exibe aba com erro.",Done,7/16/2020 18:30:55,BR-1586,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1822,"(Tabela de Conexões da CEO Nível 2) Ao conectar Fibras no Splitter e em seguida Salvar, o Sistema não exibe as Fibras",Done,7/16/2020 16:41:15,BR-966;BR-1239,{},BR-32,Pedro Felippe,,
+Dev Bug,BR-1821,"[sp21] Campo referente ao Splitter no  menu de importação de Splitters da CEO exibe ""Insira o título da coluna CEOs""",Done,7/16/2020 16:09:46,BR-1589,{},BR-3015,Gustavo Mendes de Oliveira,,BR Sprint 23
+Dev Bug,BR-1819,[sp21] Scroll da tabela de conexões da CEO não mostra todas fibras quando existem mais que 2 componentes conectados.,Done,7/16/2020 13:42:17,BR-1102,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1818,[sp21] (OLT) Listagem de OLTs não exibe OLTs cadastradas após salvar propriedades da CO,Done,7/16/2020 13:14:48,BR-1501,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1817,(Tabela de Conexões) Sistema permite conectar Splitter e Fibra na mesma conexão,Done,7/16/2020 0:43:05,BR-1053,{},BR-32,Pedro Felippe,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1815,Cabo não traça rota otimizada quando conectado a componentes próximos a cruzamentos.,Done,7/15/2020 21:07:23,BR-868,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1814,"(Splitter)Ao excluir splitter da Tabela de Conexões da CEO, fibras que estavam conectadas ficam indisponíveis para nova conexão.",Done,7/15/2020 20:38:43,BR-926,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1812,"(DIO) Na <Tabela de Portas> da DIO, ao alterar <Cabo>, <Tubo> ou <Fibra> de alguma das portas e em seguida salvar, mudança não surte efeito",Done,7/15/2020 18:42:01,BR-1515,{},BR-30,Pedro Felippe,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1811,[incidente](DIO) Sistema altera ordem de DIOs na CO ao salvar edição na Tabela de Portas.,Done,7/15/2020 18:31:43,BR-1409,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1810,"[sp22](DIO) Ao adicionar porta na Tabela de portas da DIO, prosseguir e realizar conexão na porta recém criada (Antes de salvar CO), conexão é salva em porta diferente.",Done,7/15/2020 17:56:50,BR-1803;BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1809,"(DIO) Ao realizar conexões na tabela de portas na instanciação da DIO, sistema não salva conexões.",Done,7/15/2020 13:04:09,BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1803,(DIO) Sistema trava ao conectar fibra em porta de DIO recém criada (antes de salvar),Done,7/14/2020 14:51:17,BR-1810;BR-1515,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1802,[sp22]Sistema salva conexão na tabela de portas da DIO após cancelar alterações.,Done,7/14/2020 13:03:25,BR-1515,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1800,"(Uplink) Ao criar novo splitter em CTO, conectar seu uplink e clicar em Prosseguir, dialog não fecha",Done,7/14/2020 9:44:30,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1799,"(OLT) Ao tentar editar OLT o sistema apresenta mensagem de erro ""Operação não permitida.""
+",Done,7/14/2020 8:02:58,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1798,(OLT) Não é possível salvar duas OLTs com IP vazio (sistema considera que valor já existe),Done,7/14/2020 5:51:46,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1797,"(Splitter) Após salvar Splitters de CEO/CTO, eles são reordenados (sua posição é trocada, ficando diferente da ordem de inserção)",Done,7/13/2020 21:17:47,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1796,(OLT) Ao editar OLT recém-criada e salvar CO data de criação é preenchido com valor da data de edição,Done,7/13/2020 21:17:34,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1795,"(OLT) A medida que são adicionadas, OLTs não estão exibidas na ordem de adição",Done,7/13/2020 21:17:30,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1794,"(OLT) Ao criar/editar OLT, status é retornado para Planejamento",Done,7/13/2020 21:17:12,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1793,"(OLT) Ao criar/editar OLT, IP é copiado para campo modelo",Done,7/13/2020 21:17:02,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1792,"(OLT) Ao Editar OLT, a data de criação desaparece",Done,7/13/2020 21:16:46,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1790,"(DIO) Ao excluir conexão de fibra em DIO e salvar CO, a porta de DIO continua com status CONNECTED no banco de dados e continua associada à fibra",Done,7/13/2020 16:55:41,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1789,"(DIO) Ao excluir DIO que tenha fibras conectadas, as fibras não ficam disponíveis para conexão em uplink de splitter de CTO conectada diretamente a CO",Done,7/13/2020 16:44:24,BR-1784;BR-1486,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1788,"(DIO) Ao editar quantidade de portas de DIO, prosseguir e cancelar na CO, a alteração não é descartada (apenas se recarregar o browser)",Done,7/13/2020 16:38:30,BR-1785,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1785,"(DIO) Ao editar dados na aba DIO, prosseguir e cancelar na CO, dados não são descartados (apenas se recarregar o browser)",Done,7/13/2020 14:52:19,BR-1788,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1784,"(DIO) Ao conectar uma fibra no DIO, ela fica indisponível para conexão no uplink em splitter de CTO conectada diretamente ao DIO",Done,7/13/2020 14:24:47,BR-1789;BR-1486,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1783,Ícone do Splitter na Tabela de Conexões da CEO fora do especificado.,Done,7/13/2020 13:44:05,BR-1102,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1782,Durante a importação de splitters labels do dropdown <Tipo de Splitters>estão diferente do esperado,Done,7/13/2020 13:20:55,BR-1589,{},BR-3015,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1781,"(OLT) Quando Conscius está offline, ao clicar em exibir OLT em CO, o sistema não abre dialog de edição da OLT",Done,7/12/2020 6:13:34,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1779,"Ao atualizar posição da ONU, o Sistema apresenta a MSG004 e não atualiza a rota do cabo",Done,7/10/2020 19:21:04,,{},BR-33,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1778,Sistema trava com Botão <Cancelar> no Uplink ao abrir tabela de uplink(CTO) após abrir tabela de conexões (CEO),Done,7/10/2020 18:26:53,BR-1901,{},BR-27,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1777,Tabela de portas na CTO apresenta quantidade inferior a definida no splitter após adicionar ONU,Done,7/10/2020 18:21:34,BR-1315,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1776,"Ao alterar o <Modo de Exibição> para <Nenhum>, a cor da ONU continua como preto mesmo devendo voltar ao rosa",Done,7/10/2020 17:36:39,,{},,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1775,Excluir CO não exibe a MSG016,Done,7/10/2020 17:23:20,BR-1215,{},BR-30,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1774,Tooltip da ONU  exibe Porta Reservada divergente da presente na Tabela de Portas da CTO,Done,7/10/2020 16:22:42,BR-713,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1773,"Ao excluir ONU em PLanejamento conectada a uma CTO e em seguida adicionar novamente, Sistema exibe MSG004",Done,7/10/2020 15:46:59,BR-1154,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1772,[sp22]Sistema não salva configuração de portas da DIO,Done,7/10/2020 14:36:21,BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1763,Sistema não exclui OLT na CO,Done,7/9/2020 17:50:54,BR-1502,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1762,Sistema exibe mensagem MSG003 ao alterar conexão Inicio/Fim e mover cabo de distribuição,Done,7/9/2020 17:15:09,BR-958;BR-1445,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1760,Sistema retorna mensagem de erro ao carregar ONUs com modelos não suportados,Done,7/9/2020 13:57:06,BR-1675,{},BR-28,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1752,Sistema exibe nome de DIO em branco após adição de DIO,Done,7/7/2020 13:10:14,BR-1413,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1751,Falha ao realizar backup e restauração do banco de dados via Conscius Manager,Done,7/4/2020 0:37:20,,{},BR-25,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1750,[Bloqueado][v1.5.0-sp26.1][Sobreposição] Sistema exibe cabos como sobrepostos e fora das rotas do Mapa ao posiciona-los em ruas paralelas e que no ínicio estejam sobreposto,Bloqueado,7/3/2020 22:16:28,BR-868,{},BR-3030,hugobarroso,,BR Sprint 21;BR Sprint 24;BR Sprint 45
+Dev Bug,BR-1748,"Remover ONU - Após remoção de CTO com ONU conectada, a ONU permanece sendo exibido até atualizar a tela",Done,7/3/2020 18:30:15,,{},,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1746,"COs, ONUs e  Assinantes em potencial tem nomes com mais de 10 caracteres exibidos integralmente no mapa.",Done,7/3/2020 15:54:14,BR-505;BR-1590,{},BR-25,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1745,Selecionar ONU acaba selecionando todas CTOs,Done,7/3/2020 15:23:31,BR-96,{},BR-28,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1744,"Sistema não permite conectar CTO/CEO no meio de um cabo, caso clique em um ponto auxiliar do cabo.",Done,7/3/2020 14:58:56,BR-1283;BR-1302;BR-1911,{},BR-33,Gustavo Mendes de Oliveira,,
+Dev Bug,BR-1743,Sistema permite prosseguir com cabo vazio na DIO da CO.,Done,7/3/2020 14:34:38,BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1742,Importar splitter de tipo que não seja 1x8 importa splitter com 8 portas,Done,7/2/2020 20:22:23,,{},,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1741,"Ao importar arquivo que contem somente elementos que não podem ser importados, sistema apresenta sucesso (INVALIDO)",Done,7/2/2020 19:55:45,,{},BR-1036,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1740,Sistema não apresenta funcionalidade de baixar log de importação (INVALIDO),Done,7/2/2020 19:45:34,,{},BR-1036,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1739,(dois incidentes) Sistema importa com sucesso todos os elementos de um arquivo mesmo existindo componente que não pode ser importado (INVALIDO),Done,7/2/2020 19:31:58,,{},BR-1036,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1738,Sistema não apresenta ícones dos componentes na tela de sumário de Importação de Componentes (INVALIDO),Done,7/2/2020 19:15:21,,{},BR-1036,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1736,Sistema apresenta mensagem de erro MSG004 e não atualiza rota de cabo entre ONU e CTO.,Done,7/2/2020 17:56:18,BR-322,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1735,Sistema exibe mensagem MSG003 ao editar cabos de distribuição.,Done,7/2/2020 16:43:42,BR-328,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1733,Erro ao tentar Instanciar CO adicionando DIO,Done,7/2/2020 12:45:35,,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1732,Sistema permite conectar a mesma fibra e mesmo tubo na tabela de conexões da DIO,Done,7/1/2020 17:07:58,BR-1726;BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1726,Sistema permite conectar mesma fibra e mesmo tubo na tabela de conexões da DIO,Done,6/30/2020 22:14:19,BR-1732;BR-1413,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1725,O Sistema não destaca em vermelho o campo <Nome da CEO> ao instanciar CEO com nome já cadastrado.,Done,6/30/2020 22:06:58,BR-316,{},BR-32,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1724,Sistema exibe nome de DIO em branco após edição,Done,6/30/2020 21:20:06,,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1722,"Mensagem de ""Operação não permitida"" é exibida ao salvar CO com edições de DIO.",Done,6/30/2020 17:53:23,BR-1529,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1721,"Sistema permite prosseguir com campo Cabo do Uplink vazio, na CTO",Done,6/30/2020 16:55:56,BR-1315,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1720,"Ícone do Botão ""Limpar"" fora do padrão na tabela de portas da DIO",Done,6/29/2020 22:58:45,,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1719,Clicar em <Cancelar> na tabela de portas da DIO limpa todas as portas,Done,6/29/2020 22:32:04,BR-1514;BR-1515,{},BR-30,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1718,Sistema não exibe pop-up de confirmação ao clicar em limpar todas a portas,Done,6/29/2020 22:31:35,BR-1514,{},BR-30,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1717,"Ao Recuar Camada de Visualização, os ícones dos componentes estão trocados",Done,6/29/2020 21:12:47,BR-974,{},BR-25,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1712,Erro nas cores de Tubo e Fibra no Uplink da CTO,Done,6/29/2020 20:00:00,,{},BR-27,hugobarroso,,BR Sprint 21
+Dev Bug,BR-1705,Modificação do Status da CTO e CEO não é salva ao alterar quantidade de splitters.,Done,6/29/2020 17:14:16,BR-118,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1695,Ícone da CO tem área de contato inferior ao seu tamanho,Done,6/26/2020 14:12:21,BR-1443,{},BR-33,Gustavo Mendes de Oliveira,,BR Sprint 22 - 17/07 a 13/08
+Dev Bug,BR-1694,Sistema não considera cabos que estão na mesma rua como sobreposto se houver um pequeno espaçamento,Done,6/25/2020 13:41:10,,{},BR-33,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1693,(ONU) Campo ONU descrição não preenchido no painel de propriedades ao associar/ativar ONU (via menu de ONU e via ONU em planejamento),Done,6/25/2020 1:37:51,,{},BR-28,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1692,(ONU) Serial number não preenchido no popup de resultado da ativação (em ativação via menu de ONU e via ONU em planejamento),Done,6/25/2020 0:48:51,,{},BR-28,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1689,Labels incorretas no Menu de Importação,Done,6/24/2020 17:29:18,BR-1088;BR-1139,{},BR-1036,Pedro Felippe,,BR Sprint 21
+Dev Bug,BR-1688,Botões Marcar como Fusão e Marcar como Conector aparecendo na Tabela de Conexões de CEO (Nível 2),Done,6/24/2020 16:50:38,BR-929,{},BR-32,Pedro Felippe,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1687,"Ao tentar salvar OLT com mesmo nome, Sistema exibe mensagem ""Campos obrigatórios não preenchidos""",Done,6/24/2020 13:30:18,BR-1501,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1679,Sistema transforma pontos auxiliares em pontos de usuário ao se tentar adicionar um novo ponto de usuário,Done,6/21/2020 0:48:17,BR-1911,{},,Alex Lacerda Ramos,,
+Dev Bug,BR-1678,Sistema não mostra animação de cabo se movendo ao arrastar ponto auxiliar ou ponto de usuário,Done,6/21/2020 0:45:55,,{},BR-33,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1671,Uplink continua sendo exibido após deleta-lo na CTO.,Done,6/19/2020 14:56:14,BR-1315,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1662,"Na Tabela de Conexões de uma CTO, ao alterar apenas um dos campos da Uplink, a mudança não surge efeito",Done,6/18/2020 17:20:03,,{},BR-31,Pedro Felippe,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1658,Quantidade de portas na DIO permite número negativo e divergente as portas já ocupadas.,Done,6/18/2020 14:04:56,,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1656,Dificuldade na seleção de Splitter para TC da CEO,Done,6/18/2020 13:26:03,BR-1555;BR-820,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 24
+Dev Bug,BR-1655,Sistema não exibe filtro de mac durante ativação de ONU,Done,6/17/2020 21:48:26,,{},BR-28,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1654,"(Splitter) Ao criar Splitters na CEO e adiciona-los na TC, Splitters recém criados não são salvos.",Done,6/17/2020 19:45:25,BR-820,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1651,"(Splitter) Ao deletar um Splitter, não é possível adicionar outro em seguida a CTO",Done,6/17/2020 16:28:06,BR-820,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1643,Sistema  exibe lista de nomes de OLTs disponíveis no Conscius a partir do modelo somente no primeiro clique no dropdown.,Done,6/17/2020 14:15:39,BR-1501,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 24;BR Sprint 25 - 09/10 a 05/11;BR Sprint 23
+Dev Bug,BR-1641,Sistema não descarta conexões da DIO ao cancelar operação no pop-up,Done,6/17/2020 13:38:04,BR-1446,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1638,[REDISCUTIR]Sistema não realiza atualização dinâmica ao abrir aba de adicionar OLT em CO,Done,6/16/2020 21:21:14,BR-1554,{},BR-562,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1637,"Ao tentar salvar um splitter com erro de campo obrigatório, o sistema não abre aba que contém o erro na CEO",Done,6/16/2020 21:08:54,BR-313,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1634,Informação de sincronização da OLT não atualiza dinamicamente de  Não Sincronizada para Sincronizada,Done,6/16/2020 16:29:35,BR-1554,{},BR-562,Gustavo Mendes de Oliveira,,BR Sprint 20
+Dev Bug,BR-1633,"Tootip de excluir OLT exibe ""Nenhuma OLT cadastrada""",Done,6/16/2020 15:53:07,BR-1502,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 20
+Dev Bug,BR-1630,Não é possível realizar alterações na DIO da CO,Done,6/15/2020 20:18:30,BR-1413,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1628,Campos Obrigatórios em Branco - Sistema não muda aba para nome do splitter caso  outro esteja selecionadoem CEO,Done,6/15/2020 16:54:32,BR-820;BR-1028,{},BR-31,Bruno Sabóia,,BR Sprint 21
+Dev Bug,BR-1626,Sistema bloqueia fibra na tabela de conexões após conectar o uplink,Done,6/15/2020 16:39:02,BR-1315,{},BR-27,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1621,Sistema salva exclusão de OLT mesmo cancelando alterações na CO,Done,6/15/2020 16:03:52,BR-1502,{},BR-30,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1620,Sistema não permite excluir CTO  ou CEO após desconectar uplink,Done,6/15/2020 15:46:33,BR-397,{},BR-27,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1611,"Ao mudar tipo de splitter de uma CTO para “Distribuição”, o acesso a tabela de Conexões não atualiza antes de clicar em <Salvar>.",Done,6/12/2020 15:27:30,BR-820,{},BR-31,Pedro Felippe,,BR Sprint 20
+Dev Bug,BR-1610,Ponto do cabo fica fora da linha ao clicar no ponto auxiliar e mover,Done,6/12/2020 14:49:26,BR-1441,{},BR-33,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1607,Importação está considerando demarcação de zonas como cabo,Done,6/11/2020 17:42:32,BR-1026,{},BR-1036,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1601,"Durante deleção de múltiplos assinantes, o Sistema fecha painel de propriedades ao marcar <Selecionar Todos Assinantes> e em seguida desmarcar.",Done,6/11/2020 15:08:50,BR-1361;BR-103,{},BR-100,Pedro Felippe,,BR Sprint 24
+Dev Bug,BR-1600,Opção de tipo de conector não é exibida quando o splitter da CTO está marcado como conectorizado.,Done,6/11/2020 13:35:08,BR-118;BR-228,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1599,Menu de opções no painel de componentes de Central Office Vazio,Done,6/10/2020 19:28:40,BR-1224,{},BR-30,Lucas Simão da Costa,,BR Sprint 20
+Dev Bug,BR-1595,(Splitter)(TC) Splitter removido da tabela de conexões não volta para mesma posição no dropdown de adicionar splitter no nível 1,Done,6/9/2020 19:09:05,,{},,Alex Lacerda Ramos,,BR Sprint 21
+Dev Bug,BR-1594,(Splitter) Ordem dos splitters em CEO/CTO é embaralhada quando vários são salvos na mesma requisição,Done,6/9/2020 18:54:53,,{},,Alex Lacerda Ramos,,BR Sprint 20
+Dev Bug,BR-1591,Duplo clique em Salvar ao instanciar componente apresenta mensagem que Atributo já está sendo usado.,Done,6/4/2020 18:38:44,BR-228,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1590,CTOs e CEOs tem nomes com mais de 10 caracteres exibidos integralmente no mapa.,Done,6/4/2020 17:31:43,BR-1746;BR-505,{},BR-32,Gustavo Mendes de Oliveira,,BR Sprint 21
+Dev Bug,BR-1578,(Splitter) Salvar CTO com dois Splitters durante instanciação trava tela propriedades.,Done,5/29/2020 15:29:10,BR-228,{},BR-27,Gustavo Mendes de Oliveira,,BR Sprint 20
+Dev Bug,BR-1577,(Importação) Deletar cabo importado não funciona antes de selecionar o modelo,Done,5/27/2020 14:16:30,,{},,Alex Lacerda Ramos,,BR Sprint 20
+Bug,BR-1576,[TESTES] Atualização de versão  - Manter informações de conexão de cabos,Done,5/26/2020 19:16:15,,{},,Mariana Salamoni Francisco,,BR Sprint 27;BR Sprint 29;BR Sprint 26
+Dev Bug,BR-1574,Dropdown de cabos sobrepostos aparece em branco,Done,5/26/2020 18:06:50,,{},BR-25,Lucas Simão da Costa,,BR Sprint 24
+Bug,BR-1573,Cabo de distribuição desaparece durante conexão CEO-CEO,Done,5/26/2020 17:53:41,,{},,Lucas Simão da Costa,,BR Sprint 21
+Dev Bug,BR-1572,[TESTES] Status operacional não atualiza após resetar ONU,Done,5/26/2020 17:38:19,,{},BR-25,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 24;BR Sprint 25 - 09/10 a 05/11;BR Sprint 22 - 17/07 a 13/08;BR Sprint 20;BR Sprint 23;BR Sprint 27;BR Sprint 29;BR Sprint 26
+Dev Bug,BR-1571,"Geolocalização de ONU não gerenciada exibe status como ""Gerenciada"" nos modos de exibição",Done,5/26/2020 17:24:44,,{},BR-33,Lucas Simão da Costa,,BR Sprint 20;BR Sprint 23
+Dev Bug,BR-1570,Georreferenciar ONU a partir de ONU em planejamento salva - filtro de modelo não exibe resultados conforme especificado,Done,5/26/2020 17:06:04,BR-1567,{},BR-28,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1568,Filtro de Id de Contrato durante Georreferenciamento não funciona,Done,5/26/2020 16:56:05,,{},,Lucas Simão da Costa,,BR Sprint 20
+Dev Bug,BR-1567,Filtro de MAC e Modelo para Geolocalizar ONUs em Planejamento antes de salvar não exibe resultados conforme especificado,Done,5/26/2020 16:49:53,BR-1570,{},BR-28,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1566,"defeito - Ao ativar ONU sem salvar, a partir de ONU planejamento, sistema perde dados de conexão",Done,5/26/2020 14:59:18,,{},BR-28,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1565,Defeito - Refresh ONU não está funcionando,Done,5/26/2020 14:50:49,,{},BR-25,Yuri Barros,,BR Sprint 21
+Dev Bug,BR-1564,Defeito - Sistema não apresenta detalhes de Download Upload de OS na info de OS no popup de ativação.,Done,5/26/2020 14:46:18,,{},,Yuri Barros,,BR Sprint 20
+Dev Bug,BR-1561,Conscius - Sistema não filtra modelo de ONU compativel com OS,Done,5/26/2020 14:17:59,,{},,Yuri Barros,,BR Sprint 20
+Dev Bug,BR-1558,Remover Cabo - Após remoção de CTO ou CEO cabo permanece sendo exibido até atualizar a tela,Done,5/25/2020 19:44:10,,{},BR-33,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1555,Não acesso nível 2 de splitter na tabela de conexões,Done,5/25/2020 18:35:09,BR-1656,{},,Mariana Salamoni Francisco,,BR Sprint 20
+Dev Bug,BR-1527,(Splitter) Sistema não permite adicionar splitter à CEO,Done,5/21/2020 23:51:51,BR-820,{},BR-31,Lucas Simão da Costa,,BR Sprint 20
+Dev Bug,BR-1520,Sistema não permite alterar conexão na ponta de cabo importado,Done,5/20/2020 13:29:42,BR-1247,{},BR-33,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1518,Clicar em não no popup do [FA-02] (importação) de BR-1026 faz o Sistema travar,Done,5/19/2020 16:32:18,BR-1026,{},BR-1036,Lucas Simão da Costa,,BR Sprint 20
+Dev Bug,BR-1517,(Splitter) Adicionar splitter na cto após salvar um uplink deixa uplink em branco,Done,5/19/2020 15:29:08,BR-1315,{},BR-27,Lucas Simão da Costa,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1516,Imagem do modelo da FK-CTOP-8P está fora do padrão,Done,5/19/2020 15:14:24,BR-1375,{},BR-25,Lucas Simão da Costa,,BR Sprint 20
+Dev Bug,BR-1473,CEO posicionada afastada de ruas não permitem ser adicionadas no meio de um cabo.,Done,5/8/2020 21:41:58,BR-1302,{},BR-33,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1472,(Importação) erro na importação do arquivo novo da Phoenix,Done,5/7/2020 22:31:30,,{},,Alex Lacerda Ramos,,BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1471,Sistema não permite operar em CTOs após exportar cabos via kmz,Done,5/7/2020 20:24:41,BR-2;BR-118,{},BR-27,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1469,(Splitter) CTO - Adicionar Splitter e cancelar (sem clicar em salvar) adiciona splitters no sistema,Done,5/6/2020 21:18:42,BR-820,{},,Lucas Simão da Costa,,BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1468,Uplink de Splitter - Sistema exibe duas telas de uplink em CTOs com dois splitters,Done,5/6/2020 21:14:12,BR-1315,{},,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Bug,BR-1467,Não é possível alterar rota de cabo grande,Done,5/6/2020 12:49:47,BR-1770,{},BR-33,Mariana Salamoni Francisco,,BR Sprint 21;BR Sprint 20
+Dev Bug,BR-1464,(Uplink) Alterações na tabela de uplink de um splitter refletem em todos os outros splitters,Done,5/5/2020 22:44:51,BR-1315,{},,Alex Lacerda Ramos,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1463,(Importação) Erro desconhecido devido a componente desconhecido,Done,5/5/2020 22:23:37,,{},,Alex Lacerda Ramos,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1459,(dev) Corrigir valores de status IoT (CEO e CTO),Done,5/4/2020 21:20:15,,{},,Alex Lacerda Ramos,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1458,(dev) Remover do backend dependência geotools-boundless descontinuada que causa erro de build,Done,5/4/2020 20:45:00,,{},,Alex Lacerda Ramos,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1456,(Splitter) Nome de splitter não atualiza dinamicamente no título de sua aba,Done,5/2/2020 23:52:23,BR-816,{},,Alex Lacerda Ramos,,BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1455,(TC) Nível 1: conexão intertubos fica por trás dos tubos quando fusão ou conector são adicionados na conexão,Done,5/2/2020 23:50:31,,{},,Alex Lacerda Ramos,,BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1420,Mensagem de erro ao salvar CTO conectado no meio de um cabo,Done,4/21/2020 21:32:07,BR-1283,{},BR-33,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1412,(Splitter) Sistema para de responder ao salvar CTO com splitter 1x2,Done,4/21/2020 14:55:52,BR-1271;BR-2,{},BR-27,Lucas Simão da Costa,,BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1411,Sistema não importa cabos via KMZ,Done,4/21/2020 14:00:03,BR-1207;BR-1026,{},BR-33,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1404,"Ao deletar cabo com conexão fibra fibra, o sistema exibe uma mensagem de erro",Done,4/17/2020 18:12:34,BR-329,{},BR-33,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1402,Sistema não destaca onu pela tabela de portas da CTO,Done,4/17/2020 17:17:18,BR-448,{},BR-31,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1401,Sistema exibe 7 no nome da ONU em Planejamento na tabela de portas da CTO,Done,4/17/2020 16:09:07,BR-447,{},BR-27,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1395,Sistema altera splitter de Distribuição para Acesso ao adicionar novo splitter durante instanciação de CEO,Done,4/16/2020 20:01:48,BR-313,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1394,Sistema altera splitter de Distribuição para Acesso ao adicionar novo splitter durante instanciação de CEO,Done,4/16/2020 20:01:46,,{},BR-33,Bruno Sabóia,,
+Dev Bug,BR-1383,Tabela de Conexões não abre após abri-la no nível 1 ou 2 e voltar para o painel de propriedades da CEO utilizando o botão voltar do canto superior direito,Done,4/15/2020 21:12:41,BR-331,{},BR-32,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1382,Splitter adicionado e não salvo na Tabela de Conexões nível 1 é excluido ao acessar a Tabela de Conexões nível 2 e teclar <ESC>,Done,4/15/2020 20:31:59,BR-1053,{},BR-32,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1381,Erro de tradução na mensagem de erro ao tentar excluir Splitter de CTO conectada,Done,4/15/2020 14:07:28,BR-1377;BR-431,{},BR-31,hugobarroso,,
+Dev Bug,BR-1377,Mensagem de erro indefinida ao deletar splitter conectado a ONU em Planejamento,Done,4/14/2020 17:52:19,BR-1381;BR-431,{},BR-31,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1373,Botão <Centralizar> não apresenta todos os componentes instanciados no mapa na tela quando há componentes desconhecidos importados,Done,4/13/2020 22:40:17,BR-199,{},BR-25,hugobarroso,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1372,Câmera não acompanha o componente caso seja arrastado para as extremidades da janela do mapa,Done,4/13/2020 22:21:10,BR-1436;BR-683,{},BR-25,hugobarroso,,
+Dev Bug,BR-1371,Sistema não atualiza rota de cabo de distribuição ao mover CEO conectada à CEO,Done,4/13/2020 21:44:26,BR-364,{},BR-32,Bruno Sabóia,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1370,Sistema permite upload de elemento diferente de kmz,Done,4/13/2020 21:31:39,BR-1357;BR-1357;BR-1026,{},BR-25,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1369,Sistema não cancelar exibição do dropdown do menu superior ao teclar <ESC>,Done,4/13/2020 20:40:02,BR-1489;BR-817,{},BR-25,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1368,Sistema não exibe botão <Salvar> no painel de propriedades de componentes importados desconhecidos,Done,4/13/2020 20:13:55,BR-986;BR-1152,{},BR-1036,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1367,Sistema não centraliza mapas se houverem somente cabos instanciados,Done,4/13/2020 20:07:37,BR-1439;BR-199,{},BR-25,Lucas Simão da Costa,,
+Dev Bug,BR-1366,Sistema não remove indicação de sobreposição ao deletar cabo sobreposto,Done,4/13/2020 17:38:52,BR-640,{},BR-33,Lucas Simão da Costa,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1364,Sistema permite mover ONU em Planejamento para distância maior que 500m de uma CTO,Done,4/10/2020 2:34:03,BR-548,{},BR-28,Lucas Simão da Costa,,
+Dev Bug,BR-1363,Sistema permite conectar ONU em spliltter do tipo distribuição,Done,4/9/2020 23:37:28,BR-222;BR-447,{},BR-31,Lucas Simão da Costa,,
+Dev Bug,BR-1362,Sistema não permite readicionar splitter na tabela de conexões após exclusão,Done,4/9/2020 18:29:39,BR-1327;BR-398,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1361,Sistema fecha painel de propriedades ao clicar em Selecionar Todos Assinantes,Done,4/9/2020 18:05:42,BR-1601;BR-103,{},BR-100,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1360,Botão de importação não funciona quando o painel de propriedades está aberto,Done,4/9/2020 17:00:03,BR-961,{},BR-1036,hugobarroso,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1359,Sistema permite conectar duas ONUs na mesma porta de CTO,Done,4/9/2020 16:18:35,BR-222,{},BR-33,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1358,Defeito na mensagem apresentada ao tentar instanciar componentes com valores invalidos e grandes de latitude e longitude,Done,4/9/2020 16:16:50,BR-115;BR-152;BR-153;BR-364;BR-683,{},BR-25,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1357,Mensagem de que não é possivel carregar arquivo de importação não aparece ao tentar carregar um arquivo zip,Done,4/9/2020 15:35:54,BR-1370;BR-994;BR-1370,{},BR-1036,hugobarroso,,
+Dev Bug,BR-1354,Deletar CTO não apaga ONUs em planejamento que estão conectadas à ela,Done,4/9/2020 2:08:39,BR-1308;BR-113,{},BR-28,hugobarroso,,
+Dev Bug,BR-1353,Duplo clique no ícone de splitter na Tabela de Conexões nível 2 faz conexão excluida que não foi salva aparecer novamente no layout,Done,4/9/2020 0:41:31,,{},BR-32,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1352,Duplo clique no ícone de splitter na Tabela de Conexões nível 2 remove do layout conexões recentes e bloqueia as fibras,Done,4/8/2020 23:44:30,,{},BR-32,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1351,"Mensagem ""Erro Desconhecido"" ao tentar salvar alteração na Tabela de Conexões após deletar splitter",Done,4/8/2020 23:32:57,BR-1053,{},BR-32,hugobarroso,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1347,Sistema não cancela exclusão com clique no mapa (inválido),Done,4/8/2020 20:09:18,BR-317,{},BR-25,hugobarroso,,
+Dev Bug,BR-1346,Sistema mantém pop up de exclusão aberto ao teclar <ESC> (inválido),Done,4/8/2020 19:58:50,BR-317,{},BR-25,hugobarroso,,
+Dev Bug,BR-1344,Clicar duas vezes no menu de componentes atualiza a tela,Done,4/7/2020 19:36:11,,{},BR-25,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1343,[AJUSTAR] Erro desconhecido ao deletar cabo de onu em planejamento - REMOVER O BOTÃO DELETE DO DROP,Done,4/6/2020 17:58:39,,{},BR-33,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1342,Sistema diminui contagem na tabela de Visualização em Camadas após selecionar elemento,Done,4/6/2020 17:29:12,BR-155,{},BR-25,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1341,Sistema apresenta comportamento inesperado após adicionar splitter 1x2 a uma CTO,Done,4/6/2020 17:03:59,BR-118,{},BR-27,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1339,Sistema não atualiza o número de portas corretamente ao adicionar splitter 1x2 na CTO.,Done,4/6/2020 15:42:06,BR-118,{},BR-27,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1337,Sistema não atualiza rota de cabo de distribuição ao mover CTO conectada à CEO,Done,4/6/2020 1:58:07,BR-115,{},BR-33,Bruno Sabóia,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1336,Campos fusão e capacidade de ceo em branco durante instanciação,Done,4/6/2020 1:56:31,BR-313,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1335,Exploratório - Sistema não abre arquivo convertido em KMZ,Done,4/2/2020 21:20:55,,{},,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1333,Websocket: Status de ONU não atualiza se painel de propriedades de ONU estiver aberto,Done,3/29/2020 17:35:31,,{},,Alex Lacerda Ramos,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1332,Websocket: Status de ONU não atualiza devido à timeout na conexão do websocket,Done,3/29/2020 16:44:12,BR-1322,{},,Alex Lacerda Ramos,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1324,(TabelaConexão) O Sistema Permite Selecionar Fibra e Splitter no Nível 2 para Serem Excluídas,Done,3/27/2020 13:51:57,,{},,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1322,Sistema não atualiza mudanças no status operacional em tempo real,Done,3/27/2020 12:55:18,BR-1332;BR-1194,{},BR-1178,Bruno Sabóia,,
+Dev Bug,BR-1320,Sistema exibe erro ao atualizar CEO importada (CEO reconhecida e sem modelo),Done,3/26/2020 18:44:48,BR-1252,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1310,Defeito - Sistema não salva se conectar fibra da direita pra esquerda na Tabela de Conexões nível 2,Done,3/25/2020 1:04:40,BR-1239,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1309,Informações de modelos da CTOs diferentes do Confluence,Done,3/24/2020 20:45:51,,{},BR-27,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1308,ONU em Planejamento persiste após deletar CTO conectada a ela.,Done,3/24/2020 20:18:07,BR-1354;BR-397,{},BR-27,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1301,Ao clicar no mapa quando é feita a seleção do modelo de CEO ou CTO em um componente desconhecido o sistema retorna para tela de propriedades do componente desconhecido,Done,3/23/2020 22:38:19,BR-986;BR-1152,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1300,Ao clicar na tecla <ESC> quando é feita a seleção do modelo de CEO ou CTO em um componente desconhecido o sistema retorna para tela de propriedades do componente desconhecido,Done,3/23/2020 22:25:06,BR-986;BR-1152,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1299,Mover CEOs ou CTOs conectadas não refaz rota de cabos,Done,3/23/2020 21:32:38,,{},BR-33,Bruno Sabóia,,BR Sprint 25 - 09/10 a 05/11
+Bug,BR-1298,Cabos recém criados que apontam como se estivessem sobrepostos,Done,3/23/2020 21:02:56,BR-1207,{},BR-33,Mariana Salamoni Francisco,,
+Dev Bug,BR-1296,Sistema permite que CEO seja posicionada onde há outro componente (inválido),Done,3/23/2020 13:21:50,BR-364,{},BR-32,Bruno Sabóia,,
+Dev Bug,BR-1294,Informações faltando em modelos de CTOs,Done,3/23/2020 12:11:37,,{},BR-27,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1293,Informações faltando em modelos de CEOs,Done,3/23/2020 12:01:56,,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1292,Sistema mostra um tubo a mais ao clicar em salvar na tabela de conexões nível 2 da CEO,Done,3/20/2020 15:23:30,BR-1239,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1291,Sistema permite adicionar Coordenadas inválidas,Done,3/20/2020 14:36:21,BR-1442;BR-364,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1290,Sistema permite copiar CTO e CEO que não foi instanciada,Done,3/20/2020 13:55:05,BR-502;BR-636,{},BR-27,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Bug,BR-1287,Sistema não permite rota em rodovias duplas,Done,3/20/2020 13:12:13,BR-1400;BR-958,{},BR-33,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Bug,BR-1286,"Sistema não permite conectar cabos em componentes no meio, ou próximos à rodovia dupla",Done,3/20/2020 13:11:06,BR-1400;BR-958,{},BR-33,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1285,Sistema permite deletar CEO conectada,Done,3/20/2020 12:45:58,BR-1223;BR-1277;BR-317,{},BR-32,Bruno Sabóia,,BR Sprint 25 - 09/10 a 05/11
+Dev Bug,BR-1284,Sistema permite abrir tabela de conexões de CEO não conectada,Done,3/20/2020 12:32:06,BR-1248,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Bug,BR-1281,Sistema não permite excluir CTO ou CEO importados,Done,3/19/2020 13:17:34,BR-113;BR-317;BR-1488,{},BR-27,Mariana Salamoni Francisco,,BR Sprint 19 - 23/04 a 20/05
+Bug,BR-1280,Mover CTO conectada,Done,3/19/2020 13:17:08,,{},,Mariana Salamoni Francisco,,
+Bug,BR-1278,Sistema não conecta elementos com rota excluída anteriormente,Done,3/18/2020 19:37:55,BR-868,{},BR-33,Mariana Salamoni Francisco,,
+Bug,BR-1276,Sistema não permite excluir cabos de distribuição sobrepostos,Done,3/18/2020 19:29:55,BR-329,{},BR-33,Mariana Salamoni Francisco,,BR Sprint 18 - 25/03 a 22/04
+Bug,BR-1275,Alterar Tipo de Splitter 1x8 para 1x16 em CTO exibe 24 portas na tabela de portas,Done,3/18/2020 19:26:57,BR-987,{},BR-31,Mariana Salamoni Francisco,,BR Sprint 21
+Bug,BR-1274,Número de Porta do Splitter errado ao adicionar segundo splitter em CTO,Done,3/18/2020 19:25:57,BR-820,{},BR-31,Mariana Salamoni Francisco,,BR Sprint 18 - 25/03 a 22/04
+Bug,BR-1273,Selecionar ponto em cabo apresenta difícil usabilidade,Done,3/18/2020 19:23:51,BR-1078,{},BR-33,Mariana Salamoni Francisco,,BR Sprint 18 - 25/03 a 22/04
+Bug,BR-1272,Sistema não atualização o número de fusões no popup de CEO,Done,3/18/2020 19:19:50,BR-386,{},BR-32,Mariana Salamoni Francisco,,BR Sprint 18 - 25/03 a 22/04
+Bug,BR-1271,Sistema exibe splitter 1x8 ao alterar status para 1x4 na CTO,Done,3/18/2020 19:17:47,BR-1412;BR-820,{},BR-31,Mariana Salamoni Francisco,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1268,"Sistema não atualiza campo ""Status do Operacional"" ao associar ONU",Done,3/17/2020 19:22:43,BR-745,{},BR-28,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1267,"Sistema não atualiza campo ""Status do Plano"" ao associar ONU",Done,3/17/2020 19:20:15,BR-745,{},BR-28,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1263,Defeito - Label modelo propriedades de componente desconhecido em inglês,Done,3/6/2020 22:16:35,,{},,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1262,Defeito - Splitter da CEO marcado conectorizado por padrao,Done,3/6/2020 22:02:49,,{},BR-25,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1261,Defeito - Sistema não salva se conectar fibra da direita pra esquerda,Done,3/6/2020 21:53:19,BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1260,Defeito - Sistema exibe padrão de ceo com 0 bandejas,Done,3/6/2020 21:30:16,,{},BR-25,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1237,Sistema exibe mensagem fora do padrão no tooltip adicionar splitter na tabela de conexão da CEO,Done,2/19/2020 20:55:02,BR-1053,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1234,Sistema instancia varios cabos sobrepostos ao apertar salvar mais de uma vez,Done,2/19/2020 14:27:43,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1233,ONU desaparece ao tentar realizar uma ativação,Done,2/18/2020 18:15:23,BR-1154,{},BR-28,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1232,CEO sem cabos conetados deixa a tabela de conexões fora do padrão,Done,2/18/2020 18:10:44,BR-331,{},BR-32,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1231,Dropdown do campo MAC fica vazio durante associação de ONU,Done,2/18/2020 18:09:14,BR-745;BR-1154,{},BR-28,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1230,Sistema permite instanciar cabo com o mesmo nome,Done,2/18/2020 18:07:47,,{},,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1229,Texto do Menu de Importação fora do padrao,Done,2/18/2020 18:06:29,,{},BR-937,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1228,Sistema trava ao importar arquivo sem cabo,Done,2/18/2020 18:04:25,BR-961,{},BR-1036,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1223,Sistema gera mensagem de erro fora do padrão ao deletar CEO conectada,Done,2/17/2020 19:22:14,BR-1285;BR-317,{},BR-32,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1207,"Sistema considera cabos distantes um do outro como sobrepostos, mesmo sem interseção",Done,2/4/2020 18:36:27,BR-1411;BR-1298;BR-640,{},BR-33,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 17 - 20/02 a 25/03;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1206,(melhorar) Sistema não exibe tabela de conexões,Done,2/4/2020 18:13:49,BR-331,{},BR-32,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1205,Sistema não mostra o resumo final nem animação de carregamento ao terminar importação,Done,2/4/2020 18:05:45,BR-1086,{},BR-1036,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1204,Importar Componentes Desconhecidos - Sistema não abre propriedades de componentes desconhecidos,Done,2/4/2020 18:00:17,BR-1153;BR-986;BR-1152,{},,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1198,Editar Assinante em Potencial - Mensagem Fora do Padrão,Done,1/24/2020 16:39:31,BR-102,{},BR-100,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04
+Dev Bug,BR-1197,(Ajustar) Ao remover conexão com fusão/conector não está atualizando os contadores,Done,1/23/2020 18:48:26,,{},,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1190,Exploratório - Cabos conectados à componentes no mapa não passam pelo componente,Done,1/22/2020 16:37:09,BR-1176,{},BR-33,Bruno Sabóia,,BR Sprint 21
+Dev Bug,BR-1187,Transparência dos Ícones - Componente selecionado continua transparente,Done,1/22/2020 15:27:43,BR-1176,{},BR-897,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1184,Atualizar Instâncias Importadas - Sistema não permite editar informações obrigatórias de Componente instanciado,Done,1/22/2020 12:51:07,BR-986;BR-1152,{},BR-25,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1177,Conectar Fibra - Erro ao tentar salvar uma conexão de fibra na tabela,Done,1/16/2020 17:22:05,BR-1131;BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1172,Animação Importar KMZ - Sistema exibe uma tela de importação em branco após carregamento,Done,1/6/2020 14:38:21,BR-1086,{},BR-1036,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1171,Tabela de Conexões CEO - Sistema não seleciona fibra de conexões,Done,1/6/2020 12:57:57,BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1170,(corrigir) Tabela de conexões CEO - Botão marcar fibra permanece ativo após remover a seleção do objeto,Done,1/6/2020 12:17:29,BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 16 - 22/01 a 19/02;BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1169,Deletar Ponto -  Sistema não permite remover ponto cabo pela tecla delete,Done,1/6/2020 12:10:28,BR-1078,{},BR-33,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 21;BR Sprint 20;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1151,Tabela de Conexões - Conectar dois cabos na tabela não não exibe uma das fibras na Tabela de Conexão,Done,12/17/2019 17:15:03,BR-1150,{},BR-32,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01
+Dev Bug,BR-1150,Tabela de Conexão - Instanciar 2 cabos optical lan em uma CEO faz a tabela de conexões mostrar 24 fibras,Done,12/16/2019 20:25:40,BR-1155;BR-1151;BR-1128,{},BR-32,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1149,"Deletar Ponto -  Ao deletar um ponto do cabo e tentar salvar, o sistema retorna o erro",Done,12/16/2019 20:22:28,BR-1078,{},BR-33,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01
+Dev Bug,BR-1148,Tabela de Conexões: Conectar um cabo do tipo CFTOT-MF em uma CEO não exibe a tabela de conexões,Done,12/16/2019 20:16:05,BR-1128,{},BR-32,Bruno Sabóia,,
+Dev Bug,BR-1135,Painel de Propriedades - Sistema não fecha painel de propriedades ao apertar a tecla ESC,Done,12/2/2019 17:33:07,BR-314,{},BR-32,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 15 - 19/12 a 22/01;BR Sprint 16 - 22/01 a 19/02
+Dev Bug,BR-1131,Painel de Conexões CEO - Botão Cancelar não descarta alterações,Done,11/28/2019 18:07:19,BR-1177;BR-928,{},BR-32,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01
+Dev Bug,BR-1130,Remover Cabo - Após remoção de CTO cabo permanece sendo exibido até atualizar a tela,Done,11/22/2019 20:06:18,BR-397,{},BR-27,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01
+Dev Bug,BR-1127,Defeito - Campo Apelido não está presente em Modelo de Cabos,Done,11/21/2019 11:57:04,BR-1062,{},BR-33,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1123,Exploratório - Botões da Tabela de Conexões somem,Done,11/19/2019 13:36:30,BR-922,{},BR-32,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1120,BR-924 Comportamento do botão Marcar com Fusão,Done,11/19/2019 12:57:35,BR-924,{},BR-32,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1119,BR-965 Sistema não apresenta popup de confirmação de fechamento ao fechar sem salvar,Done,11/19/2019 12:09:10,BR-922;BR-924;BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1118,BR-965 Tecla ESC não deveria fechar a Tabela de Conexões,Done,11/19/2019 11:53:29,BR-965,{},BR-32,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1117,BR-331 Sistema não remove destaque da conexão ao clicar na conexão novamente,Done,11/19/2019 11:33:59,BR-331,{},,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1115,BR-1077 Tabela de Conexões Fora do Padrão Visual,Done,11/19/2019 10:05:02,BR-331;BR-965;BR-1077,{},BR-32,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Bug,BR-1112,Desempenho - Sistema lento ao carregar cabos KMZ,Done,11/15/2019 14:14:49,,{},,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1100,Modos de Exibição - Sistema não deixa o radio button padrão marcado,Done,11/4/2019 23:29:21,BR-939,{},BR-937,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1099,"Painel de Componentes -Texto do Tooltip ""Refresh ONU""  deve ser ""Atualização das ONUs""",Done,11/4/2019 21:59:47,BR-1085,{},BR-897,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1096,Importar Cabo - Sistema não salva alterações ao mover cabo,Done,11/1/2019 22:37:26,BR-1026,{},BR-1036,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 17 - 20/02 a 25/03;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1095,Importar Cabos - Cabos importados não ficam com ponto de exclamação caso tenham informações incompletas,Done,11/1/2019 22:32:35,BR-1026,{},BR-1036,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1094,Importar CTO - Sistema não permite editar CTO importada,Done,11/1/2019 22:26:56,BR-994,{},BR-1036,Bruno Sabóia,,BR Sprint 17 - 20/02 a 25/03
+Dev Bug,BR-1087,Importar KMZ - Importação com informações faltando fora do padrão,Done,10/24/2019 18:24:28,BR-961,{},BR-1036,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1083,Exploratório - Sobreposição de Cabos - segmento sobreposto,Done,10/24/2019 17:57:06,BR-640,{},BR-33,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 15 - 19/12 a 22/01;BR Sprint 16 - 22/01 a 19/02;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1082,Importar KMZ - Sistema não exibe mensagem ao ler arquivo corrompido,Done,10/24/2019 17:48:58,BR-994,{},BR-1036,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 17 - 20/02 a 25/03;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1079,Importar KMZ - Sistema permite adicionar mais de 5 palavras ao filtro,Done,10/24/2019 17:22:53,BR-961,{},BR-1036,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1076,Sobreposição de cabos - Sistema não exibe rota completa ao alternar entre cabos sobrepostos,Done,10/22/2019 20:02:45,BR-640,{},BR-33,Bruno Sabóia,,BR Sprint 15 - 19/12 a 22/01;BR Sprint 16 - 22/01 a 19/02;BR Sprint 17 - 20/02 a 25/03;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1075,Sobreposição de Cabos - Dois cabos saindo de um mesmo componente são considerados sobrepostos,Done,10/22/2019 19:54:55,BR-640,{},BR-33,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1074,"Sobreposição de cabos - Na primeira instanciação, sistema exibe cabo de distribuição na cor preta",Done,10/22/2019 19:44:32,BR-640,{},BR-33,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1073,Importar KMZ - Erro ao tentar importar KMZ,Done,10/22/2019 17:15:09,BR-961;BR-961,{},BR-1036,Bruno Sabóia,,
+Dev Bug,BR-1059,Tooltip Visualização em Camadas - Tooltip do Assinante em Potencial fora do padrão,Done,10/8/2019 17:50:17,BR-1008,{},BR-25,Bruno Sabóia,,
+Dev Bug,BR-1031,Sistema não centraliza ONU em Planejamento ao selecioná-la,Done,9/25/2019 22:19:29,BR-499,{},BR-897,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1030,Erro ao ativar ONU ONT-100,Done,9/25/2019 22:11:53,BR-549,{},BR-28,Bruno Sabóia,,BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1029,Sistema permite deletar ONU com status Ativo (inválido),Done,9/25/2019 16:58:08,BR-97,{},BR-28,Bruno Sabóia,,
+Dev Bug,BR-1028,Campos Obrigatórios em Branco - Sistema não muda aba para nome do splitter caso  outro esteja selecionado,Done,9/24/2019 22:25:39,BR-1628;BR-820,{},BR-31,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11;BR Sprint 19 - 23/04 a 20/05
+Dev Bug,BR-1024,"Instanciar CTO - Ao adicionar/remover novo splitter, sistema reseta propriedades dos outros",Done,9/24/2019 19:37:54,BR-820,{},BR-31,Bruno Sabóia,,
+Dev Bug,BR-1023,Mover CTO - Não é possível mover CTO sem splitter,Done,9/24/2019 19:30:49,BR-115,{},BR-27,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Dev Bug,BR-1020,Exploratório  - Sistema Não Marca ou Não Apresenta os Checkbox do Tipo de Instalação na Aba Modelo de CTO,Done,9/20/2019 0:59:41,BR-116,{},BR-27,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09;BR Sprint 12 - 26/09 - 23/10
+Dev Bug,BR-1019,Exploratório - Sistema Marca Camada de Labels ao Marcar Somente Camada de Cabos,Done,9/20/2019 0:45:56,BR-1001;BR-155,{},BR-25,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09;BR Sprint 15 - 19/12 a 22/01;BR Sprint 13 - 23/10 - 20/11;BR Sprint 12 - 26/09 - 23/10;BR Sprint 14 - 21/11 - 18/12
+Dev Bug,BR-1017,Sistema não exibe pop-up ao final de ativação de ONU,Done,9/19/2019 18:27:38,BR-549,{},BR-28,Bruno Sabóia,,
+Dev Bug,BR-1016,"Sistema exibe campo ""Contrato"" não especificado",Done,9/19/2019 17:12:01,BR-98,{},BR-28,Bruno Sabóia,,
+Dev Bug,BR-1006,"Sistema não permite editar campo ""Tipo"" de splitter de uma CTO com ONU conectada ",Done,9/5/2019 19:14:16,BR-820,{},BR-31,Bruno Sabóia,,
+Bug,BR-1003,Sistema não filtra MAC por modelo de ONU - (Exibe o MAC de todas as ONUs),Done,9/2/2019 17:59:48,BR-223,{},BR-28,Bruno Sabóia,,
+Bug,BR-1002,"Sistema não remove o icone ""lupa +"" ao deletar uma ONU em Planejamento de uma CTO e trava o sistema até atualizar a página",Done,9/2/2019 13:52:52,BR-820,{},BR-31,Bruno Sabóia,,
+Bug,BR-1000,"Cliente - Ao excluir ONU em Planejamento, Sistema Não Libera a Porta da CTO",Done,8/29/2019 11:36:11,,{},BR-28,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Bug,BR-993,Exploratório - Sistema Não Exibe Propriedades do Cabo,Done,8/24/2019 16:50:31,,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-991,[BUG Conscius Manager] Exploratório - Não é possível Ativar ONU (Erro: Invalid ONU Model),Done,8/23/2019 15:55:00,BR-549,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 11 - 29/08 - 25/09
+Dev Bug,BR-984,Sistema permite alterar status de CEO conectada para planejamento,Done,8/22/2019 18:03:32,BR-1295;BR-1295;BR-315,{},BR-32,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Bug,BR-983,"Propriedades do cabo não exibem campo ""Observações""",Done,8/22/2019 17:57:50,BR-326,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-982,Sistema permite conectar cabo na mesma instância do componente (com ele mesmo),Done,8/22/2019 17:53:07,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-981,Cabo não fica azul ao ser selecionado,Done,8/22/2019 17:47:03,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-980,Sistema não realiza a ligação dos cabos corretamente ao ligar componentes sequencialmente,Done,8/22/2019 17:39:51,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-979,Mover uma CTO/ONU conectada em um cabo instanciado não atualiza o cabo,Done,8/22/2019 17:36:18,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-978,Clicar 2 vezes no botão salvar instancia 2 cabos,Done,8/22/2019 17:31:48,BR-868,{},,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-977,Cabo após instanciado possui a cor cinza,Done,8/22/2019 17:25:43,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-976,Instanciar cabo - mover cabo não atualiza as ruas,Done,8/22/2019 17:21:12,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-975,Sistema não permite mover cabo já instanciado,Done,8/22/2019 17:17:28,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-972,"Sistema não permite deletar CTO, ONU ou ONU em Planejamento",Done,8/19/2019 16:03:49,BR-97;BR-113,{},BR-27,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-970,BR-953 - Icones na visualização em camadas mostrados na ordem incorreta.,Done,8/12/2019 15:53:30,BR-953,{},BR-25,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-969,BR-820 - Sistema não atualiza tabela de portas ao adicionar novo splitter em CTO ou CEO,Done,8/12/2019 15:49:16,BR-820,{},BR-31,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Bug,BR-968,BR-773 - Ao editar ONU para o status planejamento - ONU mantem status Plano e Operacional [inválido],Done,8/12/2019 15:32:50,BR-773,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-967,BR-617 - Sistema não destaca campo Nome do  splitter em branco.,Done,8/12/2019 15:22:25,BR-617,{},BR-31,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-954,Exploratório - Visualização em Camadas - Ao desativar uma visualização Sistema bloqueia o Toggle(reset) geral,Done,8/1/2019 16:31:53,BR-155,{},BR-25,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-952,"Exploratório - Ativar ONU - O Sistema não exibe o ""i"" informativo no pop-up da tela Ativar ONU",Done,8/1/2019 16:23:52,BR-549,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-951,Exploratório  - Não é possível Planejar ONU,Done,8/1/2019 16:18:23,BR-550,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 11 - 29/08 - 25/09
+Bug,BR-949,Exploratório - Sistema Apresenta Popup Durante Instanciação de Cabo,Done,7/31/2019 23:35:44,BR-868,{},BR-33,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-946,Exploratório - Sistema não salva CEO com tipo Subterrâneo,Done,7/29/2019 18:10:20,BR-455,{},BR-32,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-941,Exploratório  - Sistema não altera o Painel de Propriedades ao clicar em outro componente,Done,7/29/2019 15:34:43,BR-314,{},BR-32,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Bug,BR-940,Exploratório - Sistema retorna à visão global após instanciar ONU,Done,7/29/2019 15:02:07,,{},BR-28,Bruno Sabóia,,BR Sprint 13 - 23/10 - 20/11
+Bug,BR-910,Exploratório - Valores da Coluna Saída Splitter e Saída CTO em Splitter estão trocados,Done,7/23/2019 18:35:31,BR-809,{},BR-31,Bruno Sabóia,,
+Bug,BR-909,BR-636 - Sistema não permite copiar CEO pelo botão direito,Done,7/23/2019 17:43:30,,{},BR-32,Bruno Sabóia,,
+Bug,BR-896,"Geral - Após instanciar componente, o fluxo deveria mudar para o  ""Editar componente""",Done,7/4/2019 18:06:40,,{},BR-25,Bruno Sabóia,,
+Bug,BR-895,CEO - Instaciar CEO Subterranea - CEO não é apresentada como tracejada.,Done,7/4/2019 18:00:50,BR-841;BR-445,{},BR-32,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-877,CTO - Campos Obrigatórios em Branco - Sistema sempre volta para a primeira aba (para latitude/longitude),Done,7/4/2019 16:25:16,,{},,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Bug,BR-872,BR-317 - Sistema não apresenta mensagem de sucesso MSG016,Done,7/3/2019 16:21:29,BR-317,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-871,Exploratório - CEO possui campo Portas Disponíveis,Done,7/3/2019 11:22:33,,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-870,BR-364 - Não é possível mover CEO com mais de um splitter,Done,7/3/2019 11:15:36,BR-364,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-869,Exploratório - Sistema Apresenta Campo Endereço para CTO e CEO,Done,7/3/2019 11:02:16,,{},BR-25,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08
+Bug,BR-861,Editar CEO - Adicionar dois splitters durante edição deixa nome de splitter duplicado,Done,7/2/2019 16:45:16,BR-860;BR-820,{},BR-31,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-860,Adicionar Splitter - Instanciação - Adicionar Splitter durante intância de CEO ou CTO não sugere novo nome e splitter,Done,7/2/2019 16:29:47,BR-2;BR-313;BR-820;BR-861,{},BR-31,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Dev Bug,BR-859,Listar CEO- Tecla ESC não cancela a Listagem,Done,7/2/2019 16:22:41,BR-817,{},BR-32,Bruno Sabóia,,BR Sprint 19 - 23/04 a 20/05
+Bug,BR-858,CEO - Campos Obrigatórios em Branco - Sistema sempre volta para a primeira aba,Done,7/2/2019 15:49:30,BR-313;BR-316,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-857,CEO - Campo Tipos de Instalação Bloqueado,Done,7/2/2019 15:35:18,BR-313;BR-314;BR-316,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-856,CEO - Ícone CEO durante instanciação aparece fora de escala,Done,7/2/2019 15:27:30,BR-313,{},BR-32,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Dev Bug,BR-851,BR-602 - Sistema não persiste modo de exibição ao trocar de CTO para ONU,Done,6/24/2019 17:35:08,BR-602,{},BR-25,Bruno Sabóia,,BR Sprint 18 - 25/03 a 22/04;BR Sprint 15 - 19/12 a 22/01;BR Sprint 14 - 21/11 - 18/12
+Bug,BR-849,BR-546 - Cabo de Onu em Planejamento não fica azul,Done,6/24/2019 17:26:02,BR-546,{},BR-28,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09
+Dev Bug,BR-847,BR-385 - Sistema não permite mover CTO conectada pelo drag and drop,Done,6/24/2019 17:19:17,BR-385,{},BR-27,Bruno Sabóia,,
+Bug,BR-845,"BR-448 - Sistema não apresenta campo ""Codigo de Reserva"" durante o fluxo de Instanciar ONU em Planejamento",Done,6/24/2019 15:50:13,BR-837,{},BR-28,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09;BR Sprint 12 - 26/09 - 23/10
+Bug,BR-842,BR-502 - Sistema não copia CTO através do clique com o botão direito,Done,6/21/2019 17:15:04,BR-502,{},BR-27,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-841,BR-320 - Sistema apresenta CTOs com tipo de instalação aérea-poste como tracejada,Done,6/21/2019 17:07:57,BR-320;BR-895,{},BR-27,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-840,[INVÁLIDO] Exploratório - Sistema não permite inativar CTO conectada,Done,6/21/2019 16:49:29,,{},BR-27,Bruno Sabóia,,
+Bug,BR-839,Exploratório - Sistema conecta CTOs durante instanciação de CTO,Done,6/21/2019 16:22:02,BR-2;BR-228,{},BR-27,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-838,BR-103 - Mensagem incorreta de deletar multiplos assinantes,Done,6/21/2019 14:03:58,BR-103,{},BR-100,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-837,"BR-550 - Sistema não apresenta campo ""Codigo de Reserva"" durante o fluxo de Planejar ONU",Done,6/21/2019 13:24:32,BR-550;BR-845,{},BR-28,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09;BR Sprint 12 - 26/09 - 23/10
+Bug,BR-833,BR-731 -Modelo de CTO -  tipo de instalacao deveria ser checkbox,Done,6/19/2019 13:55:20,BR-731,{},BR-27,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-832,"BR-731 - Modelo CTO - nome do primeiro item esta como ""CTO"" mas deveria ser ""Modelo""",Done,6/19/2019 13:50:32,BR-731,{},BR-27,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-831,BR-731 - tabela do splitter não está no formato padrão - 18-06-2019,Done,6/19/2019 13:38:19,BR-731,{},BR-27,Bruno Sabóia,,
+Bug,BR-830,"BR-731 - Splitter da CTO não possui o icone ""i"" de informação",Done,6/19/2019 12:32:36,BR-731,{},BR-31,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-829,BR-731 - Sistema não exibe tooltip ao passar o mouse por cima do nome do splitter,Done,6/18/2019 19:50:11,BR-731;BR-828,{},BR-31,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-828,BR-731 - Nome do splitter não limitado a 10 caracteres no título do splitter da Aba Splitter,Done,6/18/2019 19:31:52,BR-731;BR-829,{},BR-27,Bruno Sabóia,,
+Bug,BR-827,BR-731 - Nome da ONU continua sendo botão na tabela dos splitters,Done,6/18/2019 19:25:26,BR-731,{},BR-27,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-826,BR-731 - Imagem do Modelo Não Está Conforme BR-731,Done,6/18/2019 17:23:31,BR-731,{},BR-27,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08
+Bug,BR-825,Exploratório -Translations Not Avaiable no Pop-up de Alterações Perdidas,Done,6/18/2019 17:05:54,BR-504,{},BR-25,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-821,"BR-550 - Botão ""Planejar ONU"" Não Funciona",Done,6/13/2019 10:54:25,BR-698;BR-550,{},BR-100,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-814,Exploratório - Sistema Não Instancia ONU em Assinante por Meio de Drag And Drop,Done,6/12/2019 16:23:41,BR-105,{},BR-28,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-813,Exploratório - Sistema Não Apresenta Botão Centralizar no Modo Leitura,Done,6/12/2019 16:17:54,,{},BR-25,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-812,Exploratório - Botão Cancelar do Popup Associar ONU em ONU em Planejamento Não Funciona,Done,6/12/2019 16:03:16,,{},BR-28,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-811,BR-761 - Sistema não Apresenta Mensagem de Campos Obrigatórios Não Preenchidos e Nem Marcador no Campo Modelo,Done,6/12/2019 15:47:24,BR-761,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-810,Exploratório - Mover CTO não Salva Posição e Retorna à Posição Anterior,Done,6/12/2019 15:42:14,,{},BR-27,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-808,BR-708 - ONU em Planejamento - Botão Ativar ONU e Associar ONU deveria ser ícone,Done,6/11/2019 16:36:57,BR-708;BR-943,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-806,"BR-708 - Botões de Popup de Associar ONU Deveriam Estar Alinhados à Direita, Conforme Conscius",Done,6/11/2019 16:28:05,BR-708,{},BR-25,Bruno Sabóia,,BR Sprint 9 - 04/07 - 01/08
+Bug,BR-805,"BR-628 - Ao Desmarcar Todos os Checkbox de Componentes, Sistema desabilita Checkbox de Labels mas Não o Desmarca",Done,6/11/2019 15:33:03,BR-628,{},BR-25,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-804,APAGAR - BR-552 - Campo GPON deveria ser campo Texto,Done,6/11/2019 15:05:57,BR-552,{},BR-28,Bruno Sabóia,,
+Bug,BR-801,[BUG Conscius Manager] BR-549 - Ativar ONU em Planejamento - Sistema exibe erro ao ativar ONU (bug de integração),Done,6/11/2019 12:56:38,BR-779;BR-549,{},BR-28,Bruno Sabóia,,BR Sprint 11 - 29/08 - 25/09;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-780,Exploratório - Não é possível copiar CTO,Done,5/31/2019 16:15:07,BR-630;BR-502,{},BR-27,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-779,Exploratório - Erro ao ativar ONU em Planejamento,Done,5/31/2019 15:49:45,BR-801;BR-549,{},BR-28,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-775,"Exploratório - ONU - Campos Id do Contrato, Descrição da ONU e GPON SN desabilitados",Done,5/27/2019 13:57:03,,{},BR-28,Bruno Sabóia,,
+Bug,BR-770,Exploratório - Sistema não sugere nome diferente ao adicionar Splitter,Done,5/21/2019 14:43:20,BR-118,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-769,Exploratório - Sistema Redireciona Para Aba Status ao Salvar CTO com Nome de Splitter em Branco,Done,5/21/2019 14:42:19,BR-118;BR-228,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-767,Exploratório -Conectar ONU a CTO e depois clicar no ícone CTO trava a tela,Done,5/21/2019 13:45:30,BR-765;BR-322,{},BR-33,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-766,BR-105 - Ícones de ONU e Assinante em Potencial Sobrepostos ao Realizar drag-and-drop,Done,5/21/2019 13:45:27,BR-105,{},BR-100,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-765,Exploratório - CTO recém conectada não permite acessar as Propriedades (Se não atualizar a tela),Done,5/21/2019 13:42:43,BR-767;BR-322,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-764,Exploratório - Nâo é Possível Remover ONU em Planejamento,Done,5/21/2019 13:21:28,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-763,Exploratório - Título do Status do Plano Incorreto,Done,5/21/2019 13:08:06,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-762,"Exploratório - Aba Modelo Com o Título de ""CTO""",Done,5/21/2019 12:54:21,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-756,Exploratório - Label Incorreta no Botão Ativar ONU,Done,5/17/2019 18:23:22,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-754,BR-628 - Sistema permite mostrar labels dos componentes com o checkbox label desativado,Done,5/16/2019 16:49:48,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-752,BR-638 - Modos de Exibição - Ocupação - Cto disponível fica com cor vermelha- 16-05-2019,Done,5/16/2019 15:15:44,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-750,"BR-639 - Aba ""Status"" está com o nome ""Estado""",Done,5/16/2019 13:42:31,,{},,Bruno Sabóia,,
+Bug,BR-732,BR-563 - Sistema Não Apresenta os Modelos de ONU Pertencentes a OLT,Done,5/14/2019 15:44:53,,{},,Bruno Sabóia,,
+Bug,BR-729,Exploratório - Inconsistências na Aba Modelo,Done,5/14/2019 15:01:09,,{},BR-25,Bruno Sabóia,,BR Sprint 8 - 07/06 - 04/07
+Bug,BR-727,BR-547 - Destaque ONU - Sistema não desativa destaque da ONU pela CTO,Done,5/13/2019 16:09:55,,{},,Bruno Sabóia,,
+Bug,BR-726,Exploratório - Sistema não registra corretamente a data e hora de modificação e criação,Done,5/13/2019 15:34:50,BR-630;BR-451;BR-526,{},BR-25,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08;BR Sprint 11 - 29/08 - 25/09;BR Sprint 13 - 23/10 - 20/11;BR Sprint 12 - 26/09 - 23/10;BR Sprint 8 - 07/06 - 04/07;BR Sprint 14 - 21/11 - 18/12
+Bug,BR-724,BR-626 - Visualzação em Camadas - Sistema não desmarca as outras opções ao desabilitar o botão de reset,Done,5/13/2019 15:28:10,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-720,Exploratório - Busca por Endereço Não Retorna Resultados de Pesquisa,Done,5/13/2019 14:48:30,BR-498,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-718,"Exploratório - Ao Selecionar Múltiplos Assinantes, Sistema Não Seleciona em Azul Todos os Assinantes em Potencial",Done,5/13/2019 12:50:09,,{},BR-100,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08;BR Sprint 11 - 29/08 - 25/09;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-717,"Exploratório - Ao Salvar um Campo Observações Com Muitos Caracteres, Sistema Apresenta Mensagem de Erro Inválida",Done,5/13/2019 12:07:14,BR-771,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 11 - 29/08 - 25/09;BR Sprint 12 - 26/09 - 23/10
+Bug,BR-716,Exploratório - Campo Observações de ONU Deveria Ser um TextArea,Done,5/13/2019 11:58:45,BR-771,{},BR-28,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-715,"Exploratório - Na Tabela de Conexões, Sistema Não Desfaz o Destaque da ONU ao Clicar no Botão Novamente",Done,5/13/2019 11:49:59,BR-118;BR-547,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-714,"Exploratório - No destaque da ONU pela Tabela de Conexões, destaque da ONU é removida e o painel de propriedades é fechada",Done,5/13/2019 11:42:24,BR-118,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-711,"Exploratório - Ao clicar na tecla ESC, destaque da ONU é removida e o painel de propriedades é fechada",Done,5/9/2019 18:36:21,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-710,Exploratório - Não deveria ser possível mudar o nivel do splitter qnd já houver conexões,Done,5/9/2019 18:26:48,,{},,Bruno Sabóia,,
+Bug,BR-709,Exploratório - Tipo de Conector Não Some Quando Marcada a Opção Não-Contectorizada,Done,5/9/2019 18:15:29,,{},,Bruno Sabóia,,
+Bug,BR-707,Exploratório - Campo Tipo de Instalação deveria ser Checkbox,Done,5/8/2019 11:32:03,BR-118;BR-228,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-705,Exploratório - Sistema Não Salva Alterações no Campo Endereço,Done,5/7/2019 15:34:22,,{},,Bruno Sabóia,,
+Bug,BR-703,BR-637 - Alguns Textos Permanecem em Português ou no Formato Irregular,Done,5/6/2019 19:20:00,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-700,BR-549 - Sistema não Exibe Botão Criar Ativação,Done,5/6/2019 18:03:45,,{},BR-28,Bruno Sabóia,,
+Bug,BR-698,BR-550 - Sistema Não Gera Código do Assinante de Imediato ao Transformar Assinante em Potencial em ONU em Planejamento,Done,5/6/2019 17:46:11,BR-821;BR-550,{},BR-28,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-697,Exploratório - Alguns textos escritos de forma equívoca quando o ambiente está em Inglês ou Espanhol,Done,4/30/2019 12:59:32,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-696,Exploratório - Opções em Branco nos Dropdown Editáveis de Estado Operacional e Gerência de ONU,Done,4/30/2019 12:41:59,,{},,Bruno Sabóia,,
+Bug,BR-695,Exploratório - Escolha do Radiobutton nos Modos de Exibicao Não Persistem,Done,4/30/2019 12:33:13,BR-521;BR-602,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-690,BR-547 - Dar destaque a duas ONUs mantem as duas selecionadas com um só botao ativo,Done,4/29/2019 11:16:53,,{},,Bruno Sabóia,,
+Bug,BR-689,BR-547 - Clicar em dois destaques ONU não centraliza a segunda,Done,4/29/2019 11:14:00,,{},,Bruno Sabóia,,
+Bug,BR-688,Exploratório - Editar o campo Ponto de referencia de uma CTO conectada permite edição dos campos lat/long,Done,4/29/2019 10:45:59,BR-118,{},BR-27,Bruno Sabóia,,
+Bug,BR-686,BR-546 - Cabo selecionado com a cor cinza ao inves de azul,Done,4/29/2019 10:36:36,BR-328,{},BR-33,Bruno Sabóia,,
+Bug,BR-685,BR-548 - Não é possível instanciar ONU em Planejamento,Done,4/29/2019 10:29:52,BR-548,{},BR-28,Bruno Sabóia,,
+Bug,BR-682,"BR-593 - CTO - Campo ""Capacidade de Splitters"" desalinhado",Done,4/23/2019 18:09:01,BR-593,{},BR-27,Bruno Sabóia,,
+Bug,BR-681,Exploratório - Não é Possível Editar CTO Conectada e Apresenta Mensagem de Erro Incomum,Done,4/23/2019 17:42:41,,{},,Bruno Sabóia,,
+Bug,BR-680,Instanciar ONU em Planejamento - Comportamento Anômalo ao Editar Endereço Durante uma Instancia de ONU em Planejamento,Done,4/23/2019 17:31:12,BR-548,{},BR-28,Bruno Sabóia,,
+Bug,BR-679,Instanciar ONU em Planejamento - Campos em falta e a mais nas propriedades de uma ONU em Planejamento,Done,4/23/2019 17:23:51,BR-548,{},BR-28,Bruno Sabóia,,
+Bug,BR-678,Instanciar ONU em Planejamento - Sistema não permite mover ONU em Planejamento durante instanciação,Done,4/23/2019 17:17:53,,{},,Bruno Sabóia,,
+Bug,BR-676,Instanciar ONU em Planejamento - Cabo que Conecta ONU em Planejamento Á CTO Deveria ser Cinza,Done,4/23/2019 17:11:26,BR-548,{},BR-28,Bruno Sabóia,,
+Bug,BR-669,Modos de Exibição - Sistema não exibe os botões de Habilitar/Desabilitar Modo de Exibição,Done,4/23/2019 16:51:51,BR-521;BR-602;BR-616;BR-643,{},BR-25,Bruno Sabóia,,
+Bug,BR-652,BR-601 - CTO - Sistema permite cadastrar CTO com nome do splitter em branco,Done,4/18/2019 15:11:55,BR-601;BR-601,{},BR-27,Bruno Sabóia,,
+Dev Bug,BR-651,Sistema não muda aba em campo obrigatório em branco para componentes,Done,4/18/2019 14:47:03,BR-601,{},BR-100,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 19 - 23/04 a 20/05
+Bug,BR-650,BR-601 - Sistema permite cadastrar ONU com endereço vazio,Done,4/18/2019 14:40:10,BR-601,{},BR-28,Bruno Sabóia,,
+Dev Bug,BR-631,Exploratório - Componente Selecionado não é escondido na Visualização em Camadas,Done,4/2/2019 15:21:06,BR-155,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 11 - 29/08 - 25/09;BR Sprint 19 - 23/04 a 20/05
+Bug,BR-630,Exploratório - Copiar CTO - Data de criação e modificação é duplicada durante a instância,Done,4/2/2019 14:56:35,BR-726;BR-780,{},,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-629,Exploratório - Tooltip ONU - Nome de CTO desalinhado quando muito grande,Done,4/2/2019 13:46:05,BR-245,{},BR-28,Bruno Sabóia,,BR Sprint 10 - 01/08 - 28/08;BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08
+Bug,BR-625,Exploratório - data no padrão americano,Done,4/1/2019 19:08:42,,{},,Bruno Sabóia,,
+Bug,BR-624,"Exploratório - Nos modos de visualização, Sistema não altera cor do componente selecionado",Done,4/1/2019 19:06:25,BR-521;BR-602;BR-616;BR-643,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-623,Instanciar CTO - Sistema salva somente splitter 1x8,Done,4/1/2019 18:59:52,,{},,Bruno Sabóia,,
+Bug,BR-612,Selecionar Modos de Exibição de CTO - CTO em Planejamento lotada aparece com o ícone vermelho,Done,3/26/2019 16:39:15,,{},,Bruno Sabóia,,
+Bug,BR-611,Selecionar Modos de Exibição de CTO - Radio Button Taxa de Ocupação não aparece,Done,3/26/2019 15:49:15,,{},,Bruno Sabóia,,
+Bug,BR-608,Exploratório - Sistema permite adicionar Splitters que ultrapassam a quantidade de portas de CTO,Done,3/26/2019 15:09:31,,{},,Bruno Sabóia,,
+Bug,BR-596,"Exploratório - ""Potencial Subscriber"" ao Invés de ""Assinante em Potencial""",Done,3/18/2019 13:52:04,,{},,Bruno Sabóia,,
+Bug,BR-595,Exploratório - Editar Componente - Mensagem de Descartar Alterações aparece mesmo que não sejam feitas alterações,Done,3/18/2019 13:34:27,,{},,Bruno Sabóia,,
+Bug,BR-589,Exploratório - Sistema Encurta Label para 11 Caracteres,Done,3/13/2019 16:50:46,,{},,Bruno Sabóia,,
+Bug,BR-587,Exploratório - Propriedades da ONU -  Campo CTO está fora do padrão,Done,3/13/2019 16:47:12,,{},,Bruno Sabóia,,
+Bug,BR-584,Exploratório - Layout - Sistema permite labels de 11 caracteres,Done,3/12/2019 16:39:23,,{},,Bruno Sabóia,,
+Bug,BR-583,Exploratório - Layout - Distância do botão de zoom para o de centralizar muito grande,Done,3/12/2019 16:35:24,,{},,Bruno Sabóia,,
+Bug,BR-582,Exploratório - Layout - Dropdown está maior que os demais campos,Done,3/12/2019 16:33:17,BR-593,{},BR-25,Bruno Sabóia,,
+Bug,BR-581,Exploratório - Deletar Múltiplos assinantes - Sistema não exclui imediatamente,Done,3/12/2019 16:25:52,,{},,Bruno Sabóia,,
+Bug,BR-580,Exploratório - Deletar Múltiplos Assinantes - Ícone fora de escala,Done,3/12/2019 16:18:45,,{},,Bruno Sabóia,,
+Bug,BR-579,Exploratório   Cabo Drop- Ícone está fora de escala,Done,3/12/2019 16:16:22,,{},,Bruno Sabóia,,
+Bug,BR-578,Exploratório - Mover Cabo Drop durante conexão/edição gera caminhos duplicados ou picos (com ida e volta),Done,3/12/2019 16:12:12,,{},,Bruno Sabóia,,
+Bug,BR-577,Exploratório - Associar ONU-ONU abre Painel de Conexão CTO-ONU,Done,3/12/2019 16:06:58,,{},,Bruno Sabóia,,
+Bug,BR-576,"Exploratório - Associar cabo drop em CTO-CTOs que não tenham conexões exibe painel ""Conectar CTO-ONU""",Done,3/12/2019 16:04:08,,{},,Bruno Sabóia,,
+Bug,BR-575,Exploratório - Remover Splitter descarta alterações,Done,3/12/2019 15:57:38,,{},,Bruno Sabóia,,
+Bug,BR-574,Exploratório - Adicionar novo splitter descarta as alterações nos outros splitters,Done,3/12/2019 15:50:33,,{},,Bruno Sabóia,,
+Bug,BR-573,Exploratório - Alterar Balanceamento do Tipo 1x2 do Splitter e voltar para outro Tipo de Splitter exibe mensagem de erro,Done,3/12/2019 15:31:21,,{},,Bruno Sabóia,,
+Bug,BR-572,Exploratório - Escolher um tipo de Conector repetido dá mensagem de erro,Done,3/12/2019 15:20:40,BR-571,{},,Bruno Sabóia,,
+Bug,BR-571,Exploratório - Ao instanciar CTO - Splitter - Tipo de conector aparece repetido,Done,3/12/2019 15:09:09,BR-572,{},,Bruno Sabóia,,
+Bug,BR-570,Exploratório -  Barra de Rolagem Horizontal Desalinhada,Done,3/11/2019 18:38:46,,{},,Bruno Sabóia,,
+Bug,BR-569,Exploratório - Barra de Rolagem Vertical,Done,3/11/2019 18:30:49,,{},,Bruno Sabóia,,
+Bug,BR-568,Exploratório - campo do dropdown esta muito largo,Done,3/11/2019 18:20:14,,{},,Bruno Sabóia,,
+Bug,BR-567,Exploratório - Sistema Exibe Mensagens Duplicadas,Done,3/11/2019 18:13:26,,{},,Bruno Sabóia,,
+Bug,BR-566,Exploratório - Mover CTO faz splitter desaparecer,Done,3/11/2019 16:11:11,,{},,Bruno Sabóia,,
+Bug,BR-564,"Copiar CTO - Campo ""Nome"" aparece repetido ao copiar CTO",Done,3/11/2019 14:46:54,,{},,Bruno Sabóia,,
+Bug,BR-557,Exploratório - Instanciar Assinante - Ícone está fora de escala,Done,3/7/2019 15:53:46,,{},,Bruno Sabóia,,
+Bug,BR-555,Exploratório - Barra do Menu Home deveria estar junta ao Menu de Componentes,Done,3/7/2019 15:31:06,,{},,Bruno Sabóia,,
+Bug,BR-554,Exploratório - Sistema não salva mudança de CTO Sugerida ao instanciar ONU,Done,3/7/2019 12:28:31,BR-106,{},,Bruno Sabóia,,
+Bug,BR-551,Exploratório - Imagem de CTO corrompido,Done,2/28/2019 15:13:25,BR-116,{},BR-27,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-545,Sistema sugere CTOs mais próximos para ONUs que não permitem alteração de conexão com CTOs,Done,2/28/2019 12:44:50,,{},,Bruno Sabóia,,
+Bug,BR-544,Exploratório - Sistema não permite alterar a CTO sugerida na instanciação de ONU,Done,2/26/2019 14:29:47,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-543,Exploratório - Alternar seleção de componentes no mapa não atualiza o painel de propriedades,Done,2/26/2019 12:29:04,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-542,Exploratório - Ícone ONU de equipamento no menu de Propriedades aparece corrompido,Done,2/25/2019 18:28:06,,{},,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-541,Exploratório - CTO Ícones do mapa não seguem o padrão,Done,2/25/2019 18:08:14,,{},,Bruno Sabóia,,
+Bug,BR-540,Exploratório - Detalhes de Modelos de CTO e ONU não estão conforme padrão,Done,2/25/2019 17:53:32,,{},,Bruno Sabóia,,
+Bug,BR-539,Exploratório - Botão Centralizar não centraliza todos os componentes,Done,2/25/2019 17:08:21,,{},,Bruno Sabóia,,
+Bug,BR-538,Exploratório - Menu de Zoom Sobrescrito com o Menu de Propriedades,Done,2/25/2019 17:01:10,,{},,Bruno Sabóia,,
+Bug,BR-537,Exploratório - Usabilidade - Sistema continua realizando ações ao clicar mais vezes,Done,2/25/2019 16:51:59,,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06
+Bug,BR-536,Exploratório - Sistema não exibe painel de propriedades ao clicar em componente instanciado no mapa,Done,2/25/2019 16:47:17,,{},BR-25,Bruno Sabóia,,BR Sprint 7 - 29/04 - 06/06;BR Sprint 9 - 04/07 - 01/08;BR Sprint 8 - 07/06 - 04/07
+Bug,BR-535,Exploratório - Clicar em uma ONU conectada à uma CTO lotada exibe mensagem de erro,Done,2/25/2019 13:22:49,,{},,Bruno Sabóia,,
+Bug,BR-534,Exploratório - Não é possível selecionar componentes próximos à Barra de Pesquisa,Done,2/25/2019 13:02:41,,{},,Bruno Sabóia,,
+Bug,BR-533,Conexão Angulada - Clicar com o botão esquerdo cancela movimentação dos cabos,Done,2/25/2019 12:53:40,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-532,Conexão Angulada - Movimentação de cabos está passando por cima de casas e prédios,Done,2/25/2019 12:41:35,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-530,Ícones ONU - Ícone de ONU com estado administrativo inativo está fora do padrão,Done,2/25/2019 12:26:48,,{},,Bruno Sabóia,,
+Bug,BR-527,Exploratório - Mover CTO Conectada Polui o Mapa com Vários Cabos,Done,2/22/2019 15:15:37,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-524,Exploratório - Tipo de Conexão de Instância de ONU apresenta opções incompletas,Done,2/21/2019 15:49:40,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-523,Conexão Angulada - Sistema mantém cabo desenhado ao cancelar instanciação de ONU,Done,2/21/2019 15:22:04,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-522,Conexão Angulada - Sistema não permite mover cabo durante instanciação de ONU,Done,2/21/2019 15:21:06,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-516,Exploratório - Menu de Propriedades fecha após instanciar elemento,Done,2/19/2019 15:22:36,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-515,Pesquisar por endereço - Pesquisa sem resultados não exibe mensagens,Done,2/19/2019 14:37:46,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-497,"Exploratorio - Sistema permite mover ONU que não esta ""Em Manutenção"" pelas coordenadas",Done,2/12/2019 18:40:02,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-496,Exploratório - Instanciar ONU longe de CTO - Sistema desenha um cabo,Done,2/12/2019 18:29:30,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-495,Exploratório - Mover ONU faz cabo desaparecer,Done,2/12/2019 18:15:42,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-494,Exploratório -  Associar Assinante ONU - Ícone do Assinante Permanece no mapa,Done,2/12/2019 16:25:49,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-492,Exploratório - Ícone CTO Subterrânea está corrompido,Done,2/12/2019 16:11:22,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-491,Exploratório - Sistema não permite mudar a porta do splitter na ONU,Done,2/12/2019 15:53:13,,{},,Bruno Sabóia,,
+Bug,BR-490,Exploratório - Assinante Continua aparecendo após excluir ONU,Done,2/12/2019 15:38:37,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-488,Campo Descrição da ONU está editável,Done,2/11/2019 19:32:26,,{},,Bruno Sabóia,,
+Bug,BR-484,Associar ONU Assinante - Alterar Nome,Done,2/6/2019 17:04:07,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-483,Ativar ONU em Assinante - ONU cancelada não é excluida,Done,2/6/2019 16:36:51,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-482,Ativar ONU em Assinante - ONU permanece instanciada ao Clicar em Cancelar,Done,2/6/2019 16:33:30,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-481,Sistema permite conectar assinante à CTO,Done,2/6/2019 15:19:05,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-480,Internacionalização - Inglês - Lista de defeitos,Done,2/5/2019 17:50:24,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-479,Instanciar CTO Subterranea - CTO não é apresentada como tracejada.,Done,2/4/2019 14:04:11,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-443,"Exploratório - Tipo de Splitter 1x2 não exibe campo ""Balanceamento""",Done,1/23/2019 13:09:56,,{},,Bruno Sabóia,,
+Bug,BR-442,"Exploratório - Campo Conectorizado em ""Sim"" não exibe campo ""Tipo de Conexão""",Done,1/23/2019 13:04:16,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-441,Exploratório - Mover ONU não atualiza o cabo,Done,1/22/2019 17:10:27,,{},,Bruno Sabóia,,BR Sprint 5;BR Sprint 4;BR Sprint 6 - 28/03 - 29/04
+Bug,BR-440,"Exploratório - Sistema permite conectar CTO que não esteja com o status ""Ativo""",Done,1/22/2019 16:44:22,,{},,Bruno Sabóia,,
+Bug,BR-439,Exploratório - Mover CTO durante instanciação cancela ação,Done,1/22/2019 16:39:08,,{},,Bruno Sabóia,,
+Bug,BR-438,"Deletar Múltiplos Assinantes - Clicar no primeiro assinante sem shift, depois clicar no segundo com shift não ativa a função",Done,1/22/2019 16:22:10,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-437,Deletar Múltiplos Assinantes - Clicar em <Excluir> mostra mensagem errada,Done,1/22/2019 16:14:34,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-436,Deletar Múltiplos Assinantes - Cancelar exclusao mantem assinantes selecionados,Done,1/22/2019 16:08:54,,{},,Bruno Sabóia,,
+Bug,BR-435,Exploratório - Aumentar Zoom deixa a tela cinza,Done,1/22/2019 15:56:18,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-434,Exploratório - Clicar com Shift no Assinante deixa a tela cinza.,Done,1/22/2019 15:44:55,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-433,Exploratório - Deletar ONU não apaga cabo imediatamente,Done,1/22/2019 14:24:32,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-432,Exploratório - Erro ao alterar portas de splitter conectado para splitter com numero de portas menor,Done,1/22/2019 14:19:11,,{},,Bruno Sabóia,,
+Bug,BR-430,Exploratório - Sistema permite adicionar duas CTOs ou ONUs com o mesmo nome,Done,1/21/2019 16:28:10,,{},,Bruno Sabóia,,BR Sprint 5;BR Sprint 6 - 28/03 - 29/04
+Bug,BR-429,Exploratório - Sistema permite cadastrar ONU com campo IDcontrato em branco,Done,1/21/2019 13:12:36,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-428,Exploratório - Mover CTO desfaz as alterações.,Done,1/21/2019 13:01:37,,{},,Bruno Sabóia,,BR Sprint 5
+Bug,BR-427,Exploratório - Sistema permite salvar dois Splitters com o mesmo nome,Done,1/21/2019 12:42:08,,{},,Bruno Sabóia,,BR Sprint 4
+Bug,BR-426,Exploratório - Ao adicionar Splitter. Sistema descarta alterações nos outros Splitters,Done,1/21/2019 12:31:43,,{},,Bruno Sabóia,,
+Bug,BR-425,Exploratório - Tabela Portas CTO assume valores diferentes do correto.,Done,1/18/2019 16:10:53,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-424,Conectar CTO-ONU - Sistema exibe somente porta em uso para a conexão,Done,1/18/2019 15:01:21,BR-414,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-423,"Sugerir CTO de Atendimento - Ao instanciar ONU que não possui sugestão, Sistema não permite ligar cabo drop",Done,1/17/2019 19:21:50,,{},,Bruno Sabóia,,
+Bug,BR-421,Mover Assinante - Sistema não permite mover Assinante pelo Endereço (INVÁLIDO),Done,1/16/2019 16:14:41,,{},,Bruno Sabóia,,
+Bug,BR-414,Exploratorio - Sistema permite adicionar duas ONU na mesma porta da CTO,Done,1/16/2019 13:33:29,BR-424,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-413,Layout - Menu lateral direito fica desalinhado conforme a resolução da tela,Done,1/16/2019 12:26:20,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-412,Layout - Botão de Expandir Menu Principal não funciona,Done,1/16/2019 11:11:50,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-411,Layout - Painel Lateral de Componentes fora do Padrão,Done,1/16/2019 11:06:52,BR-392,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-406,Editar Instância ONU - Não é possível mover ONU durante edição (INVÁLIDO),Done,1/10/2019 18:36:27,,{},,Bruno Sabóia,,
+Bug,BR-405,Exploratorio - Alterar Tipo de Splitter - Sistema só salva as alterações na tabela depois de Atualizar a página,Done,1/10/2019 18:10:33,,{},,Bruno Sabóia,,
+Bug,BR-404,Exibir Propriedades da Instância da CTO - Sistema apresenta Tabela de Portas fora do padrão,Done,1/10/2019 17:42:33,,{},,Bruno Sabóia,,
+Bug,BR-403,Exploratório - Desativar CTO - Sistema trava ao desativar CTO,Done,1/10/2019 16:53:09,,{},,Bruno Sabóia,,
+Bug,BR-401,Exploratório- Assintante e  ONU - Endereço e Coordenadas - Alterar Coordenadas não altera o endereço,Done,1/10/2019 16:19:03,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-400,Campos Obrigatórios - CTO e ONU - Sistema bloqueia botão de Confirmar se deixar campos obrigatórios em branco.,Done,1/10/2019 15:45:24,,{},,Bruno Sabóia,,
+Dev Bug,BR-399,Cadastrar Assinante - Campos Obrigatórios não Preenchidos - Sistema não destaca campo não preenchido.,Done,1/10/2019 15:32:53,,{},,Bruno Sabóia,,
+Bug,BR-396,Excluir Instância de CTO - Sistema não permite exclusão de CTO sem conexões,Done,1/10/2019 13:27:23,,{},,Bruno Sabóia,,
+Bug,BR-395,Instanciar ONU - Cabo drop bloqueado durante a instanciação da ONU,Done,1/9/2019 17:52:14,,{},,Bruno Sabóia,,
+Bug,BR-394,Exploratório - Campos portas da cto em inglê,Done,1/9/2019 17:47:52,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-393,Layout - Centralizar está ficando escondido ao abrir o painel lateral de propriedades.,Done,1/9/2019 17:45:04,,{},,Bruno Sabóia,,
+Bug,BR-392,Exploratório - Relacionado - Comportamento do Sistema ao retrair Painel de Componentes,Done,1/9/2019 15:43:09,BR-411,{},,Bruno Sabóia,,
+Bug,BR-389,"Editar CTO - Valor do campo ""Portas Disponíveis"" não bate com o valor real.",Done,1/9/2019 14:02:17,,{},,Bruno Sabóia,,
+Bug,BR-388,"Exibir Propriedades da Instância da CTO - Ao instanciar uma CTO de 16 portas e com um splitter 1x8, ao exibir as proprieadades dessa CTO, ela apresenta 9 portas disponíveis",Done,1/9/2019 12:50:40,,{},,Bruno Sabóia,,
+Bug,BR-387,"Acionar zoom - Ao clicar no botão de centralizar, sistema não mostra o mapa, apresentando o mapa cinza",Done,1/9/2019 11:22:50,,{},,Bruno Sabóia,,
+Bug,BR-384,Layout - Painéis Laterais ficam sobrando ao usar barra de rolagem.,Done,1/8/2019 15:13:31,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-383,Exploratório - Sistema não atualiza o número de portas disponíveis durante a instanciação.,Done,1/8/2019 15:03:09,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-382,Exploratório - Aparecem 9 portas disponíveis para uma CTO que possui somente 8,Done,1/7/2019 15:39:46,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-381,Exploratório - CTO não muda de cor ao ocupar todas as portas,Done,1/7/2019 15:36:25,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-380,Exploratório - Clicar no botão Adicionar Splitter não faz nada,Done,1/7/2019 15:34:01,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-379,Exploratório - Atualizar a Tela não salva edição de Splitter,Done,1/7/2019 15:31:47,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-368,"Acionar zoom - Ao centralizar o mapa estando no zoom mínimo, o sistema aponta em uma direção aleatória",Done,1/3/2019 15:27:58,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-367,Exploratório - Instanciar ONU - Combobox de Estado Administrativo está pequeno demais,Done,1/3/2019 15:17:41,,{},,Bruno Sabóia,,
+Bug,BR-366,Exploratório - Campo Porta de ONU instanciada não apresenta valores no formato padrão,Done,1/3/2019 15:05:55,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-365,Exploratório - Portas utilizadas de uma CTO aparecem de forma aleatória,Done,1/3/2019 14:54:55,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-363,Exploratório - Instâncias somem do mapa ao selecionar componentes,Done,1/3/2019 13:47:55,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-362,Instanciar ONU (Avançado) - Sistema bloqueia funcionalidades ao mover ONU sem salvar ou cancelar,Done,1/3/2019 13:20:42,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-344,Adicionar Splitter à CTO - Adicionando Splitter a uma CTO violando capacidade de atendimento,Done,1/2/2019 19:26:51,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-341,Desativar CTO - Sistema exibe mensagem errada ao tentar desativar CTO conectada,Done,12/28/2018 17:25:36,,{},,Bruno Sabóia,,
+Bug,BR-340,Conectar CTO-ONU - Sistema não atualiza porta usada na conexão,Done,12/28/2018 14:07:10,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-339,Instanciar CTO - Portas Disponíveis com número maior que a Capacidade Máxima,Done,12/27/2018 17:10:10,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-338,"Deletar CTO - Sistema exclui, mas não exibe mensagem de deleção",Done,12/27/2018 16:15:24,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-337,Adicionar Splitter à CTO - Splitter não é salvo após a adição.,Done,12/27/2018 14:46:45,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-311,Exibir Propriedades ONU - Sistema exibe GPON SN com campo texto,Done,12/19/2018 18:36:13,,{},,Bruno Sabóia,,
+Bug,BR-310,"Instanciar CTO - Campo ""Capacidade"" está escrito por extenso. (SIXTEEN)",Done,12/19/2018 13:30:40,,{},,Bruno Sabóia,,
+Bug,BR-309,Editar instância da CTO - Sistema permite ultrapassar o número de portas de saída da CTO,Done,12/19/2018 12:42:40,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-308,Instanciar ONU - ONU desaparece após ser instanciada.,Done,12/19/2018 12:16:23,,{},,Bruno Sabóia,,
+Bug,BR-307,"Editar instância da CTO - Ao editar os atributo de ""Tipo"" de splitter e salvar as alterações, sistema não salva as alterações",Done,12/19/2018 12:14:09,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-306,Editar Instância da CTO - Sistema não exibe MSG016 ao excluir um splitter,Done,12/19/2018 11:57:46,,{},,Bruno Sabóia,,
+Bug,BR-305,Exploratório - Sistema não exibe nome dos botões conforme padrão,Done,12/19/2018 11:23:43,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-304,"Exploratório - Ao ficar algum tempo sem utilizar a página do ISP Manager, o sistema apresenta a tela principal em branco",Done,12/19/2018 11:00:35,,{},,Bruno Sabóia,,
+Bug,BR-303,Usabilidade - Sistema não permite edição no campo coordenadas de ONU e CTO,Done,12/19/2018 10:27:09,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-302,"Usabilidade - Combobox ""balanceamento"" não apresenta dados na forma padrão",Done,12/18/2018 15:40:11,,{},,Ismayle Santos,,
+Bug,BR-301,Instanciar CTO - Verificar Splitter - Não possui campo balanceamento,Done,12/13/2018 19:03:17,,{},,Ismayle Santos,,
+Bug,BR-300,Instanciar ONU - GPON serial number deve ser um combobox,Done,12/13/2018 18:24:29,,{},,Ismayle Santos,,
+Bug,BR-299,Editar ONU - Sistema não salva o código do Cliente,Done,12/13/2018 17:00:41,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-297,[INVÁLIDO] Ativar Instância CTO - Sistema permite ativar instância de CTO não conectada à ONU,Done,12/12/2018 14:37:57,,{},,Ismayle Santos,,
+Bug,BR-291,Exibir Propriedades CTO - O Sistema não atualiza o painel se clicar em duas CTOs,Done,12/6/2018 17:05:14,,{},,Ismayle Santos,,
+Bug,BR-290,Editar Instância de CTO - Sistema não salva adição de Splitter,Done,12/6/2018 16:45:32,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-289,Desativar CTO - Sistema permite desativar CTO conectada à ONU,Done,12/6/2018 15:26:15,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-288,Conexão entre ONU-CTO - Sistema permite a associação entre duas ONUs,Done,12/6/2018 15:05:57,,{},,Ismayle Santos,,
+Bug,BR-287,"Editar Instância de ONU - Sistema exibe a mensagem ""Atributo ou valor já existe "" (NOT A BUG)",Done,12/6/2018 14:36:18,,{},,Ismayle Santos,,
+Bug,BR-286,Instanciar CTO - CTO não fica disponível logo após ser adicionada,Done,12/6/2018 14:27:19,,{},,Ismayle Santos,,
+Bug,BR-285,Instanciar ONU - ONU não fica disponível para ver propriedades após adição,Done,12/5/2018 17:32:44,,{},,Ismayle Santos,,
+Bug,BR-284,Instanciar ONU - Erro no console ao tentar adicionar ONU já cadastrada.,Done,12/5/2018 16:10:50,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-283,Instanciar CTO - Verificar Splitter - Tipo do Splitter diferente do padrão,Done,12/5/2018 13:40:23,,{},,Ismayle Santos,,
+Bug,BR-282,Instanciar CTO - Verificar Splitter - Atributo nível não está presente.,Done,12/5/2018 13:36:20,,{},,Ismayle Santos,,
+Bug,BR-281,Instanciar CTO - Botão Adicionar gera erro no console,Done,12/4/2018 19:07:23,,{},,Ismayle Santos,,
+Bug,BR-221,Exploratorio - Layout - Zoom mínimo replica o mapa global,Done,11/7/2018 15:49:39,,{},,Ismayle Santos,,BR Sprint 3;BR Sprint 2
+Bug,BR-220,Exploratorio - Layout - Barra de rolagem move somente o menu central,Done,11/7/2018 15:45:32,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-219,Exploratório - Não é possível editar o Campo Coordenadas,Done,11/7/2018 15:33:11,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-218,Sistema exibe mensagem de sucesso de forma incorreta (MSG foi definida?),Done,11/7/2018 15:13:22,,{},,Rute Castro,,BR Sprint 3
+Bug,BR-217,Exploratório - Layout - Mapa não contém botão de zoom,Done,11/7/2018 15:11:02,,{},,Ismayle Santos,,BR Sprint 2
+Bug,BR-216,Exploratório - Comportamento do sistema ao retrair o painel lateral de componentes,Done,11/7/2018 15:06:16,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-215,Instanciar CTO - Sistema não apresenta mensagem MSG001 ao deixar campo Endereço em branco,Done,11/7/2018 14:27:55,,{},,Bruno Sabóia,,BR Sprint 3;BR Sprint 2
+Bug,BR-214,"Exploratório - Ao clicar várias vezes em um ícone de ONU no painel lateral de componentes e instanciar uma ONU no mapa, o ícone de ONU fica travado no mouse",Done,11/7/2018 13:41:46,,{},,Bruno Sabóia,,BR Sprint 2
+Bug,BR-213,Instanciar CTO - Sistema não permite a edição do campo Coordenadas.,Done,11/7/2018 13:41:36,,{},,Ismayle Santos,,BR Sprint 3
+Bug,BR-212,Instanciar CTO - O Sistema permite a instanciação de duas CTOs com o mesmo nome,Done,11/7/2018 13:22:14,,{},,Ismayle Santos,,
+Bug,BR-211,Sistema não exibe logotipo e nome da empresa no canto esquerdo inferior (NOT A BUG),Done,11/7/2018 13:20:59,,{},,Rute Castro,,
+Bug,BR-210,Instanciar ONU - O Sistema permite instanciar ONU em uma posição inválida (NOT A BUG),Done,11/7/2018 13:06:17,,{},,Bruno Sabóia,,
+Bug,BR-209,Instanciar ONU -  Campo Fabricante está habilitado (INVALID?),Done,11/7/2018 12:56:48,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-208,Instanciar ONU -  Sistema não bloqueia outras instâncias durante instancia da ONU,Done,11/7/2018 12:51:50,,{},,Bruno Sabóia,,BR Sprint 2
+Bug,BR-207,Exploratório - Layout - Label dos ícones no mapa não são exibidos,Done,11/7/2018 12:41:38,,{},,Bruno Sabóia,,
+Bug,BR-206,Instanciar ONU - Campo CTO relacionada não é mostrado,Done,11/7/2018 12:28:26,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-205,Menu não exibe apenas logotipos quando fica contraído,Done,11/7/2018 12:27:38,,{},,Rute Castro,,
+Bug,BR-204,Instanciar ONU - Instanciar ONU via campos Endereço e Coordenadas no painel lateral de propriedades (RN004.01),Done,11/7/2018 12:23:17,,{},,Bruno Sabóia,,BR Sprint 3
+Bug,BR-203,Instanciar CTO - O Sistema permite instanciar CTO em uma posição inválida (NOT A BUG),Done,11/7/2018 12:21:34,,{},,Ismayle Santos,,
+Bug,BR-202,Instanciar ONU - Campo GPON Serial Number não é mostrado (RN004.02),Done,11/7/2018 12:16:30,,{},,Bruno Sabóia,,BR Sprint 2
+Bug,BR-201,Instanciar ONU - Sistema permite editar campos estados operacional e gerência,Done,11/7/2018 12:02:35,,{},,Bruno Sabóia,,BR Sprint 3;BR Sprint 2

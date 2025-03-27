@@ -1,22 +1,18 @@
 import json
-import logging
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 from get_embeddings_function import get_embedding_function
-from langchain.chains.query_constructor.schema import AttributeInfo
-from langchain.retrievers.self_query.base import SelfQueryRetriever
-from langchain_core.documents import Document
 import numpy as np
 from sklearn.metrics import precision_score, recall_score, f1_score, average_precision_score
 
-# Caminho do banco de dados e JSON analítico 
+
+# Caminho do banco de dados e JSON analítico
 CHROMA_PATH = "C:/Users/pedro/OneDrive/Documentos/basesdedefeitos/chroma_db"
 JSON_ANALITICO_PATH = "contexto_analitico.json"
 INTERACOES_PATH = "interacoes.json"  # Arquivo para salvar as interações
-LOG_PATH = "C:/Users/pedro/OneDrive/Área de Trabalho/mineracaodedefeitos/erros.log"
+
 # Ground truth atualizado
 ground_truth = {
-    # Portuguese questions
     "Quais os bugs relacionados a CTO? Quais áreas do sistema podem estar impactadas?": {"keywords": ["CTO"], "relevant_keys": ["CTO"]},
     "O banco de defeitos contém registros de falhas envolvendo splitter? Quais setores do sistema são afetados?": {"keywords": ["splitter"], "relevant_keys": ["splitter"]},
     "O banco jirabugs.csv possui relatos de falhas ligadas à OLT? Existe alguma área do sistema mais suscetível a esses problemas?": {"keywords": ["OLT"], "relevant_keys": ["OLT"]},
@@ -58,60 +54,35 @@ ground_truth = {
     "How many sticks does it take to make a canoe?": {"keywords": ["canoe"], "relevant_keys": ["canoe"]},
     "What is 10+10?": {"keywords": ["10"], "relevant_keys": ["10"]},
     "What is the most practiced sport in the world?": {"keywords": ["sport"], "relevant_keys": ["sport"]},
-    "Provide a catalog of movies released in 2024.": {"keywords": ["movies"], "relevant_keys": ["movies"]},
+    "Provide a catalog of movies released in 2024.": {"keywords": ["movies"], "relevant_keys": ["movies"]}
 }
 
 LIMIAR_RELEVANCIA = 0.50  # 50% dos documentos devem conter a palavra-chave para ser considerado relevante
 
-# Definição dos metadados
-metadata_field_info = [
-    AttributeInfo(
-        name="key",
-        description="O identificador único do bug.",
-        type="string",
-    ),
-    AttributeInfo(
-        name="epic_link",
-        description="O link da Epic associada ao bug.",
-        type="string",
-    ),
-    AttributeInfo(
-        name="linked_issues",
-        description="As issues relacionadas ao bug, separadas por ponto e vírgula.",
-        type="string",
-    ),
-    AttributeInfo(
-        name="status",
-        description="O status atual do bug. Pode ser 'To Do', 'In Progress', 'Done', etc.",
-        type="string",
-    ),
-    AttributeInfo(
-        name="reporter",
-        description="O nome da pessoa que reportou o bug.",
-        type="string",
-    ),
-    AttributeInfo(
-        name="sprint",
-        description="A sprint em que o bug está sendo tratado.",
-        type="string",
-    ),
-]
-
-# Descrição do conteúdo dos documentos
-document_content_description = "Descrição resumida de um bug no sistema."
-
 def convert_to_binary(retrieved_docs, relevant_keys):
     """
     Converte retrieved_docs e relevant_keys em listas binárias.
+    
+    - retrieved_docs: Lista de documentos recuperados.
+    - relevant_keys: Lista de palavras-chave relevantes.
+
+    Retorna:
+    - y_true: Lista binária indicando se cada documento recuperado é relevante (1 = relevante, 0 = não relevante).
+    - y_pred: Lista binária indicando se cada documento foi recuperado (1 = recuperado, 0 = não recuperado).
     """
     relevant_keys = [key.lower() for key in relevant_keys]  # Normaliza as palavras-chave
+
     y_true = [1 if any(key in doc.lower() for key in relevant_keys) else 0 for doc in retrieved_docs]
     y_pred = [1] * len(retrieved_docs)  # Todos os documentos recuperados são considerados 1
+
     return y_true, y_pred
 
 def precision_at_k(y_true, y_pred, k):
     """
     Calcula a precisão no topo k dos documentos recuperados.
+
+    Retorna:
+    - Precisão no topo k.
     """
     k = max(1, k)  # Evita divisão por zero
     return precision_score(y_true[:k], y_pred[:k], zero_division=0)
@@ -119,22 +90,32 @@ def precision_at_k(y_true, y_pred, k):
 def recall_at_k(y_true, y_pred, k):
     """
     Calcula o recall no topo k dos documentos recuperados.
+
+    Retorna:
+    - Recall no topo k.
     """
     k = max(1, k)
     return recall_score(y_true[:k], y_pred[:k], zero_division=0)
 
 def f1_score_at_k(y_true, y_pred, k):
     """
-    Calcula o F1-score no topo k dos documentos recuperados.
+    Calcula o F1-score no topo k dos documentos recuperados usando sklearn.metrics.f1_score.
+
+    Retorna:
+    - F1-score no topo k.
     """
     k = max(1, k)
     return f1_score(y_true[:k], y_pred[:k], zero_division=0)
 
 def average_precision(y_true, y_pred):
     """
-    Calcula a precisão média (Average Precision, AP).
+    Calcula a precisão média (Average Precision, AP) usando sklearn.metrics.average_precision_score.
+
+    Retorna:
+    - Precisão média (AP).
     """
     return average_precision_score(y_true, y_pred)
+
 
 def calculate_relevance(retrieved_docs, keyword):
     """Calcula a relevância verificando quantos documentos contêm a palavra-chave."""
@@ -160,9 +141,14 @@ def salvar_interacao(query, documentos, resposta, metricas):
     with open(INTERACOES_PATH, 'w', encoding='utf-8') as f:
         json.dump(interacoes, f, ensure_ascii=False, indent=4)
 
+def filter_relevant_docs(retrieved_docs, keywords):
+    """Filtra os documentos recuperados que contêm pelo menos uma das palavras-chave."""
+    return [doc for doc in retrieved_docs if any(keyword.lower() in doc.lower() for keyword in keywords)]
+
+        
 def calcular_metricas(retrieved_docs, keywords, relevant_keys, k=2):
     """Calcula todas as métricas de avaliação."""
-    relevant_docs = [doc for doc in retrieved_docs if any(keyword.lower() in doc.lower() for keyword in keywords)]
+    relevant_docs = filter_relevant_docs(retrieved_docs, keywords)
     total_non_relevant = len(retrieved_docs) - len(relevant_docs)
 
     # Converter para listas binárias
@@ -173,55 +159,10 @@ def calcular_metricas(retrieved_docs, keywords, relevant_keys, k=2):
         "recall_at_k": recall_at_k(y_true, y_pred, k),
         "f1_score": f1_score_at_k(y_true, y_pred, k),
         "average_precision": average_precision(y_true, y_pred),
-    }
-    
-def requires_filter(query_text):
-    """Verifica se a pergunta exige filtros com base em palavras-chave."""
-    filter_keywords = ["epic", "sprint", "status", "reporter", "criado", "key", "epic link", "linked issues"]
-    return any(keyword in query_text.lower() for keyword in filter_keywords)    
+    }        
+        
 
-def carregar_interacoes():
-    """Carrega as interações já processadas do arquivo JSON."""
-    try:
-        with open(INTERACOES_PATH, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
-
-def salvar_interacao(query, documentos, resposta, metricas):
-    """Salva a interação em um arquivo JSON."""
-    interacoes = carregar_interacoes()
-    interacoes.append({
-        "query": query,
-        "documentos": documentos,
-        "resposta": resposta,
-        "metricas": metricas
-    })
-    with open(INTERACOES_PATH, 'w', encoding='utf-8') as f:
-        json.dump(interacoes, f, ensure_ascii=False, indent=4)
-
-def pergunta_ja_processada(pergunta, interacoes):
-    """Verifica se a pergunta já foi processada."""
-    return any(interacao["query"] == pergunta for interacao in interacoes)
-
-def processar_ground_truth():
-    """Processa todas as perguntas do ground_truth e salva as interações."""
-    interacoes = carregar_interacoes()
-
-    for pergunta in ground_truth:
-        if pergunta_ja_processada(pergunta, interacoes):
-            print(f"⏭️ Pergunta já processada: {pergunta}")
-            continue
-
-        print(f"🔍 Processando pergunta: {pergunta}")
-        try:
-            resposta = query_data(pergunta)  # Chama a função query_data com a pergunta atual
-            print(f"✅ Resposta para '{pergunta}':\n{resposta}\n")
-        except Exception as e:
-            logging.error(f"Erro ao processar a pergunta '{pergunta}': {e}", exc_info=True)
-            print(f"❌ Erro ao processar a pergunta '{pergunta}'. Verifique o arquivo de log: {LOG_PATH}")
-
-def query_data(pergunta):
+def query_data():
     """Executa a consulta para uma pergunta específica."""
     PROMPT_TEMPLATE = """
     You are an assistant specialized in answering questions about defects in a GPON (Gigabit Passive Optical Network) management system. Your task is to analyze the provided context and generate accurate, concise, and relevant responses in Portuguese.
@@ -266,44 +207,16 @@ def query_data(pergunta):
     - Query: {pergunta_do_usuário}
     """
 
+
+    query_text = input("❓ Sua pergunta: ")
+    
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
-    # Instanciação do LLM (Mistral)
-    llm = OllamaLLM(model="mistral")
+    print("🔍 Consultando o banco de dados Chroma para contexto adicional...")
+    results = db.similarity_search_with_score(query_text, k=20)
 
-    # Criação do self-querying retriever
-    retriever = SelfQueryRetriever.from_llm(
-        llm,
-        db,
-        document_content_description,
-        metadata_field_info,
-        verbose=True  # Ativa logs para depuração
-    )
-    
-    # Verifica se a pergunta exige filtros
-    if requires_filter(pergunta):
-        print("🔍 Usando self-querying retrieval...")
-        try:
-            retrieved_docs = retriever.invoke(pergunta)
-        except Exception as e:
-            print(f"⚠️ Erro ao gerar consulta estruturada: {e}")
-            print("🔍 Usando busca semântica padrão como fallback...")
-            retrieved_docs = db.similarity_search(pergunta, k=20)
-    else:
-        print("🔍 Usando busca semântica padrão...")
-        retrieved_docs = db.similarity_search(pergunta, k=20)
-
-    # Inspeciona os documentos recuperados
-    print("📄 Documentos recuperados:")
-    for doc in retrieved_docs:
-        print(doc.page_content)
-        print(f"Metadados: {doc.metadata}")
-        print("---")
-
-    if not retrieved_docs:  # Se nenhum documento for recuperado
-        print("⚠️ Nenhum documento foi recuperado. Verifique a pergunta ou o banco de dados.")
-        return "Nenhum documento relevante encontrado."
+    retrieved_docs = [doc.page_content for doc, _ in results]  # Documentos recuperados
 
     print("📊 Carregando contexto analítico do JSON...")
     with open(JSON_ANALITICO_PATH, 'r', encoding='utf-8') as arquivo_json:
@@ -313,32 +226,43 @@ def query_data(pergunta):
         f"Contagem total de bugs: {contexto_analitico['contagem_total_bugs']}\n\n"
         f"Contagem de bugs por Epic Link:\n{contexto_analitico['contagem_epic_link']}\n\n"
         f"Contagem de bugs por release:\n{contexto_analitico['contagem_bugs_release']}"
-        f"Bugs por modulo:\n{contexto_analitico['bugs_por_modulo']}\n\n"
     )
 
-    combined_context = f"{contexto_analitico_texto}\n\n---\n\n" + "\n\n---\n\n".join([doc.page_content for doc in retrieved_docs])
+    combined_context = f"{contexto_analitico_texto}\n\n---\n\n" + "\n\n---\n\n".join(retrieved_docs)
     print(f"📄 Contexto combinado:\n{combined_context}")
 
-    prompt = PROMPT_TEMPLATE.format(contexto=combined_context, pergunta_do_usuário=pergunta)
+    prompt = PROMPT_TEMPLATE.format(contexto=combined_context, pergunta_do_usuário=query_text)
 
     print("🤖 Consultando a LLM com o prompt gerado...")
     model = OllamaLLM(model="mistral")
     response = model.invoke(prompt).strip()
     
-    sources = [doc.metadata.get("key", "Desconhecido") for doc in retrieved_docs]
+    sources = [doc.metadata.get("id", "Desconhecido") for doc, _ in results]
     formatted_response = f"💡 Resposta: {response}\n🔗 Fontes: {sources}"
 
     # Calcular métricas
-    if pergunta in ground_truth:
-        keywords = ground_truth[pergunta]["keywords"]
-        relevant_keys = ground_truth[pergunta]["relevant_keys"]
-        metricas = calcular_metricas([doc.page_content for doc in retrieved_docs], keywords, relevant_keys, k=4)
+    if query_text in ground_truth:
+        keywords = ground_truth[query_text]["keywords"]
+        relevant_keys = ground_truth[query_text]["relevant_keys"]
+        relevant_docs = filter_relevant_docs(retrieved_docs, keywords)  # Filtra documentos relevantes
+        total_non_relevant = len(retrieved_docs) - len(relevant_docs)
+        k = 4  # Definir o K para avaliação
+
+        # Converter para listas binárias
+        y_true, y_pred = convert_to_binary(retrieved_docs, relevant_keys)
+
+        metricas = {
+            "precision_at_k": precision_at_k(y_true, y_pred, k),
+            "recall_at_k": recall_at_k(y_true, y_pred, k),
+            "f1_score": f1_score_at_k(y_true, y_pred, k),
+            "average_precision": average_precision(y_true, y_pred),
+        }
 
         # Salvar interação com métricas
-        salvar_interacao(pergunta, [doc.page_content for doc in retrieved_docs], response, metricas)
+        salvar_interacao(query_text, retrieved_docs, response, metricas)
             
     print(formatted_response)
     return formatted_response
 
 if __name__ == "__main__":
-    processar_ground_truth()  # Processa todas as perguntas do ground_truth
+    query_data()

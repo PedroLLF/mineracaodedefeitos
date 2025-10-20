@@ -2,16 +2,14 @@ import json
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 from get_embeddings_function import get_embedding_function
-import numpy as np
 from sklearn.metrics import precision_score, recall_score, f1_score, average_precision_score
 
-
-# Caminho do banco de dados e JSON analítico
+# Caminhos dos arquivos
 CHROMA_PATH = "C:/Users/pedro/OneDrive/Documentos/basesdedefeitos/chroma_db"
 JSON_ANALITICO_PATH = "contexto_analitico.json"
-INTERACOES_PATH = "interacoes.json"  # Arquivo para salvar as interações
+INTERACOES_PATH = "interacoes.json"
 
-# Ground truth atualizado
+# === Ground truth completo e preservado ===
 ground_truth = {
     "Quais os bugs relacionados a CTO? Quais áreas do sistema podem estar impactadas?": {"keywords": ["CTO"], "relevant_keys": ["CTO"]},
     "O banco de defeitos contém registros de falhas envolvendo splitter? Quais setores do sistema são afetados?": {"keywords": ["splitter"], "relevant_keys": ["splitter"]},
@@ -57,212 +55,95 @@ ground_truth = {
     "Provide a catalog of movies released in 2024.": {"keywords": ["movies"], "relevant_keys": ["movies"]}
 }
 
-LIMIAR_RELEVANCIA = 0.50  # 50% dos documentos devem conter a palavra-chave para ser considerado relevante
+
+# --- Funções auxiliares ---
 
 def convert_to_binary(retrieved_docs, relevant_keys):
-    """
-    Converte retrieved_docs e relevant_keys em listas binárias.
-    
-    - retrieved_docs: Lista de documentos recuperados.
-    - relevant_keys: Lista de palavras-chave relevantes.
-
-    Retorna:
-    - y_true: Lista binária indicando se cada documento recuperado é relevante (1 = relevante, 0 = não relevante).
-    - y_pred: Lista binária indicando se cada documento foi recuperado (1 = recuperado, 0 = não recuperado).
-    """
-    relevant_keys = [key.lower() for key in relevant_keys]  # Normaliza as palavras-chave
-
+    """Converte documentos recuperados em listas binárias para cálculo de métricas."""
+    relevant_keys = [key.lower() for key in relevant_keys]
     y_true = [1 if any(key in doc.lower() for key in relevant_keys) else 0 for doc in retrieved_docs]
-    y_pred = [1] * len(retrieved_docs)  # Todos os documentos recuperados são considerados 1
-
+    y_pred = [1] * len(retrieved_docs)
     return y_true, y_pred
 
-def precision_at_k(y_true, y_pred, k):
-    """
-    Calcula a precisão no topo k dos documentos recuperados.
 
-    Retorna:
-    - Precisão no topo k.
-    """
-    k = max(1, k)  # Evita divisão por zero
-    return precision_score(y_true[:k], y_pred[:k], zero_division=0)
+def calcular_metricas(retrieved_docs, relevant_keys):
+    """Calcula métricas de avaliação com sklearn."""
+    y_true, y_pred = convert_to_binary(retrieved_docs, relevant_keys)
+    return {
+        "precision": precision_score(y_true, y_pred, zero_division=0),
+        "recall": recall_score(y_true, y_pred, zero_division=0),
+        "f1_score": f1_score(y_true, y_pred, zero_division=0),
+        "average_precision": average_precision_score(y_true, y_pred),
+    }
 
-def recall_at_k(y_true, y_pred, k):
-    """
-    Calcula o recall no topo k dos documentos recuperados.
-
-    Retorna:
-    - Recall no topo k.
-    """
-    k = max(1, k)
-    return recall_score(y_true[:k], y_pred[:k], zero_division=0)
-
-def f1_score_at_k(y_true, y_pred, k):
-    """
-    Calcula o F1-score no topo k dos documentos recuperados usando sklearn.metrics.f1_score.
-
-    Retorna:
-    - F1-score no topo k.
-    """
-    k = max(1, k)
-    return f1_score(y_true[:k], y_pred[:k], zero_division=0)
-
-def average_precision(y_true, y_pred):
-    """
-    Calcula a precisão média (Average Precision, AP) usando sklearn.metrics.average_precision_score.
-
-    Retorna:
-    - Precisão média (AP).
-    """
-    return average_precision_score(y_true, y_pred)
-
-
-def calculate_relevance(retrieved_docs, keyword):
-    """Calcula a relevância verificando quantos documentos contêm a palavra-chave."""
-    relevant_count = sum(1 for doc in retrieved_docs if keyword.lower() in doc.lower())
-    relevance_ratio = relevant_count / len(retrieved_docs) if retrieved_docs else 0
-    return relevance_ratio
 
 def salvar_interacao(query, documentos, resposta, metricas):
-    """Salva a interação em um arquivo JSON."""
+    """Salva interações no JSON."""
     try:
         with open(INTERACOES_PATH, 'r', encoding='utf-8') as f:
             interacoes = json.load(f)
     except FileNotFoundError:
         interacoes = []
-    
     interacoes.append({
         "query": query,
         "documentos": documentos,
         "resposta": resposta,
         "metricas": metricas
     })
-    
     with open(INTERACOES_PATH, 'w', encoding='utf-8') as f:
         json.dump(interacoes, f, ensure_ascii=False, indent=4)
 
-def filter_relevant_docs(retrieved_docs, keywords):
-    """Filtra os documentos recuperados que contêm pelo menos uma das palavras-chave."""
-    return [doc for doc in retrieved_docs if any(keyword.lower() in doc.lower() for keyword in keywords)]
 
-        
-def calcular_metricas(retrieved_docs, keywords, relevant_keys, k=2):
-    """Calcula todas as métricas de avaliação."""
-    relevant_docs = filter_relevant_docs(retrieved_docs, keywords)
-    total_non_relevant = len(retrieved_docs) - len(relevant_docs)
-
-    # Converter para listas binárias
-    y_true, y_pred = convert_to_binary(retrieved_docs, relevant_keys)
-
-    return {
-        "precision_at_k": precision_at_k(y_true, y_pred, k),
-        "recall_at_k": recall_at_k(y_true, y_pred, k),
-        "f1_score": f1_score_at_k(y_true, y_pred, k),
-        "average_precision": average_precision(y_true, y_pred),
-    }        
-        
-
+# --- Função principal ---
 def query_data():
-    """Executa a consulta para uma pergunta específica."""
+    """Executa a consulta e calcula métricas."""
     PROMPT_TEMPLATE = """
-    You are an assistant specialized in answering questions about defects in a GPON (Gigabit Passive Optical Network) management system. Your task is to analyze the provided context and generate accurate, concise, and relevant responses in Portuguese.
+    Você é um assistente especializado em responder perguntas sobre defeitos em sistemas GPON.
+    Analise o contexto e gere respostas concisas em português.
 
-    ### Context:
-    You are working with a Jira defect report database (jirabugs.csv) related to a web-based GPON network management system. 
+    ### Contexto:
+    {contexto}
 
-    ### Data Structure:
-    The defect reports are organized in a CSV file with the following columns:
-    1. **Issue Type**: The type of issue (e.g., "Dev Bug", "Bug", "Task"). This indicates the nature of the defect.
-    2. **Key**: A unique identifier for the defect (e.g., "BR-3054"). Use this to reference specific defects.
-    3. **Summary**: A brief description of the defect. This provides details about the issue.
-    4. **Status**: The current status of the defect (e.g., "To Do", "In Progress", "Done"). This indicates the progress in resolving the issue.
-    5. **Created**: The date and time when the defect was reported.
-    6. **Linked Issues**: A list of related defect keys (e.g., "BR-2335, BR-2946"). These indicate dependencies or related issues.
-    7. **Development**: Additional development-related information (usually empty or contains metadata).
-    8. **Epic Link**: The key of the Epic to which the defect belongs (e.g., "BR-897"). Epics group related defects.
-    9. **Reporter**: The name of the person who reported the defect.
-    10. **Epic Name**: The name of the Epic (usually empty in the data).
-    11. **Sprint**: The Sprint in which the defect is being addressed (e.g., "BR Sprint 37"). Sprints are time-boxed development cycles.
+    ### Pergunta:
+    {pergunta_do_usuário}
 
-    ### Instructions:
-    1. **Understand the Query**: Carefully analyze the query to identify the GPON network components, system functionalities or system areas being questioned.
-    2. **Use the Context**: The defect reports may provide insights into recurring failures and critical areas.
-    3. **Retrieved Documents**: Below the context, you will find a list of retrieved documents (defect reports) that are relevant to the query. Use these documents to provide specific details in your response.
-    4. **Critical analysis and Inference**: Try to identify hidden patterns based on retrieved defects.
-       - Example: If multiple bugs mention CTO and connection failures, this may indicate a structural issue in CTO management.
-       - Relate defects to potential system-critical areas (e.g., ONU provisioning interface, OLT integration, splitter registration stability).
-    5. **Response Format**: Your response should be in Portuguese and follow this format:
-       - Start with "Resposta:" followed by a direct and specific answer to the query.
-       - Include relevant details from the retrieved documents, such as summaries, and affected areas.
-       - If possible, infer systemic problems or recurring trends.
-       - Conclude by listing the sources (defect keys) used in the response.
-
-    ### Example:
-    Query: "Quais os bugs relacionados a CTO no banco de defeitos jirabugs.csv? Qual a possível área do sistema afetada?"
-    Resposta: Os bugs relacionados a CTO incluem problemas de conexão com cabos de distribuição, instanciação incorreta e exibição de mensagens de erro. A área do sistema afetada é a funcionalidade de gerenciamento de CTOs, especificamente a interface de conexão e instanciação. 
-    Fontes: BR-2199, BR-2200, BR-1773.
-
-    ### Data for Analysis:
-    - Context: {contexto}
-    - Query: {pergunta_do_usuário}
+    Responda no formato:
+    Resposta: <texto direto e objetivo>
+    Fontes: <lista de chaves de defeito usadas>
     """
 
-
     query_text = input("❓ Sua pergunta: ")
-    
     embedding_function = get_embedding_function()
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-
-    print("🔍 Consultando o banco de dados Chroma para contexto adicional...")
     results = db.similarity_search_with_score(query_text, k=20)
+    retrieved_docs = [doc.page_content for doc, _ in results]
 
-    retrieved_docs = [doc.page_content for doc, _ in results]  # Documentos recuperados
+    with open(JSON_ANALITICO_PATH, 'r', encoding='utf-8') as f:
+        contexto_analitico = json.load(f)
 
-    print("📊 Carregando contexto analítico do JSON...")
-    with open(JSON_ANALITICO_PATH, 'r', encoding='utf-8') as arquivo_json:
-        contexto_analitico = json.load(arquivo_json)
-
-    contexto_analitico_texto = (
-        f"Contagem total de bugs: {contexto_analitico['contagem_total_bugs']}\n\n"
-        f"Contagem de bugs por Epic Link:\n{contexto_analitico['contagem_epic_link']}\n\n"
-        f"Contagem de bugs por release:\n{contexto_analitico['contagem_bugs_release']}"
+    contexto_texto = (
+        f"Total de bugs: {contexto_analitico['contagem_total_bugs']}\n\n"
+        f"Bugs por Epic Link:\n{contexto_analitico['contagem_epic_link']}\n\n"
+        f"Bugs por Release:\n{contexto_analitico['contagem_bugs_release']}"
     )
 
-    combined_context = f"{contexto_analitico_texto}\n\n---\n\n" + "\n\n---\n\n".join(retrieved_docs)
-    print(f"📄 Contexto combinado:\n{combined_context}")
-
+    combined_context = f"{contexto_texto}\n\n---\n\n" + "\n\n---\n\n".join(retrieved_docs)
     prompt = PROMPT_TEMPLATE.format(contexto=combined_context, pergunta_do_usuário=query_text)
 
-    print("🤖 Consultando a LLM com o prompt gerado...")
     model = OllamaLLM(model="mistral")
     response = model.invoke(prompt).strip()
-    
     sources = [doc.metadata.get("id", "Desconhecido") for doc, _ in results]
-    formatted_response = f"💡 Resposta: {response}\n🔗 Fontes: {sources}"
 
-    # Calcular métricas
+    # Calcular métricas com sklearn
+    metricas = {}
     if query_text in ground_truth:
-        keywords = ground_truth[query_text]["keywords"]
         relevant_keys = ground_truth[query_text]["relevant_keys"]
-        relevant_docs = filter_relevant_docs(retrieved_docs, keywords)  # Filtra documentos relevantes
-        total_non_relevant = len(retrieved_docs) - len(relevant_docs)
-        k = 4  # Definir o K para avaliação
-
-        # Converter para listas binárias
-        y_true, y_pred = convert_to_binary(retrieved_docs, relevant_keys)
-
-        metricas = {
-            "precision_at_k": precision_at_k(y_true, y_pred, k),
-            "recall_at_k": recall_at_k(y_true, y_pred, k),
-            "f1_score": f1_score_at_k(y_true, y_pred, k),
-            "average_precision": average_precision(y_true, y_pred),
-        }
-
-        # Salvar interação com métricas
+        metricas = calcular_metricas(retrieved_docs, relevant_keys)
         salvar_interacao(query_text, retrieved_docs, response, metricas)
-            
-    print(formatted_response)
-    return formatted_response
+
+    print(f"\n💡 Resposta: {response}\n🔗 Fontes: {sources}\n📈 Métricas: {metricas}")
+    return response
+
 
 if __name__ == "__main__":
     query_data()
